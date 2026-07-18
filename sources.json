@@ -5,7 +5,9 @@
     "country": "United States",
     "url": "https://www.brookings.edu/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Carnegie Endowment",
@@ -13,7 +15,9 @@
     "country": "United States",
     "url": "https://carnegieendowment.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "CSIS",
@@ -21,7 +25,9 @@
     "country": "United States",
     "url": "https://www.csis.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "RAND",
@@ -29,7 +35,9 @@
     "country": "United States",
     "url": "https://www.rand.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Atlantic Council",
@@ -37,7 +45,9 @@
     "country": "United States",
     "url": "https://www.atlanticcouncil.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Council on Foreign Relations",
@@ -45,7 +55,9 @@
     "country": "United States",
     "url": "https://www.cfr.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Washington Institute",
@@ -53,7 +65,9 @@
     "country": "United States",
     "url": "https://www.washingtoninstitute.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Middle East Institute",
@@ -61,7 +75,9 @@
     "country": "United States",
     "url": "https://www.mei.edu/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "FDD",
@@ -69,7 +85,9 @@
     "country": "United States",
     "url": "https://www.fdd.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Stimson Center",
@@ -77,7 +95,9 @@
     "country": "United States",
     "url": "https://www.stimson.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Wilson Center",
@@ -85,7 +105,9 @@
     "country": "United States",
     "url": "https://www.wilsoncenter.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Hudson Institute",
@@ -93,7 +115,9 @@
     "country": "United States",
     "url": "https://www.hudson.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Quincy Institute",
@@ -101,7 +125,9 @@
     "country": "United States",
     "url": "https://quincyinst.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Belfer Center",
@@ -109,7 +135,9 @@
     "country": "United States",
     "url": "https://www.belfercenter.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "CNAS",
@@ -117,7 +145,9 @@
     "country": "United States",
     "url": "https://www.cnas.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "FPRI",
@@ -125,7 +155,9 @@
     "country": "United States",
     "url": "https://www.fpri.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "AEI",
@@ -133,7 +165,9 @@
     "country": "United States",
     "url": "https://www.aei.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Hoover Institution",
@@ -141,7 +175,9 @@
     "country": "United States",
     "url": "https://www.hoover.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Jamestown Foundation",
@@ -149,7 +185,9 @@
     "country": "United States",
     "url": "https://jamestown.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Arab Gulf States Institute",
@@ -157,7 +195,9 @@
     "country": "United States",
     "url": "https://agsiw.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "International Crisis Group",
@@ -165,7 +205,9 @@
     "country": "International",
     "url": "https://www.crisisgroup.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Chatham House",
@@ -173,7 +215,9 @@
     "country": "United Kingdom",
     "url": "https://www.chathamhouse.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "RUSI",
@@ -181,7 +225,9 @@
     "country": "United Kingdom",
     "url": "https://www.rusi.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "IISS",
@@ -189,7 +235,9 @@
     "country": "United Kingdom",
     "url": "https://www.iiss.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "ECFR",
@@ -197,7 +245,9 @@
     "country": "Europe",
     "url": "https://ecfr.eu/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "SWP Berlin",
@@ -205,7 +255,9 @@
     "country": "Germany",
     "url": "https://www.swp-berlin.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Clingendael Institute",
@@ -213,7 +265,9 @@
     "country": "Netherlands",
     "url": "https://www.clingendael.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "IFRI",
@@ -221,7 +275,9 @@
     "country": "France",
     "url": "https://www.ifri.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "German Marshall Fund",
@@ -229,7 +285,9 @@
     "country": "International",
     "url": "https://www.gmfus.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Lowy Institute",
@@ -237,7 +295,9 @@
     "country": "Australia",
     "url": "https://www.lowyinstitute.org/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "INSS",
@@ -245,7 +305,9 @@
     "country": "Israel",
     "url": "https://www.inss.org.il/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "BESA Center",
@@ -253,7 +315,9 @@
     "country": "Israel",
     "url": "https://besacenter.org/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "BBC News",
@@ -261,7 +325,9 @@
     "country": "United Kingdom",
     "url": "https://www.bbc.com/news",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Reuters",
@@ -269,7 +335,9 @@
     "country": "International",
     "url": "https://www.reuters.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Financial Times",
@@ -277,7 +345,9 @@
     "country": "United Kingdom",
     "url": "https://www.ft.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "The Economist",
@@ -285,7 +355,9 @@
     "country": "United Kingdom",
     "url": "https://www.economist.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "The Guardian",
@@ -293,7 +365,9 @@
     "country": "United Kingdom",
     "url": "https://www.theguardian.com/international",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "New York Times",
@@ -301,7 +375,9 @@
     "country": "United States",
     "url": "https://www.nytimes.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Washington Post",
@@ -309,7 +385,9 @@
     "country": "United States",
     "url": "https://www.washingtonpost.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Wall Street Journal",
@@ -317,7 +395,9 @@
     "country": "United States",
     "url": "https://www.wsj.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Associated Press",
@@ -325,7 +405,9 @@
     "country": "International",
     "url": "https://apnews.com/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "France 24",
@@ -333,7 +415,9 @@
     "country": "France",
     "url": "https://www.france24.com/en/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Deutsche Welle",
@@ -341,7 +425,9 @@
     "country": "Germany",
     "url": "https://www.dw.com/en/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Haaretz",
@@ -349,7 +435,9 @@
     "country": "Israel",
     "url": "https://www.haaretz.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Times of Israel",
@@ -357,7 +445,9 @@
     "country": "Israel",
     "url": "https://www.timesofisrael.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Nikkei Asia",
@@ -365,7 +455,9 @@
     "country": "Japan",
     "url": "https://asia.nikkei.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Iran International",
@@ -373,7 +465,9 @@
     "country": "Iran",
     "url": "https://www.iranintl.com/en",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "IranWire",
@@ -381,7 +475,9 @@
     "country": "Iran",
     "url": "https://iranwire.com/en/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Radio Farda",
@@ -389,7 +485,9 @@
     "country": "Iran",
     "url": "https://www.rferl.org/RadioFarda",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Amwaj.media",
@@ -397,7 +495,9 @@
     "country": "Middle East",
     "url": "https://amwaj.media/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Al Jazeera",
@@ -405,7 +505,9 @@
     "country": "Qatar",
     "url": "https://www.aljazeera.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Asharq Al-Awsat",
@@ -413,7 +515,9 @@
     "country": "Saudi Arabia",
     "url": "https://english.aawsat.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "The National",
@@ -421,7 +525,9 @@
     "country": "United Arab Emirates",
     "url": "https://www.thenationalnews.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Al-Monitor",
@@ -429,7 +535,9 @@
     "country": "Middle East",
     "url": "https://www.al-monitor.com/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Middle East Eye",
@@ -437,7 +545,9 @@
     "country": "United Kingdom",
     "url": "https://www.middleeasteye.net/",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Anadolu Agency",
@@ -445,7 +555,9 @@
     "country": "Turkey",
     "url": "https://www.aa.com.tr/en",
     "priority": 3,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "IAEA",
@@ -453,7 +565,9 @@
     "country": "International",
     "url": "https://www.iaea.org/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "White House",
@@ -461,7 +575,9 @@
     "country": "United States",
     "url": "https://www.whitehouse.gov/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "US State Department",
@@ -469,7 +585,9 @@
     "country": "United States",
     "url": "https://www.state.gov/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "US Department of Defense",
@@ -477,7 +595,9 @@
     "country": "United States",
     "url": "https://www.defense.gov/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "US CENTCOM",
@@ -485,7 +605,9 @@
     "country": "United States",
     "url": "https://www.centcom.mil/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "UK Foreign Office",
@@ -493,7 +615,9 @@
     "country": "United Kingdom",
     "url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "European Council",
@@ -501,7 +625,9 @@
     "country": "European Union",
     "url": "https://www.consilium.europa.eu/en/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "European External Action Service",
@@ -509,7 +635,9 @@
     "country": "European Union",
     "url": "https://www.eeas.europa.eu/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "NATO",
@@ -517,7 +645,9 @@
     "country": "International",
     "url": "https://www.nato.int/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "UN News",
@@ -525,7 +655,9 @@
     "country": "International",
     "url": "https://news.un.org/en/",
     "priority": 4,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "UN Security Council",
@@ -533,7 +665,9 @@
     "country": "International",
     "url": "https://www.un.org/securitycouncil/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Iran Foreign Ministry",
@@ -541,7 +675,9 @@
     "country": "Iran",
     "url": "https://en.mfa.gov.ir/",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Iran Presidency",
@@ -549,7 +685,9 @@
     "country": "Iran",
     "url": "https://president.ir/en",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Israel Prime Minister's Office",
@@ -557,7 +695,9 @@
     "country": "Israel",
     "url": "https://www.gov.il/en/departments/prime_ministers_office/govil-landing-page",
     "priority": 5,
-    "enabled": true
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
   },
   {
     "name": "Israel Defense Forces",
@@ -565,6 +705,538 @@
     "country": "Israel",
     "url": "https://www.idf.il/en/",
     "priority": 5,
+    "enabled": true,
+    "language": "English",
+    "language_code": "en"
+  },
+  {
+    "name": "Der Spiegel",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.spiegel.de/",
+    "language": "German",
+    "language_code": "de",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Die Zeit",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.zeit.de/",
+    "language": "German",
+    "language_code": "de",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Frankfurter Allgemeine",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.faz.net/aktuell/",
+    "language": "German",
+    "language_code": "de",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Süddeutsche Zeitung",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.sueddeutsche.de/",
+    "language": "German",
+    "language_code": "de",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Tagesschau",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.tagesschau.de/",
+    "language": "German",
+    "language_code": "de",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Le Monde",
+    "type": "newspaper",
+    "country": "France",
+    "url": "https://www.lemonde.fr/",
+    "language": "French",
+    "language_code": "fr",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Le Figaro",
+    "type": "newspaper",
+    "country": "France",
+    "url": "https://www.lefigaro.fr/",
+    "language": "French",
+    "language_code": "fr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Franceinfo",
+    "type": "newspaper",
+    "country": "France",
+    "url": "https://www.franceinfo.fr/",
+    "language": "French",
+    "language_code": "fr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "RFI Français",
+    "type": "regional_media",
+    "country": "France",
+    "url": "https://www.rfi.fr/fr/",
+    "language": "French",
+    "language_code": "fr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Corriere della Sera",
+    "type": "newspaper",
+    "country": "Italy",
+    "url": "https://www.corriere.it/",
+    "language": "Italian",
+    "language_code": "it",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "La Repubblica",
+    "type": "newspaper",
+    "country": "Italy",
+    "url": "https://www.repubblica.it/",
+    "language": "Italian",
+    "language_code": "it",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "La Stampa",
+    "type": "newspaper",
+    "country": "Italy",
+    "url": "https://www.lastampa.it/",
+    "language": "Italian",
+    "language_code": "it",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "ISPI Italiano",
+    "type": "think_tank",
+    "country": "Italy",
+    "url": "https://www.ispionline.it/it",
+    "language": "Italian",
+    "language_code": "it",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "El País",
+    "type": "newspaper",
+    "country": "Spain",
+    "url": "https://elpais.com/",
+    "language": "Spanish",
+    "language_code": "es",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "El Mundo",
+    "type": "newspaper",
+    "country": "Spain",
+    "url": "https://www.elmundo.es/",
+    "language": "Spanish",
+    "language_code": "es",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "ABC España",
+    "type": "newspaper",
+    "country": "Spain",
+    "url": "https://www.abc.es/",
+    "language": "Spanish",
+    "language_code": "es",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Real Instituto Elcano",
+    "type": "think_tank",
+    "country": "Spain",
+    "url": "https://www.realinstitutoelcano.org/",
+    "language": "Spanish",
+    "language_code": "es",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Kommersant",
+    "type": "newspaper",
+    "country": "Russia",
+    "url": "https://www.kommersant.ru/",
+    "language": "Russian",
+    "language_code": "ru",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "RBC Russian",
+    "type": "newspaper",
+    "country": "Russia",
+    "url": "https://www.rbc.ru/",
+    "language": "Russian",
+    "language_code": "ru",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Interfax Russian",
+    "type": "newspaper",
+    "country": "Russia",
+    "url": "https://www.interfax.ru/",
+    "language": "Russian",
+    "language_code": "ru",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "TASS Russian",
+    "type": "official",
+    "country": "Russia",
+    "url": "https://tass.ru/",
+    "language": "Russian",
+    "language_code": "ru",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "RIAC Russian",
+    "type": "think_tank",
+    "country": "Russia",
+    "url": "https://russiancouncil.ru/",
+    "language": "Russian",
+    "language_code": "ru",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Anadolu Türkçe",
+    "type": "official",
+    "country": "Turkey",
+    "url": "https://www.aa.com.tr/tr",
+    "language": "Turkish",
+    "language_code": "tr",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "TRT Haber",
+    "type": "official",
+    "country": "Turkey",
+    "url": "https://www.trthaber.com/",
+    "language": "Turkish",
+    "language_code": "tr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Hürriyet",
+    "type": "newspaper",
+    "country": "Turkey",
+    "url": "https://www.hurriyet.com.tr/",
+    "language": "Turkish",
+    "language_code": "tr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Cumhuriyet",
+    "type": "newspaper",
+    "country": "Turkey",
+    "url": "https://www.cumhuriyet.com.tr/",
+    "language": "Turkish",
+    "language_code": "tr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "SETA Türkçe",
+    "type": "think_tank",
+    "country": "Turkey",
+    "url": "https://www.setav.org/",
+    "language": "Turkish",
+    "language_code": "tr",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Haaretz Hebrew",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.haaretz.co.il/",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Ynet",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.ynet.co.il/",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "N12",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.mako.co.il/news",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Kan News Hebrew",
+    "type": "official",
+    "country": "Israel",
+    "url": "https://www.kan.org.il/",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Maariv",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.maariv.co.il/",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Israel Hayom Hebrew",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.israelhayom.co.il/",
+    "language": "Hebrew",
+    "language_code": "he",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Xinhua Chinese",
+    "type": "official",
+    "country": "China",
+    "url": "https://www.news.cn/",
+    "language": "Chinese",
+    "language_code": "zh",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "People's Daily Chinese",
+    "type": "official",
+    "country": "China",
+    "url": "http://www.people.com.cn/",
+    "language": "Chinese",
+    "language_code": "zh",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Caixin Chinese",
+    "type": "newspaper",
+    "country": "China",
+    "url": "https://www.caixin.com/",
+    "language": "Chinese",
+    "language_code": "zh",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Guancha",
+    "type": "newspaper",
+    "country": "China",
+    "url": "https://www.guancha.cn/",
+    "language": "Chinese",
+    "language_code": "zh",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "NHK Japanese",
+    "type": "official",
+    "country": "Japan",
+    "url": "https://www3.nhk.or.jp/news/",
+    "language": "Japanese",
+    "language_code": "ja",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Nikkei Japanese",
+    "type": "newspaper",
+    "country": "Japan",
+    "url": "https://www.nikkei.com/",
+    "language": "Japanese",
+    "language_code": "ja",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Asahi Shimbun",
+    "type": "newspaper",
+    "country": "Japan",
+    "url": "https://www.asahi.com/",
+    "language": "Japanese",
+    "language_code": "ja",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Yomiuri Shimbun",
+    "type": "newspaper",
+    "country": "Japan",
+    "url": "https://www.yomiuri.co.jp/",
+    "language": "Japanese",
+    "language_code": "ja",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Mainichi Shimbun",
+    "type": "newspaper",
+    "country": "Japan",
+    "url": "https://mainichi.jp/",
+    "language": "Japanese",
+    "language_code": "ja",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Yonhap Korean",
+    "type": "official",
+    "country": "South Korea",
+    "url": "https://www.yna.co.kr/",
+    "language": "Korean",
+    "language_code": "ko",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Chosun Ilbo Korean",
+    "type": "newspaper",
+    "country": "South Korea",
+    "url": "https://www.chosun.com/",
+    "language": "Korean",
+    "language_code": "ko",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Hankyoreh Korean",
+    "type": "newspaper",
+    "country": "South Korea",
+    "url": "https://www.hani.co.kr/",
+    "language": "Korean",
+    "language_code": "ko",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "JoongAng Korean",
+    "type": "newspaper",
+    "country": "South Korea",
+    "url": "https://www.joongang.co.kr/",
+    "language": "Korean",
+    "language_code": "ko",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Kathimerini Greek",
+    "type": "newspaper",
+    "country": "Greece",
+    "url": "https://www.kathimerini.gr/",
+    "language": "Greek",
+    "language_code": "el",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "APA Azerbaijan",
+    "type": "regional_media",
+    "country": "Azerbaijan",
+    "url": "https://apa.az/",
+    "language": "Azerbaijani",
+    "language_code": "az",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Report.az Azerbaijani",
+    "type": "regional_media",
+    "country": "Azerbaijan",
+    "url": "https://report.az/",
+    "language": "Azerbaijani",
+    "language_code": "az",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "NOS Dutch",
+    "type": "official",
+    "country": "Netherlands",
+    "url": "https://nos.nl/",
+    "language": "Dutch",
+    "language_code": "nl",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "NRC Dutch",
+    "type": "newspaper",
+    "country": "Netherlands",
+    "url": "https://www.nrc.nl/",
+    "language": "Dutch",
+    "language_code": "nl",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Rzeczpospolita",
+    "type": "newspaper",
+    "country": "Poland",
+    "url": "https://www.rp.pl/",
+    "language": "Polish",
+    "language_code": "pl",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Público Portugal",
+    "type": "newspaper",
+    "country": "Portugal",
+    "url": "https://www.publico.pt/",
+    "language": "Portuguese",
+    "language_code": "pt",
+    "priority": 4,
     "enabled": true
   }
 ]
