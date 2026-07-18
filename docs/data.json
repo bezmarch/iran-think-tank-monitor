@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-07-18T14:00:34.118554+00:00",
+  "generated_utc": "2026-07-18T14:10:27.998738+00:00",
   "scan_hours": 72,
   "archive_days": 30,
   "source_count": 124,
-  "item_count": 213,
+  "item_count": 221,
   "type_counts": {
-    "newspaper": 38,
-    "regional_media": 131,
-    "think_tank": 43,
-    "official": 1
+    "newspaper": 39,
+    "regional_media": 136,
+    "official": 3,
+    "think_tank": 43
   },
   "country_counts": {
+    "Russia": 7,
     "Japan": 5,
-    "Russia": 6,
     "Germany": 10,
     "United States": 37,
     "Qatar": 3,
@@ -22,19 +22,23 @@
     "United Arab Emirates": 7,
     "France": 9,
     "United Kingdom": 19,
+    "Azerbaijan": 5,
     "Spain": 1,
+    "Netherlands": 2,
     "Israel": 6,
     "Italy": 3,
     "Europe": 1
   },
   "language_counts": {
+    "Russian": 7,
     "Japanese": 1,
-    "Russian": 6,
     "German": 8,
     "English": 185,
     "Turkish": 3,
     "French": 5,
+    "Azerbaijani": 5,
     "Spanish": 1,
+    "Dutch": 2,
     "Italian": 3,
     "Hebrew": 1
   },
@@ -67,7 +71,7 @@
     {
       "source": "Council on Foreign Relations",
       "method": "feed",
-      "items": 2
+      "items": 1
     },
     {
       "source": "Washington Institute",
@@ -102,7 +106,7 @@
     {
       "source": "Quincy Institute",
       "method": "feed",
-      "items": 2
+      "items": 4
     },
     {
       "source": "Belfer Center",
@@ -162,7 +166,7 @@
     {
       "source": "ECFR",
       "method": "feed",
-      "items": 2
+      "items": 3
     },
     {
       "source": "SWP Berlin",
@@ -222,7 +226,7 @@
     {
       "source": "The Guardian",
       "method": "feed",
-      "items": 8
+      "items": 4
     },
     {
       "source": "New York Times",
@@ -267,17 +271,17 @@
     {
       "source": "Nikkei Asia",
       "method": "sitemap",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Iran International",
       "method": "feed",
-      "items": 3
+      "items": 6
     },
     {
       "source": "IranWire",
-      "method": "feed",
-      "items": 10
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Radio Farda",
@@ -292,17 +296,17 @@
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 2
+      "items": 4
     },
     {
       "source": "Asharq Al-Awsat",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 64
     },
     {
       "source": "The National",
       "method": "sitemap",
-      "items": 6
+      "items": 4
     },
     {
       "source": "Al-Monitor",
@@ -402,7 +406,7 @@
     {
       "source": "Die Zeit",
       "method": "feed",
-      "items": 2
+      "items": 1
     },
     {
       "source": "Frankfurter Allgemeine",
@@ -436,8 +440,8 @@
     },
     {
       "source": "RFI Français",
-      "method": "feed",
-      "items": 8
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Corriere della Sera",
@@ -492,7 +496,7 @@
     {
       "source": "Interfax Russian",
       "method": "feed",
-      "items": 6
+      "items": 7
     },
     {
       "source": "TASS Russian",
@@ -532,7 +536,7 @@
     {
       "source": "Haaretz Hebrew",
       "method": "sitemap",
-      "items": 1
+      "items": 0
     },
     {
       "source": "Ynet",
@@ -631,8 +635,8 @@
     },
     {
       "source": "APA Azerbaijan",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 5
     },
     {
       "source": "Report.az Azerbaijani",
@@ -641,8 +645,8 @@
     },
     {
       "source": "NOS Dutch",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "NRC Dutch",
@@ -661,6 +665,27 @@
     }
   ],
   "items": [
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Лавров и глава МИД ОАЭ подчеркнули важность беспрепятственного судоходства в Ормузском проливе",
+      "url": "https://www.interfax.ru/russia/1104084",
+      "published_utc": "2026-07-18T13:55:00+00:00",
+      "summary": "В субботу состоялся телефонный разговор главы МИД России Сергея Лаврова с заместителем премьер-министра, министром иностранных дел ОАЭ Абдаллой Бен Заидом Аль Нахайяном.\"Проведена \"сверка часов\" по ситуации в зоне Персидского залива в контексте продолжающихся обменов ударами между США и Ираном.",
+      "matched_terms": [
+        "Ираном"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
     {
       "source": "Nikkei Japanese",
       "source_type": "newspaper",
@@ -817,6 +842,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iran Executes a Man Convicted of Killing a Security Force Member during 2022 Protests",
@@ -830,9 +857,7 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Iran International",
@@ -1027,6 +1052,27 @@
       "language_code": "en"
     },
     {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İran ABŞ-la İslamabad memorandumunun icrasını dayandırıb",
+      "url": "https://apa.az/asia/iran-abs-la-islamabad-memorandumunun-icrasini-dayandirib-982796",
+      "published_utc": "2026-07-18T12:28:08+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Iran International",
       "source_type": "regional_media",
       "country": "Iran",
@@ -1169,6 +1215,27 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İran Səhiyyə Nazirliyi: ABŞ-ın son hücumlarında 50 nəfər ölüb, 500-dən çox yaralı var",
+      "url": "https://apa.az/asia/iran-sehiyye-nazirliyi-abs-in-son-hucumlarinda-50-nefer-olub-500-den-cox-yarali-var-982787",
+      "published_utc": "2026-07-18T11:23:11+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Interfax Russian",
       "source_type": "newspaper",
       "country": "Russia",
@@ -1300,6 +1367,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Jordan's Army Says Shot Down 10 Iranian Missiles",
@@ -1313,9 +1382,7 @@
         "Missiles & Drones"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "ABC España",
@@ -1402,6 +1469,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Bahrain Says Repelled Iranian Attacks",
@@ -1415,9 +1484,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Anadolu Agency",
@@ -1444,6 +1511,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Kuwait Says Iran Hit Second Power and Water Plant, Flights Rescheduled",
@@ -1457,9 +1526,7 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Anadolu Agency",
@@ -1790,6 +1857,51 @@
       "language_code": "en"
     },
     {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İranın hücumlarından sonra Küveytdə yanğınlar baş verib, aeroportda bütün uçuşlar dayandırılıb",
+      "url": "https://apa.az/asia/iranin-hucumlarindan-sonra-kuveytde-yanginlar-bas-verib-aeroportda-butun-ucuslar-dayandirilib-982726",
+      "published_utc": "2026-07-18T06:28:20+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İranın"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "NOS Dutch",
+      "source_type": "official",
+      "country": "Netherlands",
+      "language": "Dutch",
+      "language_code": "nl",
+      "source_priority": 4,
+      "content_kind": "Official statement",
+      "title": "Door alternatieve routes is Straat van Hormuz niet meer zo onmisbaar als vroeger",
+      "url": "https://nos.nl/l/2623448",
+      "published_utc": "2026-07-18T06:23:50+00:00",
+      "summary": "Sinds de aanvallen van de Verenigde Staten en Israël op Iran eind februari heerst er onrust rond Straat van Hormuz. De langdurige blokkade van deze belangrijke zeestraat voor de doorvoer van olie en gas leidt tot het gebruik van alternatieve routes. Dat de zeestraat nog steeds een belangrijke rol speelt in de wereldwijde oliemarkt blijkt uit de recente schommelingen in de prijs voor een vat olie. Deze zijn een direct gevolg van de aanvallen op tankers en andere doelen over en weer. Voor de oorlog was de zeestraat goed voor zo'n 20 miljoen vaten olie per dag. Dat is ongeveer 20 procent van de wereldwijde olieconsumptie. Uit de grafiek blijkt hoe de onrust zorgt voor veranderingen in de wereldwijde olieprijs: Ondanks de recente prijsstijging lijkt het gebruik van alternatieve routes voor zowel olie- en gasbedrijven als de Golfstaten deels uitkomst te bieden. De Oost-West-pijpleiding in Saudi-Arabië verbindt de Rode Zee met de Perzische Golf. Hier kunnen per dag maximaal zeven miljoen vaten olie doorheen. Energiedeskundige Lucia van Geuns van het Haags Centrum voor Strategische Studies ",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military",
+        "Hormuz & Maritime",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
@@ -2028,6 +2140,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US and Iran Escalate Strikes",
@@ -2041,9 +2155,30 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "NOS Dutch",
+      "source_type": "official",
+      "country": "Netherlands",
+      "language": "Dutch",
+      "language_code": "nl",
+      "source_priority": 4,
+      "content_kind": "Official statement",
+      "title": "Wekdienst 18/7: Vierdaagsefeesten van start • Troostfinale Engeland-Frankrijk",
+      "url": "https://nos.nl/l/2623438",
+      "published_utc": "2026-07-18T04:25:19+00:00",
+      "summary": "Goedemorgen! In Nijmegen gaan de Vierdaagsefeesten van start en in de Verenigde Staten voetballen Frankrijk en Engeland om de derde plek van het WK voetbal. Eerst het weer: het is bewolkt bij zo'n 15 graden. Later vanochtend kan ook wat regen vallen hier en daar. Vanmiddag wordt het met een beetje zon zo'n 19 graden aan de kust tot 25 in het binnenland. Ga je vandaag op pad? Hier vind je het overzicht van de files en wegwerkzaamheden en hier alles over de situatie op het spoor. Wat kun je vandaag verwachten? Wat heb je gemist? Vannacht heeft de VS voor de zevende nacht op rij zware aanvallen uitgevoerd op Iran. Er werden explosies gemeld in verschillende steden, onder meer havensteden dicht bij de Straat van Hormuz. Iran viel ook Amerikaanse bases aan, in Koeweit en Jordanië. In Bahrein is het luchtalarm afgegaan. De Iraanse marine zegt dat er drone- en raketaanvallen zijn uitgevoerd op vier schepen die probeerden door de Straat van Hormuz te varen. De schepen zouden de straat hebben willen passeren via een aangewezen route door de VS. Het Amerikaanse leger heeft geen Iraanse aanvall",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Missiles & Drones",
+        "Military",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "Middle East Eye",
@@ -2136,6 +2271,27 @@
       "language_code": "en"
     },
     {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Küveyt İranın raket və PUA hücumlarını dəf etdiyini açıqlayıb",
+      "url": "https://apa.az/asia/kuveyt-iranin-raket-ve-pua-hucumlarini-def-etdiyini-aciqlayib-982698",
+      "published_utc": "2026-07-18T03:28:13+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İranın"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Le Monde",
       "source_type": "newspaper",
       "country": "France",
@@ -2204,6 +2360,27 @@
       "importance_label": "Useful background"
     },
     {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "KİV: İran Səudiyyə Ərəbistanındakı ABŞ bazasına ballistik raket atıb",
+      "url": "https://apa.az/asia/kiv-iran-seudiyye-erebistanindaki-abs-bazasina-ballistik-raket-atib-982693",
+      "published_utc": "2026-07-18T02:32:16+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Al Jazeera",
       "source_type": "regional_media",
       "country": "Qatar",
@@ -2233,13 +2410,14 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_kind": "Analysis",
+      "content_kind": "News & reporting",
       "title": "Live updates • Iran strikes Kuwait oil facility, major damage and injuries reported",
       "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-18/ty-article-live/for-seventh-night-in-a-row-u-s-launches-strikes-on-iranian-infrastructure/0000019f-72d8-de8e-afff-f3fad06d0000",
       "published_utc": "2026-07-18T01:49:00+00:00",
-      "summary": "Live updates | Iran executes man accused of killing security agent during 2022 protests, Mizan agency reports. Lebanon's President Aoun headed to Washington for White House summit. Sirens sound in Bahrain, Interior Ministry says",
+      "summary": "Live updates | Report: Iran suspends implementation of MoU commitments, senior official says. Iran executes man accused of killing security agent during 2022 protests, Mizan agency reports. Lebanon's President Aoun headed to Washington for White House summit",
       "matched_terms": [
         "Iran",
+        "Iranian",
         "Revolutionary Guard"
       ],
       "tags": [
@@ -2370,6 +2548,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Komala: A Frequent Target of Iranian Attacks in Iraqi Kurdistan",
@@ -2384,9 +2564,7 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -2633,6 +2811,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iran's Fars News Agency Publishes Video Titled 'Where Do We Kill Trump?'",
@@ -2646,33 +2826,7 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T14:20:57+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Minor mention"
     },
     {
       "source": "BESA Center",
@@ -2865,6 +3019,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iran Urges Citizens to Cut Electricity Use after US Strikes",
@@ -2878,9 +3034,7 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -2955,6 +3109,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Oil Rises on Renewed US-Iran Hostilities and Threat of Red Sea Closure",
@@ -2969,9 +3125,7 @@
         "Energy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "The Guardian",
@@ -3159,6 +3313,51 @@
       "language_code": "en"
     },
     {
+      "source": "Asharq Al-Awsat",
+      "source_type": "regional_media",
+      "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Kuwait Says Iran Attacked Power and Water Desalination Plant, Causing Damage",
+      "url": "https://english.aawsat.com/node/5297035",
+      "published_utc": "2026-07-17T09:16:44+00:00",
+      "summary": "",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-17T08:59:24+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "Nikkei Asia",
       "source_type": "newspaper",
       "country": "Japan",
@@ -3168,7 +3367,7 @@
       "content_kind": "Analysis",
       "title": "Spotlight",
       "url": "https://asia.nikkei.com/spotlight",
-      "published_utc": "2026-07-17T10:10:34+00:00",
+      "published_utc": "2026-07-17T08:59:24+00:00",
       "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
       "matched_terms": [
         "Iran"
@@ -3188,27 +3387,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
-      "source_priority": 4,
-      "content_kind": "News & reporting",
-      "title": "Kuwait Says Iran Attacked Power and Water Desalination Plant, Causing Damage",
-      "url": "https://english.aawsat.com/node/5297035",
-      "published_utc": "2026-07-17T09:16:44+00:00",
-      "summary": "",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Military"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention",
       "language": "English",
-      "language_code": "en"
-    },
-    {
-      "source": "Asharq Al-Awsat",
-      "source_type": "regional_media",
-      "country": "Saudi Arabia",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "What is Pickaxe Mountain, the Iranian Nuclear-linked Site Threatened by Trump?",
@@ -3223,9 +3403,7 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -3296,6 +3474,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "UK Police Charge Man Over Iran-Linked Spying Offenses",
@@ -3309,9 +3489,7 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -3359,6 +3537,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US House Republicans Push Forward on Trump Funding Plan for Iran War, Election Overhaul",
@@ -3374,9 +3554,7 @@
         "Domestic Politics"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -3424,6 +3602,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Burberry’s Strong US Sales Offset Iran War Impact in Europe",
@@ -3437,14 +3617,14 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Syria Military Source Denies Iran Bombed Al-Tanf Base",
@@ -3459,14 +3639,14 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "China, Pakistan Call on US, Iran to Resume Talks",
@@ -3481,14 +3661,14 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US, Iran Trade Attacks in Return to Full-Blown War",
@@ -3503,14 +3683,14 @@
         "Economy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Jordan's Military Says Intercepted 3 Iranian Missiles",
@@ -3525,14 +3705,14 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iran Reportedly Tells Houthis to Stand Ready to Close Bab el-Mandeb",
@@ -3546,9 +3726,7 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "CNAS",
@@ -3882,6 +4060,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iranian Attacks on Gulf Intensify, Kuwait Bears Brunt",
@@ -3895,9 +4075,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Haaretz Hebrew",
@@ -4057,6 +4235,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Saudi Arabia: Iranian Attacks on Kuwait, Bahrain and Jordan Threaten Regional Security",
@@ -4070,9 +4250,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Arab Gulf States Institute",
@@ -4171,6 +4349,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Vance Says Some in Israeli Government Sought to Sway US on Iran Deal",
@@ -4186,9 +4366,7 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "FDD",
@@ -4237,6 +4415,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Oil Eases as Traders Weigh US-Iran Conflict Risks",
@@ -4252,9 +4432,7 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -4486,6 +4664,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Trump Hails Release of US Citizen Held in Iran as 'Goodwill' Gesture",
@@ -4499,9 +4679,7 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -4640,6 +4818,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Mediator Pakistan Says Encouraging US, Iran to Resume Talks",
@@ -4653,14 +4833,14 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US War Against Iran Enters a New Phase",
@@ -4674,9 +4854,7 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -4703,6 +4881,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Jordan Says it Shot Down Iranian Missiles",
@@ -4716,14 +4896,14 @@
         "Missiles & Drones"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "How the Yemeni Gov’t Handled Iran’s Sanaa Airport Escalation",
@@ -4737,14 +4917,14 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US Strikes Expand into Northern Iran as it Disables Ship Trying to Run Blockade",
@@ -4758,9 +4938,7 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Minor mention"
     },
     {
       "source": "FDD",
@@ -4964,6 +5142,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US Says It Issued Sanctions to Disrupt Iran’s Weapon Procurement",
@@ -4977,9 +5157,7 @@
         "Sanctions"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -5009,6 +5187,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Could Hezbollah Launch a New War in Support of Iran?",
@@ -5023,9 +5203,7 @@
         "Regional Influence"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -5198,6 +5376,8 @@
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US Reports ‘Wave of Strikes’ on Iran as War Returns",
@@ -5211,9 +5391,7 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "language": "English",
-      "language_code": "en"
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
