@@ -1,27 +1,27 @@
 {
-  "generated_utc": "2026-07-18T16:52:05.138934+00:00",
+  "generated_utc": "2026-07-18T17:04:25.543023+00:00",
   "scan_hours": 72,
   "archive_days": 30,
   "source_count": 124,
-  "item_count": 259,
+  "item_count": 262,
   "type_counts": {
-    "newspaper": 58,
-    "regional_media": 151,
+    "regional_media": 153,
+    "newspaper": 59,
     "official": 7,
     "think_tank": 43
   },
   "country_counts": {
+    "United Kingdom": 26,
+    "Turkey": 7,
     "Germany": 11,
     "Azerbaijan": 8,
     "Iran": 70,
-    "United Kingdom": 25,
     "France": 11,
-    "Qatar": 7,
+    "Qatar": 8,
     "Spain": 2,
     "Saudi Arabia": 34,
     "Poland": 1,
     "Japan": 5,
-    "Turkey": 6,
     "United Arab Emirates": 8,
     "Israel": 21,
     "Russia": 7,
@@ -31,13 +31,13 @@
     "Europe": 1
   },
   "language_counts": {
+    "English": 203,
+    "Turkish": 6,
     "German": 9,
     "Azerbaijani": 8,
-    "English": 201,
     "Spanish": 2,
     "Polish": 1,
     "Japanese": 1,
-    "Turkish": 5,
     "Hebrew": 15,
     "Russian": 7,
     "French": 5,
@@ -45,8 +45,8 @@
     "Italian": 3
   },
   "content_counts": {
-    "news": 176,
-    "analysis": 76,
+    "news": 200,
+    "analysis": 55,
     "official": 7
   },
   "source_status": [
@@ -78,7 +78,7 @@
     {
       "source": "Council on Foreign Relations",
       "method": "feed",
-      "items": 2
+      "items": 1
     },
     {
       "source": "Washington Institute",
@@ -92,8 +92,8 @@
     },
     {
       "source": "FDD",
-      "method": "feed",
-      "items": 24
+      "method": "sitemap",
+      "items": 0
     },
     {
       "source": "Stimson Center",
@@ -112,8 +112,8 @@
     },
     {
       "source": "Quincy Institute",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "Belfer Center",
@@ -207,8 +207,8 @@
     },
     {
       "source": "BESA Center",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "BBC News",
@@ -233,7 +233,7 @@
     {
       "source": "The Guardian",
       "method": "feed",
-      "items": 14
+      "items": 10
     },
     {
       "source": "New York Times",
@@ -257,8 +257,8 @@
     },
     {
       "source": "France 24",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 5
     },
     {
       "source": "Deutsche Welle",
@@ -268,7 +268,7 @@
     {
       "source": "Haaretz",
       "method": "sitemap",
-      "items": 3
+      "items": 1
     },
     {
       "source": "Times of Israel",
@@ -278,17 +278,17 @@
     {
       "source": "Nikkei Asia",
       "method": "sitemap",
-      "items": 2
+      "items": 1
     },
     {
       "source": "Iran International",
       "method": "feed",
-      "items": 8
+      "items": 4
     },
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 45
+      "items": 11
     },
     {
       "source": "Radio Farda",
@@ -303,12 +303,12 @@
     {
       "source": "Al Jazeera",
       "method": "sitemap",
-      "items": 3
+      "items": 4
     },
     {
       "source": "Asharq Al-Awsat",
-      "method": "feed",
-      "items": 62
+      "method": "none",
+      "items": 0
     },
     {
       "source": "The National",
@@ -322,8 +322,8 @@
     },
     {
       "source": "Middle East Eye",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 13
     },
     {
       "source": "Anadolu Agency",
@@ -413,12 +413,12 @@
     {
       "source": "Die Zeit",
       "method": "feed",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Frankfurter Allgemeine",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "Süddeutsche Zeitung",
@@ -427,8 +427,8 @@
     },
     {
       "source": "Tagesschau",
-      "method": "feed",
-      "items": 6
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Le Monde",
@@ -448,7 +448,7 @@
     {
       "source": "RFI Français",
       "method": "feed",
-      "items": 4
+      "items": 8
     },
     {
       "source": "Corriere della Sera",
@@ -463,7 +463,7 @@
     {
       "source": "La Stampa",
       "method": "feed",
-      "items": 1
+      "items": 2
     },
     {
       "source": "ISPI Italiano",
@@ -477,8 +477,8 @@
     },
     {
       "source": "El Mundo",
-      "method": "feed",
-      "items": 1
+      "method": "none",
+      "items": 0
     },
     {
       "source": "ABC España",
@@ -533,7 +533,7 @@
     {
       "source": "Cumhuriyet",
       "method": "feed",
-      "items": 2
+      "items": 3
     },
     {
       "source": "SETA Türkçe",
@@ -673,6 +673,53 @@
   ],
   "items": [
     {
+      "source": "Middle East Eye",
+      "source_type": "regional_media",
+      "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 3,
+      "content_group": "news",
+      "content_kind": "News & reporting",
+      "title": "Iran’s Khamenei says US president’s signature ‘worthless and invalid’",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-khamenei-says-us-presidents-signature-worthless-and-invalid",
+      "published_utc": "2026-07-18T16:59:04+00:00",
+      "summary": "Iran’s Khamenei says US president’s signature ‘worthless and invalid’ Iran’s Supreme Leader Mojtaba Khamenei condemned the US attacks on Iran, said the repeated breaches of agreements with Iran show that the US president’s signature is “worthless and invalid.” The statement was released by Iran’s IRIB broadcaster.",
+      "matched_terms": [
+        "Iran",
+        "Khamenei"
+      ],
+      "tags": [
+        "Military",
+        "Domestic Politics",
+        "Diplomacy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "Cumhuriyet",
+      "source_type": "newspaper",
+      "country": "Turkey",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 4,
+      "content_group": "news",
+      "content_kind": "News & reporting",
+      "title": "Filenin Efeleri, Slovenya'ya mağlup oldu",
+      "url": "https://www.cumhuriyet.com.tr/spor/filenin-efeleri-slovenya-ya-maglup-oldu-2521939",
+      "published_utc": "2026-07-18T16:54:00+00:00",
+      "summary": "A Milli Erkek Voleybol Takımı, Milletler Ligi'nde Slovenya'ya 3-1 mağlup oldu. Filenin Efeleri, üçüncü haftadaki son maçında İran ile karşılaşacak.",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Die Zeit",
       "source_type": "newspaper",
       "country": "Germany",
@@ -683,7 +730,7 @@
       "content_kind": "News & reporting",
       "title": "Irankrieg: Iran setzt Rahmenabkommen mit den USA aus",
       "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
-      "published_utc": "2026-07-18T16:39:59+00:00",
+      "published_utc": "2026-07-18T16:44:25+00:00",
       "summary": "Der Iran sieht das Rahmenabkommen vom Juni als nicht mehr gültig an. »Wir sind mit der Verteidigung des Landes beschäftigt«, sagte sein Vizeaußenminister. Das Liveblog",
       "matched_terms": [
         "Iran"
@@ -791,6 +838,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Gulf council blasts \"war crimes\" by Iran",
       "url": "https://www.france24.com/en/gulf-council-blasts-war-crimes-by-iran",
@@ -805,8 +853,7 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "news"
+      "importance_label": "Useful background"
     },
     {
       "source": "France 24",
@@ -815,6 +862,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Power, desalination plants hit in Kuwait",
       "url": "https://www.france24.com/en/power-desalination-plants-hit-in-kuwait",
@@ -829,8 +877,7 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "news"
+      "importance_label": "Useful background"
     },
     {
       "source": "Middle East Eye",
@@ -839,11 +886,12 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Qatar condemns Iran's latest attacks on Gulf countries 'in strongest terms'",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-irans-latest-attacks-gulf-countries-strongest-terms",
       "published_utc": "2026-07-18T16:20:53+00:00",
-      "summary": "Qatar condemns Iran's latest attacks on Gulf countries 'in strongest terms' Qatar condemned Iran's latest attacks \"in the strongest terms\" targeting Jordan, Bahrain and Kuwait. In a statement posted on X, the ministry of foreign affairs said the targeting of electricity and water desalination plants in Kuwait \"crosses all red lines.\" Statement | Qatar Strongly Condemns Iran's Repeated Attacks on Jordan, Bahrain and Kuwait Doha | July 18, 2026 The State of Qatar condemns in the strongest terms the renewed attacks launched by the Islamic Republic of Iran against the territories of the Hashemite Kingdom of… pic.twitter.com/c5szuiCVq7 — Ministry of Foreign Affairs - Qatar (@MofaQatar_EN) July 18, 2026",
+      "summary": "Qatar condemns Iran's latest attacks on Gulf countries 'in strongest terms' Qatar condemned \"in the strongest terms\" Iran's latest attacks targeting Jordan, Bahrain and Kuwait. In a statement posted on X, the Ministry of Foreign Affairs said the targeting of electricity and water desalination plants in Kuwait \"crosses all red lines\". Statement | Qatar Strongly Condemns Iran's Repeated Attacks on Jordan, Bahrain and Kuwait Doha | July 18, 2026 The State of Qatar condemns in the strongest terms the renewed attacks launched by the Islamic Republic of Iran against the territories of the Hashemite Kingdom of… pic.twitter.com/c5szuiCVq7 — Ministry of Foreign Affairs - Qatar (@MofaQatar_EN) July 18, 2026",
       "matched_terms": [
         "Iran"
       ],
@@ -851,8 +899,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Al Jazeera",
@@ -865,7 +912,7 @@
       "content_kind": "News & reporting",
       "title": "Iran’s supreme leader says Trump’s signature is ‘worthless and invalid’",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/18/iran-war-live-us-and-iran-exchange-attacks-for-7th-consecutive-night",
-      "published_utc": "2026-07-18T15:54:08+00:00",
+      "published_utc": "2026-07-18T16:15:00+00:00",
       "summary": "Mojtaba Khamenei says US has made repeated breaches of agreements with Tehran",
       "matched_terms": [
         "Iran",
@@ -887,6 +934,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Iran says renewed US strikes killed at least 50 people",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/renewed-us-strikes-kill-least-50-people-iran-tehran-says",
@@ -900,8 +948,7 @@
         "Domestic Politics"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Middle East Eye",
@@ -910,6 +957,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Iran declares Islamabad agreement suspended, blames US violations",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-declares-islamabad-agreement-suspended-blames-us-violations",
@@ -925,8 +973,7 @@
         "Diplomacy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "content_group": "news"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Al Jazeera",
@@ -1090,6 +1137,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Qatar condemns Iranian attacks on Gulf countries",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-iranian-attacks-gulf-countries",
@@ -1103,8 +1151,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "The National",
@@ -1113,8 +1160,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Iran 'suspends commitments' on agreement with US after seventh night of strikes | The National",
       "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/",
       "published_utc": "2026-07-18T14:28:53.062000+00:00",
@@ -1253,6 +1300,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Iran declares Islamabad agreement suspended, blames US violations",
       "url": "https://www.middleeasteye.net/news/iran-declares-islamabad-agreement-suspended-blames-us-violations",
@@ -1273,8 +1321,7 @@
         "Diplomacy"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "news"
+      "importance_label": "Useful background"
     },
     {
       "source": "Interfax Russian",
@@ -1569,6 +1616,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Iran suspends agreement with Washington after 'US violations'",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suspends-mou-washington-after-us-violations",
@@ -1583,8 +1631,7 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "The National",
@@ -1593,8 +1640,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "UAE condemns further Iranian attacks on Bahrain, Kuwait and Jordan | The National",
       "url": "https://www.thenationalnews.com/news/uae/2026/07/18/uae-condemns-further-iranian-attacks-on-bahrain-kuwait-and-jordan/",
       "published_utc": "2026-07-18T12:35:42.333000+00:00",
@@ -1605,11 +1652,8 @@
       ],
       "tags": [
         "US–Iran",
-        "Israel",
         "Missiles & Drones",
         "Military",
-        "Protests & Rights",
-        "Diplomacy",
         "Economy"
       ],
       "importance_score": 2,
@@ -1622,6 +1666,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Kuwait Petroleum Corporation reports damage and injuries from Iranian attacks",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-petroleum-corporation-reports-damage-and-injuries-iranian-attacks",
@@ -1636,8 +1681,7 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "APA Azerbaijan",
@@ -1725,6 +1769,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "US attacks kill 50 people since 6 July: Iran's health ministry",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-attacks-kill-50-people-july-6-iran-health-ministry",
@@ -1737,8 +1782,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "The Guardian",
@@ -1747,8 +1791,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Explainer & analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "When Trump accuses others of wrongdoing, you can bet he’s up to something himself | Arwa Mahdawi",
       "url": "https://www.theguardian.com/commentisfree/2026/jul/18/trump-speech-election-integrity",
       "published_utc": "2026-07-18T12:00:04+00:00",
@@ -1804,9 +1848,7 @@
         "Iran"
       ],
       "tags": [
-        "Israel",
-        "Military",
-        "Protests & Rights"
+        "Military"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -1886,6 +1928,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "🔴 Middle East live: Kuwait accuses Iran of targeting civilian sites, vital infrastructure",
       "url": "https://www.france24.com/en/middle-east/20260718-middle-east-live-tehran-threatens-full-scale-offensive-as-us-launches-seventh-night-of-attacks",
@@ -1898,8 +1941,7 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Tagesschau",
@@ -1952,6 +1994,7 @@
       "language": "German",
       "language_code": "de",
       "source_priority": 5,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Liveblog Irankrieg: Iran: Haben amerikanische Flugzeuge zerstört",
       "url": "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-iran-meldet-zerstoerung-amerikanischer-flugzeuge-faz-200583539.html",
@@ -1964,8 +2007,7 @@
         "US–Iran"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "content_group": "news"
+      "importance_label": "Worth a look"
     },
     {
       "source": "RFI Français",
@@ -2043,6 +2085,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "US strikes leave 10,000 Iranians without water as Kuwait desalination plant burns",
       "url": "https://www.middleeasteye.net/news/us-strikes-leave-10000-iranians-without-water-kuwait-desalination-plant-burns",
@@ -2065,8 +2108,7 @@
         "Regional Influence"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "news"
+      "importance_label": "Useful background"
     },
     {
       "source": "The National",
@@ -2075,8 +2117,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Israel advances plan to use crocodiles at prisons holding Palestinians | The National",
       "url": "https://www.thenationalnews.com/news/mena/2026/07/18/israel-advances-plan-to-use-crocodiles-at-prisons-holding-palestinians/",
       "published_utc": "2026-07-18T09:56:41.347000+00:00",
@@ -2161,6 +2203,31 @@
       "importance_label": "Minor mention"
     },
     {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_group": "news",
+      "content_kind": "News & reporting",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-18T09:39:06+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "Israel Hayom Hebrew",
       "source_type": "newspaper",
       "country": "Israel",
@@ -2236,6 +2303,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "US strikes on Iran’s Hormozgan province kill eight people: Report",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-strikes-irans-hormozgan-province-kill-eight-people-tasnim",
@@ -2249,8 +2317,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Israel Hayom Hebrew",
@@ -2281,6 +2348,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "IRGC claims missile and drone attack on US base in Jordan",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-missile-and-drone-attack-us-base-jordan",
@@ -2297,8 +2365,7 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "news"
+      "importance_label": "Useful background"
     },
     {
       "source": "France 24",
@@ -2307,6 +2374,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "US strikes hit Iran for seventh night",
       "url": "https://www.france24.com/en/us-strikes-hit-iran-for-seventh-night",
@@ -2320,8 +2388,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Cumhuriyet",
@@ -2443,8 +2510,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Explainer & analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Abu Dhabi property transactions surge 112% despite war to hit Dh117 billion in first half of year | The National",
       "url": "https://www.thenationalnews.com/business/property/2026/07/18/abu-dhabi-property-transactions-surge-112-despite-war-to-hit-dh117-billion-in-first-half-of-2026/",
       "published_utc": "2026-07-18T07:00:53.069000+00:00",
@@ -2492,6 +2559,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "Iranian official says US strikes disrupt water supply to 20 villages",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-us-strikes-disrupt-water-supply-20-villages",
@@ -2505,8 +2573,7 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "news"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Middle East Eye",
@@ -2714,8 +2781,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Explainer & analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Trump, not Iran, is the world’s greatest danger. He’s a one-man weapon of mass destruction | Simon Tisdall",
       "url": "https://www.theguardian.com/commentisfree/2026/jul/18/donald-trump-iran-world-danger-bombing-us",
       "published_utc": "2026-07-18T05:00:50+00:00",
@@ -2882,6 +2949,7 @@
       "language": "German",
       "language_code": "de",
       "source_priority": 5,
+      "content_group": "news",
       "content_kind": "News & reporting",
       "title": "F.A.Z. MACHTPROBE: Wie am Irankrieg das US-israelische Bündnis zerbrechen könnte",
       "url": "https://www.faz.net/podcasts/f-a-z-podcast-machtprobe/wie-netanjahus-kriege-israel-isolieren-201041616.html",
@@ -2894,8 +2962,7 @@
         "Israel"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "content_group": "news"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Der Spiegel",
@@ -3139,6 +3206,29 @@
       "source_priority": 4,
       "content_group": "news",
       "content_kind": "News & reporting",
+      "title": "Iranian official says the policy of negotiating during war is over",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/iranian-official-says-the-policy-of-negotiating-during-war-is-over",
+      "published_utc": "2026-07-18T02:09:00+00:00",
+      "summary": "Mohsen Rezaee has warned that if the US continues bombing Iran, Tehran will escalate its response into full-scale war.",
+      "matched_terms": [
+        "Iran",
+        "Iranian"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Al Jazeera",
+      "source_type": "regional_media",
+      "country": "Qatar",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Targets of latest US strikes on Iran signal strategic shift",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/targets-of-latest-us-strikes-on-iran-signal-strategic-shift",
       "published_utc": "2026-07-18T01:54:45+00:00",
@@ -3160,8 +3250,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Live updates • Report: Five killed, including three children, in Israeli strike in Gaza City",
       "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-18/ty-article-live/for-seventh-night-in-a-row-u-s-launches-strikes-on-iranian-infrastructure/0000019f-72d8-de8e-afff-f3fad06d0000",
       "published_utc": "2026-07-18T01:49:00+00:00",
@@ -3190,7 +3280,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_kind": "Analysis",
+      "content_kind": "News & reporting",
       "title": "The most optimistic Israeli in Jerusalem is leaving the country",
       "url": "https://www.haaretz.com/israel-news/israel-politics/2026-07-18/ty-article-magazine/.premium/the-most-optimistic-israeli-in-jerusalem-is-leaving-the-country/0000019f-5fbf-d8b8-a7df-5fbfcc9a0000",
       "published_utc": "2026-07-18T00:43:00+00:00",
@@ -3204,7 +3294,7 @@
       ],
       "importance_score": 2,
       "importance_label": "Worth a look",
-      "content_group": "analysis"
+      "content_group": "news"
     },
     {
       "source": "Al Jazeera",
@@ -3213,8 +3303,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Trump Media reportedly mulling fee for first access to social media posts",
       "url": "https://www.aljazeera.com/news/2026/7/18/trump-media-reportedly-mulling-fee-for-first-access-to-social-media-posts",
       "published_utc": "2026-07-18T00:32:54+00:00",
@@ -3241,7 +3331,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_kind": "Analysis",
+      "content_kind": "News & reporting",
       "title": "Iran tensions",
       "url": "https://asia.nikkei.com/spotlight/iran-tensions",
       "published_utc": "2026-07-17T22:05:16+00:00",
@@ -3261,7 +3351,7 @@
       ],
       "importance_score": 4,
       "importance_label": "Important",
-      "content_group": "analysis"
+      "content_group": "news"
     },
     {
       "source": "Nikkei Asia",
@@ -3270,7 +3360,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_kind": "Analysis",
+      "content_kind": "News & reporting",
       "title": "Iran war",
       "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war",
       "published_utc": "2026-07-17T22:05:16+00:00",
@@ -3289,7 +3379,7 @@
       ],
       "importance_score": 4,
       "importance_label": "Important",
-      "content_group": "analysis"
+      "content_group": "news"
     },
     {
       "source": "Israel Hayom Hebrew",
@@ -3840,37 +3930,13 @@
       "importance_label": "Minor mention"
     },
     {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T14:20:57+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
       "source": "BESA Center",
       "source_type": "think_tank",
       "country": "Israel",
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "analysis",
       "content_kind": "Research & analysis",
       "title": "Tolerated Memory, Withheld Recognition: Iran, the Armenian Genocide, and the Politics of Historical Asymmetry",
       "url": "https://besacenter.org/tolerated-memory-withheld-recognition-iran-the-armenian-genocide-and-the-politics-of-historical-asymmetry/",
@@ -3884,8 +3950,7 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "analysis"
+      "importance_label": "Minor mention"
     },
     {
       "source": "ISPI Italiano",
@@ -4204,8 +4269,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Explainer & analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "The White House’s guide to manhood: pop some T, restart a war and do WHAT with a corn dog? | Marina Hyde",
       "url": "https://www.theguardian.com/commentisfree/2026/jul/17/white-house-testosterone-war-iran-pete-hegseth-jd-vance",
       "published_utc": "2026-07-17T11:56:09+00:00",
@@ -4300,8 +4365,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Iran Launches Coordinated Missile and Drone Attacks on US Bases in Five Nations",
       "url": "https://iranwire.com/en/news/155079-iran-launches-coordinated-missile-and-drone-attacks-on-us-bases-in-five-nations/",
       "published_utc": "2026-07-17T10:24:39+00:00",
@@ -4349,8 +4414,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "US Bombs 5 Key Bridges in Iran, Cuts Access to Bandar Abbas Naval Base",
       "url": "https://iranwire.com/en/news/155077-us-bombs-5-key-bridges-in-iran-cuts-access-to-bandar-abbas-naval-base/",
       "published_utc": "2026-07-17T10:19:31+00:00",
@@ -4395,8 +4460,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Spotlight",
       "url": "https://asia.nikkei.com/spotlight",
       "published_utc": "2026-07-17T10:10:34+00:00",
@@ -4467,8 +4532,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Iranian Judiciary Denies Releasing Dena Karari After Trump’s Praise",
       "url": "https://iranwire.com/en/news/155070-iranian-judiciary-denies-releasing-dena-karari-after-trumps-praise/",
       "published_utc": "2026-07-17T08:06:34+00:00",
@@ -4782,8 +4847,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Iran Reportedly Tells Houthis to Stand Ready to Close Bab el-Mandeb",
       "url": "https://english.aawsat.com/node/5296971",
       "published_utc": "2026-07-17T04:43:16+00:00",
@@ -4857,8 +4922,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Live updates • For seventh night in a row, U.S. launches strikes on Iranian infrastructure",
       "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-17/ty-article-live/u-s-completes-sixth-night-of-strikes-on-iran-qatar-thwarts-missile-attack/0000019f-6dc2-d34a-a99f-7df3f6e60000",
       "published_utc": "2026-07-17T02:02:00+00:00",
@@ -5168,7 +5233,7 @@
       "language": "Hebrew",
       "language_code": "he",
       "source_priority": 5,
-      "content_kind": "Analysis",
+      "content_kind": "News & reporting",
       "title": "נתניהו מוליך את העלילה בספר החדש על טראמפ. מתי ייחשפו עלילות המשטר פה? | דעה",
       "url": "https://www.haaretz.co.il/opinions/2026-07-16/ty-article-opinion/.premium/0000019f-6b6a-de8e-afff-fbfa5de80000",
       "published_utc": "2026-07-16T17:00:00+00:00",
@@ -5181,7 +5246,7 @@
       ],
       "importance_score": 2,
       "importance_label": "Worth a look",
-      "content_group": "analysis"
+      "content_group": "news"
     },
     {
       "source": "IranWire",
@@ -5305,6 +5370,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "analysis",
       "content_kind": "Research & analysis",
       "title": "Has Iran Successfully Driven a Wedge Between U.S. and Israel?",
       "url": "https://www.wrmea.org/waging-peace/has-iran-successfully-driven-a-wedge-between-u.s.-and-israel.html",
@@ -5318,8 +5384,7 @@
         "Israel"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention",
-      "content_group": "analysis"
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -5493,6 +5558,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
+      "content_group": "analysis",
       "content_kind": "Research & analysis",
       "title": "3 islands help control access to the Strait of Hormuz. They’re in the crosshairs of the Iran war",
       "url": "https://apnews.com/article/iran-us-war-abu-musa-tunb-kharg-islands-e98279652479c24a99c9907177ecb990",
@@ -5506,8 +5572,7 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background",
-      "content_group": "analysis"
+      "importance_label": "Useful background"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -5750,6 +5815,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 3,
+      "content_group": "analysis",
       "content_kind": "Research & analysis",
       "title": "Webinar :The Impact of the War with Iran on the Eastern Mediterranean 22.7.2026",
       "url": "https://besacenter.org/webinar-the-impact-of-the-war-with-iran-on-the-eastern-mediterranean-22-7-2026/",
@@ -5762,8 +5828,7 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look",
-      "content_group": "analysis"
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -5838,8 +5903,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "US Launches Wave of Strikes Across Iran as Tehran Activates Air Defenses",
       "url": "https://iranwire.com/en/news/155026-us-launches-wave-of-strikes-across-iran-as-tehran-activates-air-defenses/",
       "published_utc": "2026-07-16T08:16:06+00:00",
@@ -5908,8 +5973,8 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
+      "content_group": "news",
+      "content_kind": "News & reporting",
       "title": "Heavy Airstrikes Hit IRGC Sites Across Iran’s Ahvaz, Chabahar, Rask and Konarak",
       "url": "https://iranwire.com/en/news/155022-heavy-airstrikes-hit-irgc-sites-across-irans-ahvaz-chabahar-rask-and-konarak/",
       "published_utc": "2026-07-16T07:38:39+00:00",
@@ -5974,7 +6039,7 @@
       "source_type": "regional_media",
       "country": "Saudi Arabia",
       "source_priority": 4,
-      "content_kind": "News & reporting",
+      "content_kind": "Explainer & analysis",
       "title": "Why Greater Tunb Matters Near the Strait of Hormuz",
       "url": "https://english.aawsat.com/node/5296575",
       "published_utc": "2026-07-16T04:54:00+00:00",
@@ -5989,7 +6054,7 @@
       "importance_label": "Worth a look",
       "language": "English",
       "language_code": "en",
-      "content_group": "news"
+      "content_group": "analysis"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -6522,7 +6587,7 @@
       "language": "English",
       "language_code": "en",
       "source_priority": 4,
-      "content_kind": "Analysis",
+      "content_kind": "Research & analysis",
       "title": "Iranian Parliament Presses for Escalation - AGSI",
       "url": "https://agsi.org/analysis/iranian-parliament-presses-for-escalation/",
       "published_utc": "2026-07-15T14:19:29+00:00",
