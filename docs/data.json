@@ -1,28 +1,28 @@
 {
-  "generated_utc": "2026-07-18T15:01:08.744977+00:00",
+  "generated_utc": "2026-07-18T15:36:27.523941+00:00",
   "scan_hours": 72,
   "archive_days": 30,
   "source_count": 124,
-  "item_count": 240,
+  "item_count": 242,
   "type_counts": {
+    "regional_media": 141,
     "newspaper": 51,
-    "regional_media": 139,
     "official": 7,
     "think_tank": 43
   },
   "country_counts": {
+    "Saudi Arabia": 34,
+    "Japan": 5,
     "Turkey": 6,
     "United Arab Emirates": 8,
     "United Kingdom": 21,
+    "Iran": 69,
     "Israel": 20,
     "Azerbaijan": 6,
     "Russia": 7,
-    "Japan": 5,
     "Germany": 10,
     "United States": 37,
     "Qatar": 3,
-    "Saudi Arabia": 33,
-    "Iran": 68,
     "France": 9,
     "Spain": 1,
     "Netherlands": 2,
@@ -30,12 +30,12 @@
     "Europe": 1
   },
   "language_counts": {
+    "English": 189,
+    "Japanese": 1,
     "Turkish": 5,
-    "English": 187,
     "Hebrew": 15,
     "Azerbaijani": 6,
     "Russian": 7,
-    "Japanese": 1,
     "German": 8,
     "French": 5,
     "Spanish": 1,
@@ -85,8 +85,8 @@
     },
     {
       "source": "FDD",
-      "method": "feed",
-      "items": 26
+      "method": "sitemap",
+      "items": 0
     },
     {
       "source": "Stimson Center",
@@ -115,8 +115,8 @@
     },
     {
       "source": "CNAS",
-      "method": "sitemap",
-      "items": 2
+      "method": "none",
+      "items": 0
     },
     {
       "source": "FPRI",
@@ -165,8 +165,8 @@
     },
     {
       "source": "ECFR",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "SWP Berlin",
@@ -200,8 +200,8 @@
     },
     {
       "source": "BESA Center",
-      "method": "feed",
-      "items": 2
+      "method": "none",
+      "items": 0
     },
     {
       "source": "BBC News",
@@ -226,7 +226,7 @@
     {
       "source": "The Guardian",
       "method": "feed",
-      "items": 8
+      "items": 4
     },
     {
       "source": "New York Times",
@@ -251,7 +251,7 @@
     {
       "source": "France 24",
       "method": "feed",
-      "items": 4
+      "items": 12
     },
     {
       "source": "Deutsche Welle",
@@ -261,7 +261,7 @@
     {
       "source": "Haaretz",
       "method": "sitemap",
-      "items": 1
+      "items": 3
     },
     {
       "source": "Times of Israel",
@@ -271,7 +271,7 @@
     {
       "source": "Nikkei Asia",
       "method": "sitemap",
-      "items": 2
+      "items": 4
     },
     {
       "source": "Iran International",
@@ -281,7 +281,7 @@
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 37
+      "items": 11
     },
     {
       "source": "Radio Farda",
@@ -296,17 +296,17 @@
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 4
+      "items": 2
     },
     {
       "source": "Asharq Al-Awsat",
       "method": "feed",
-      "items": 64
+      "items": 32
     },
     {
       "source": "The National",
       "method": "sitemap",
-      "items": 7
+      "items": 4
     },
     {
       "source": "Al-Monitor",
@@ -316,7 +316,7 @@
     {
       "source": "Middle East Eye",
       "method": "feed",
-      "items": 14
+      "items": 13
     },
     {
       "source": "Anadolu Agency",
@@ -331,7 +331,7 @@
     {
       "source": "White House",
       "method": "sitemap",
-      "items": 0
+      "items": 1
     },
     {
       "source": "US State Department",
@@ -410,8 +410,8 @@
     },
     {
       "source": "Frankfurter Allgemeine",
-      "method": "feed",
-      "items": 2
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Süddeutsche Zeitung",
@@ -421,7 +421,7 @@
     {
       "source": "Tagesschau",
       "method": "feed",
-      "items": 6
+      "items": 3
     },
     {
       "source": "Le Monde",
@@ -441,7 +441,7 @@
     {
       "source": "RFI Français",
       "method": "feed",
-      "items": 4
+      "items": 8
     },
     {
       "source": "Corriere della Sera",
@@ -510,8 +510,8 @@
     },
     {
       "source": "Anadolu Türkçe",
-      "method": "feed",
-      "items": 1
+      "method": "none",
+      "items": 0
     },
     {
       "source": "TRT Haber",
@@ -525,8 +525,8 @@
     },
     {
       "source": "Cumhuriyet",
-      "method": "feed",
-      "items": 3
+      "method": "none",
+      "items": 0
     },
     {
       "source": "SETA Türkçe",
@@ -550,8 +550,8 @@
     },
     {
       "source": "Kan News Hebrew",
-      "method": "feed",
-      "items": 9
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Maariv",
@@ -560,8 +560,8 @@
     },
     {
       "source": "Israel Hayom Hebrew",
-      "method": "feed",
-      "items": 11
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Xinhua Chinese",
@@ -635,8 +635,8 @@
     },
     {
       "source": "APA Azerbaijan",
-      "method": "feed",
-      "items": 4
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Report.az Azerbaijani",
@@ -645,8 +645,8 @@
     },
     {
       "source": "NOS Dutch",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 1
     },
     {
       "source": "NRC Dutch",
@@ -665,6 +665,48 @@
     }
   ],
   "items": [
+    {
+      "source": "Asharq Al-Awsat",
+      "source_type": "regional_media",
+      "country": "Saudi Arabia",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "GCC Says Iranian Attacks on Kuwait, Bahrain and Jordan Amount to War Crimes",
+      "url": "https://english.aawsat.com/node/5297446",
+      "published_utc": "2026-07-18T15:19:51+00:00",
+      "summary": "",
+      "matched_terms": [
+        "Iranian"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Japanese",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "Japanese",
+      "language_code": "ja",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "日本経済新聞 - ニュース・速報 最新情報",
+      "url": "https://www.nikkei.com/",
+      "published_utc": "2026-07-18T15:04:25+00:00",
+      "summary": "日本経済新聞の電子版。日経や日経ＢＰの提供する経済、企業、国際、政治、マーケット、情報・通信、社会など各分野のニュース。ビジネス、マネー、IT、スポーツ、住宅、キャリアなどの専門情報も満載。",
+      "matched_terms": [
+        "イラン"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
     {
       "source": "Cumhuriyet",
       "source_type": "newspaper",
@@ -759,6 +801,27 @@
       "importance_label": "Useful background"
     },
     {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "تهدید یک مقام امنیتی ایران به حمله به فرودگاه‌ها و بنادر امارات",
+      "url": "https://iranwire.com/fa/news-1/155147-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF-%DB%8C%DA%A9-%D9%85%D9%82%D8%A7%D9%85-%D8%A7%D9%85%D9%86%DB%8C%D8%AA%DB%8C-%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C-%D8%A8%D9%87-%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%D9%81%D8%B1%D9%88%D8%AF%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D8%A8%D9%86%D8%A7%D8%AF%D8%B1-%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/",
+      "published_utc": "2026-07-18T14:24:19+00:00",
+      "summary": "خبرگزاری فارس، وابسته به سپاه پاسداران، روز شنبه ۲۷تیر ۱۴۰۵، به نقل از یک مقام امنیتی جمهوری اسلامی هشدار داد در صورت حمله آمریکا به زیر ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Israel Hayom Hebrew",
       "source_type": "newspaper",
       "country": "Israel",
@@ -815,27 +878,6 @@
       "summary": "В субботу состоялся телефонный разговор главы МИД России Сергея Лаврова с заместителем премьер-министра, министром иностранных дел ОАЭ Абдаллой Бен Заидом Аль Нахайяном.\"Проведена \"сверка часов\" по ситуации в зоне Персидского залива в контексте продолжающихся обменов ударами между США и Ираном.",
       "matched_terms": [
         "Ираном"
-      ],
-      "tags": [
-        "General Iran"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Japanese",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "Japanese",
-      "language_code": "ja",
-      "source_priority": 5,
-      "content_kind": "News & reporting",
-      "title": "日本経済新聞 - ニュース・速報 最新情報",
-      "url": "https://www.nikkei.com/",
-      "published_utc": "2026-07-18T13:50:23+00:00",
-      "summary": "日本経済新聞の電子版。日経や日経ＢＰの提供する経済、企業、国際、政治、マーケット、情報・通信、社会など各分野のニュース。ビジネス、マネー、IT、スポーツ、住宅、キャリアなどの専門情報も満載。",
-      "matched_terms": [
-        "イラン"
       ],
       "tags": [
         "General Iran"
@@ -1139,8 +1181,10 @@
         "Iranian"
       ],
       "tags": [
+        "Israel",
         "Missiles & Drones",
-        "Military"
+        "Military",
+        "Protests & Rights"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -1153,7 +1197,7 @@
       "language_code": "fr",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "Israël annonce la mise en œuvre des «zones-pilotes» dans le sud du Liban, malgré les accords conclus à Washington",
+      "title": "Israël annonce la mise en œuvre des «zones-pilotes» dans le sud du Liban, scepticisme à Beyrouth",
       "url": "https://www.rfi.fr/fr/moyen-orient/20260718-isra%C3%ABl-annonce-la-mise-en-%C5%93uvre-des-zones-pilotes-dans-le-sud-du-liban-malgr%C3%A9-les-accords-conclus-%C3%A0-washington",
       "published_utc": "2026-07-18T12:42:33+00:00",
       "summary": "Alors que les négociations entre l'Iran et les États-Unis sont au point mort et que les frappes ont repris, la situation évolue un peu au Liban. L’armée israélienne prévoit de se retirer de deux localités, dans le cadre de la mise en œuvre du projet des « zones-pilotes », qui seraient placées sous le contrôle des Forces armées libanaises. Zaoutar al-Charkiyé et Zaoutar al-Gharbiyé sont situées sur la rive nord du fleuve Litani, c’est-à-dire à l’extérieur de la zone tampon établie par Israël.",
@@ -1161,7 +1205,7 @@
         "Iran"
       ],
       "tags": [
-        "US–Iran"
+        "General Iran"
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
@@ -1207,8 +1251,10 @@
       ],
       "tags": [
         "US–Iran",
+        "Israel",
         "Missiles & Drones",
         "Military",
+        "Protests & Rights",
         "Economy"
       ],
       "importance_score": 2,
@@ -2316,7 +2362,7 @@
       "language_code": "fr",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "EN DIRECT - Moyen-Orient: les pays du Golfe qualifient de «crimes de guerre» les attaques iraniennes de sites civiles",
+      "title": "EN DIRECT - Moyen-Orient: les pays du Golfe qualifient de «crimes de guerre» les attaques iraniennes de sites civils",
       "url": "https://www.rfi.fr/fr/moyen-orient/20260718-en-direct-moyen-orient-les-%C3%A9tats-unis-ont-frapp%C3%A9-des-d%C3%A9p%C3%B4ts-d-armes-et-des-sites-de-surveillance-en-iran",
       "published_utc": "2026-07-18T04:51:32+00:00",
       "summary": "Pour la septième nuit consécutive, les États-Unis ont bombardé l'Iran samedi 18 juillet. De son côté, Téhéran a riposté en frappant des cibles en Jordanie, au Koweït et à Bahreïn, tout en menaçant de passer à une « offensive totale ». Le Koweït accuse l'Iran de prendre pour cible des sites civils et des infrastructures essentielles, après des attaques contre une installation pétrolière ainsi qu'une centrale électrique et de dessalement.",
@@ -2672,14 +2718,15 @@
       "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "Live updates • Report: Iran suspends implementation of MoU commitments, citing U.S. violations",
+      "title": "Live updates • Report: Five killed, including three children, in Israeli strike in Gaza City",
       "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-18/ty-article-live/for-seventh-night-in-a-row-u-s-launches-strikes-on-iranian-infrastructure/0000019f-72d8-de8e-afff-f3fad06d0000",
       "published_utc": "2026-07-18T01:49:00+00:00",
-      "summary": "Live updates | Report: Iran suspends implementation of MoU commitments, senior official says. Iran executes man accused of killing security agent during 2022 protests, Mizan agency reports. Lebanon's President Aoun headed to Washington for White House summit",
+      "summary": "Live updates | Iran's southern Hormozgan province hit by three U.S. airstrikes, Mehr News reports. Five killed, including three children, in Israeli strike in Gaza City, Palestinian report says. At least 50 killed and 500 wounded in Iran since renewal of U.S. strikes, Iranian government says",
       "matched_terms": [
         "Iran",
         "Iranian",
-        "Revolutionary Guard"
+        "Revolutionary Guard",
+        "Revolutionary Guards"
       ],
       "tags": [
         "US–Iran",
@@ -2687,8 +2734,113 @@
         "IRGC",
         "Missiles & Drones",
         "Military",
+        "Energy",
+        "Domestic Politics"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-18T00:15:43+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Spotlight",
+      "url": "https://asia.nikkei.com/spotlight",
+      "published_utc": "2026-07-18T00:15:43+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Protests & Rights",
+        "Russia & China",
+        "Economy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Iran tensions",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions",
+      "published_utc": "2026-07-17T22:05:16+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran",
+        "Revolutionary Guards"
+      ],
+      "tags": [
+        "US–Iran",
+        "IRGC",
+        "Military",
         "Hormuz & Maritime",
-        "Protests & Rights"
+        "Energy",
+        "Russia & China",
+        "Economy"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Iran war",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war",
+      "published_utc": "2026-07-17T22:05:16+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran",
+        "Revolutionary Guards"
+      ],
+      "tags": [
+        "US–Iran",
+        "IRGC",
+        "Military",
+        "Hormuz & Maritime",
+        "Energy",
+        "Russia & China"
       ],
       "importance_score": 4,
       "importance_label": "Important"
@@ -3718,56 +3870,6 @@
       ],
       "importance_score": 3,
       "importance_label": "Useful background"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T10:10:34+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Spotlight",
-      "url": "https://asia.nikkei.com/spotlight",
-      "published_utc": "2026-07-17T10:10:34+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Protests & Rights",
-        "Russia & China",
-        "Economy"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -5712,63 +5814,6 @@
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Iran tensions",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions",
-      "published_utc": "2026-07-15T15:47:16+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Revolutionary Guards"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Russia & China",
-        "Economy"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Iran war",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war",
-      "published_utc": "2026-07-15T15:47:16+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Revolutionary Guards",
-        "Strait of Hormuz",
-        "Tehran"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important",
-      "language": "English",
-      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
