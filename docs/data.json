@@ -1,43 +1,43 @@
 {
-  "generated_utc": "2026-07-18T14:18:51.560589+00:00",
+  "generated_utc": "2026-07-18T15:01:08.744977+00:00",
   "scan_hours": 72,
   "archive_days": 30,
   "source_count": 124,
-  "item_count": 232,
+  "item_count": 240,
   "type_counts": {
-    "newspaper": 49,
-    "regional_media": 137,
-    "official": 3,
+    "newspaper": 51,
+    "regional_media": 139,
+    "official": 7,
     "think_tank": 43
   },
   "country_counts": {
+    "Turkey": 6,
+    "United Arab Emirates": 8,
+    "United Kingdom": 21,
+    "Israel": 20,
+    "Azerbaijan": 6,
     "Russia": 7,
     "Japan": 5,
-    "United Kingdom": 20,
-    "Israel": 16,
     "Germany": 10,
     "United States": 37,
     "Qatar": 3,
     "Saudi Arabia": 33,
     "Iran": 68,
-    "Turkey": 5,
-    "United Arab Emirates": 7,
     "France": 9,
-    "Azerbaijan": 5,
     "Spain": 1,
     "Netherlands": 2,
     "Italy": 3,
     "Europe": 1
   },
   "language_counts": {
+    "Turkish": 5,
+    "English": 187,
+    "Hebrew": 15,
+    "Azerbaijani": 6,
     "Russian": 7,
     "Japanese": 1,
-    "English": 186,
-    "Hebrew": 11,
     "German": 8,
-    "Turkish": 3,
     "French": 5,
-    "Azerbaijani": 5,
     "Spanish": 1,
     "Dutch": 2,
     "Italian": 3
@@ -141,7 +141,7 @@
     {
       "source": "Arab Gulf States Institute",
       "method": "sitemap",
-      "items": 3
+      "items": 2
     },
     {
       "source": "International Crisis Group",
@@ -165,8 +165,8 @@
     },
     {
       "source": "ECFR",
-      "method": "feed",
-      "items": 3
+      "method": "none",
+      "items": 0
     },
     {
       "source": "SWP Berlin",
@@ -251,7 +251,7 @@
     {
       "source": "France 24",
       "method": "feed",
-      "items": 12
+      "items": 4
     },
     {
       "source": "Deutsche Welle",
@@ -261,7 +261,7 @@
     {
       "source": "Haaretz",
       "method": "sitemap",
-      "items": 3
+      "items": 1
     },
     {
       "source": "Times of Israel",
@@ -271,7 +271,7 @@
     {
       "source": "Nikkei Asia",
       "method": "sitemap",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Iran International",
@@ -281,7 +281,7 @@
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 39
+      "items": 37
     },
     {
       "source": "Radio Farda",
@@ -296,7 +296,7 @@
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 2
+      "items": 4
     },
     {
       "source": "Asharq Al-Awsat",
@@ -306,7 +306,7 @@
     {
       "source": "The National",
       "method": "sitemap",
-      "items": 6
+      "items": 7
     },
     {
       "source": "Al-Monitor",
@@ -316,7 +316,7 @@
     {
       "source": "Middle East Eye",
       "method": "feed",
-      "items": 13
+      "items": 14
     },
     {
       "source": "Anadolu Agency",
@@ -405,8 +405,8 @@
     },
     {
       "source": "Die Zeit",
-      "method": "feed",
-      "items": 1
+      "method": "sitemap",
+      "items": 0
     },
     {
       "source": "Frankfurter Allgemeine",
@@ -421,12 +421,12 @@
     {
       "source": "Tagesschau",
       "method": "feed",
-      "items": 3
+      "items": 6
     },
     {
       "source": "Le Monde",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 1
     },
     {
       "source": "Le Figaro",
@@ -440,8 +440,8 @@
     },
     {
       "source": "RFI Français",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 4
     },
     {
       "source": "Corriere della Sera",
@@ -456,7 +456,7 @@
     {
       "source": "La Stampa",
       "method": "feed",
-      "items": 4
+      "items": 2
     },
     {
       "source": "ISPI Italiano",
@@ -495,8 +495,8 @@
     },
     {
       "source": "Interfax Russian",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 7
     },
     {
       "source": "TASS Russian",
@@ -510,8 +510,8 @@
     },
     {
       "source": "Anadolu Türkçe",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 1
     },
     {
       "source": "TRT Haber",
@@ -550,8 +550,8 @@
     },
     {
       "source": "Kan News Hebrew",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 9
     },
     {
       "source": "Maariv",
@@ -561,7 +561,7 @@
     {
       "source": "Israel Hayom Hebrew",
       "method": "feed",
-      "items": 10
+      "items": 11
     },
     {
       "source": "Xinhua Chinese",
@@ -635,8 +635,8 @@
     },
     {
       "source": "APA Azerbaijan",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 4
     },
     {
       "source": "Report.az Azerbaijani",
@@ -645,8 +645,8 @@
     },
     {
       "source": "NOS Dutch",
-      "method": "feed",
-      "items": 2
+      "method": "none",
+      "items": 0
     },
     {
       "source": "NRC Dutch",
@@ -665,6 +665,142 @@
     }
   ],
   "items": [
+    {
+      "source": "Cumhuriyet",
+      "source_type": "newspaper",
+      "country": "Turkey",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İran, İslamabad Mutabakatı'nı askıya aldı... ABD askeri yığınağı büyürken diplomasi çıkmaza girdi",
+      "url": "https://www.cumhuriyet.com.tr/dunya/iran-islamabad-mutabakati-ni-askiya-aldi-abd-askeri-yiginagi-buyurken-diplomasi-cikmaza-girdi-2521923",
+      "published_utc": "2026-07-18T14:46:00+00:00",
+      "summary": "İran, ABD'nin mutabakat kapsamındaki yükümlülüklerini ihlal ettiğini öne sürerek İslamabad Mutabakat Muhtırası kapsamındaki tüm taahhütlerini askıya aldığını duyurdu. Karar, Washington'ın bölgeye yeni askeri unsurlar sevk etmesi ve İsrail'deki askeri üslere yakıt ikmal uçakları konuşlandırmasıyla aynı döneme denk gelirken, taraflar arasındaki diplomatik temasların yerini giderek daha sert askeri mesajlar alıyor.",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "The National",
+      "source_type": "regional_media",
+      "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Iran war latest: Iran says it is ‘suspending commitments’ in framework agreement after week of escalation | The National",
+      "url": "https://www.thenationalnews.com/news/mena/2026/07/18/live-iran-war-us-strikes-gulf-countries/",
+      "published_utc": "2026-07-18T14:35:55.965000+00:00",
+      "summary": "Iran launches strikes across region after seventh night of US attacks",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military",
+        "Diplomacy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Middle East Eye",
+      "source_type": "regional_media",
+      "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 3,
+      "content_kind": "News & reporting",
+      "title": "Qatar condemns Iranian attacks on Gulf countries",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-iranian-attacks-gulf-countries",
+      "published_utc": "2026-07-18T14:31:46+00:00",
+      "summary": "Qatar condemns Iranian attacks on Gulf countries Qatar condemned Iran’s attacks on Bahrain, Kuwait and Jordan, calling them a “flagrant violation” of their sovereignty. Doha said the attacks marked a “dangerous escalation” and constituted a “blatant breach of international law, the Charter of the United Nations and the principles of good neighbourliness”.",
+      "matched_terms": [
+        "Iran",
+        "Iranian"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "The National",
+      "source_type": "regional_media",
+      "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Iran 'suspends commitments' on agreement with US after seventh night of strikes | The National",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/",
+      "published_utc": "2026-07-18T14:28:53.062000+00:00",
+      "summary": "Tehran strikes infrastructure in Kuwait, Bahrain and Jordan",
+      "matched_terms": [
+        "Iran",
+        "Iranian"
+      ],
+      "tags": [
+        "US–Iran",
+        "Missiles & Drones",
+        "Military",
+        "Hormuz & Maritime",
+        "Energy",
+        "Diplomacy",
+        "Economy"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
+    },
+    {
+      "source": "Israel Hayom Hebrew",
+      "source_type": "newspaper",
+      "country": "Israel",
+      "language": "Hebrew",
+      "language_code": "he",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "ארצות הברית ממשיכה להכות באיראן - טהרן: \"מזכר ההבנות מושעה\"",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21007356",
+      "published_utc": "2026-07-18T14:22:55+00:00",
+      "summary": "פיקוד מרכז של צבא ארה\"ב הודיעה על שורה חדשה של תקיפות נגד מחסני אמל\"ח תת קרקעיים ומטרות ימיות באיראן • סגן שר החוץ של איראן: \"ארצות הברית הפרה את כל התחייבויותיה במסגרת מזכר ההבנות של אסלאמאבאד\"",
+      "matched_terms": [
+        "איראן",
+        "טהרן"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "APA Azerbaijan",
+      "source_type": "regional_media",
+      "country": "Azerbaijan",
+      "language": "Azerbaijani",
+      "language_code": "az",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İranlı hərbi mənbə: ABŞ bu gecə hücum edərsə, Dubay və Əbu-Dabi aeroportları dərhal boşaldılmalıdır",
+      "url": "https://apa.az/asia/iranli-herbi-menbe-abs-bu-gece-hucum-ederse-dubay-ve-ebu-dabi-aeroportlari-derhal-bosaldilmalidir-982809",
+      "published_utc": "2026-07-18T14:13:03+00:00",
+      "summary": "",
+      "matched_terms": [
+        "İranlı"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
     {
       "source": "Interfax Russian",
       "source_type": "newspaper",
@@ -1508,7 +1644,8 @@
         "Israel",
         "Military",
         "Domestic Politics",
-        "Protests & Rights"
+        "Protests & Rights",
+        "Diplomacy"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -1535,13 +1672,13 @@
       "importance_label": "Minor mention"
     },
     {
-      "source": "Anadolu Agency",
-      "source_type": "regional_media",
+      "source": "Anadolu Türkçe",
+      "source_type": "official",
       "country": "Turkey",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 3,
-      "content_kind": "News & reporting",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 5,
+      "content_kind": "Official statement",
       "title": "Yemen'de hükümet ile Husiler arasında \"İran uçağı kriziyle\" başlayan gerginlik karşılıklı tehditlerle sürüyor",
       "url": "https://www.aa.com.tr/tr/dunya/yemende-hukumet-ile-husiler-arasinda-iran-ucagi-kriziyle-baslayan-gerginlik-karsilikli-tehditlerle-suruyor/4002146",
       "published_utc": "2026-07-18T09:47:39+00:00",
@@ -1552,8 +1689,8 @@
       "tags": [
         "Regional Influence"
       ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -1752,36 +1889,6 @@
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
-    },
-    {
-      "source": "The National",
-      "source_type": "regional_media",
-      "country": "United Arab Emirates",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "News & reporting",
-      "title": "Iran hits infrastructure in Gulf after another night of US strikes | The National",
-      "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/",
-      "published_utc": "2026-07-18T08:02:10.025000+00:00",
-      "summary": "War escalates ​one week after ceasefire collapsed",
-      "matched_terms": [
-        "Iran",
-        "Iranian",
-        "IRGC",
-        "Revolutionary Guard"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
-        "Missiles & Drones",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Diplomacy"
-      ],
-      "importance_score": 3,
-      "importance_label": "Useful background"
     },
     {
       "source": "Israel Hayom Hebrew",
@@ -2209,12 +2316,13 @@
       "language_code": "fr",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "EN DIRECT - Moyen-Orient: le Koweït accuse l'Iran de cibler des sites civils et des infrastructures",
+      "title": "EN DIRECT - Moyen-Orient: les pays du Golfe qualifient de «crimes de guerre» les attaques iraniennes de sites civiles",
       "url": "https://www.rfi.fr/fr/moyen-orient/20260718-en-direct-moyen-orient-les-%C3%A9tats-unis-ont-frapp%C3%A9-des-d%C3%A9p%C3%B4ts-d-armes-et-des-sites-de-surveillance-en-iran",
       "published_utc": "2026-07-18T04:51:32+00:00",
       "summary": "Pour la septième nuit consécutive, les États-Unis ont bombardé l'Iran samedi 18 juillet. De son côté, Téhéran a riposté en frappant des cibles en Jordanie, au Koweït et à Bahreïn, tout en menaçant de passer à une « offensive totale ». Le Koweït accuse l'Iran de prendre pour cible des sites civils et des infrastructures essentielles, après des attaques contre une installation pétrolière ainsi qu'une centrale électrique et de dessalement.",
       "matched_terms": [
-        "Iran"
+        "Iran",
+        "iraniennes"
       ],
       "tags": [
         "General Iran"
@@ -2351,6 +2459,27 @@
       ],
       "tags": [
         "Hormuz & Maritime"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Kan News Hebrew",
+      "source_type": "official",
+      "country": "Israel",
+      "language": "Hebrew",
+      "language_code": "he",
+      "source_priority": 5,
+      "content_kind": "Official statement",
+      "title": "ירדן: יירטנו עשרה טילים ששוגרו מאיראן",
+      "url": "https://kan.org.il/content/kan-news/defense/live-1077956/",
+      "published_utc": "2026-07-18T04:00:07+00:00",
+      "summary": "",
+      "matched_terms": [
+        "איראן"
+      ],
+      "tags": [
+        "General Iran"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -2828,6 +2957,27 @@
       "importance_label": "Minor mention"
     },
     {
+      "source": "Kan News Hebrew",
+      "source_type": "official",
+      "country": "Israel",
+      "language": "Hebrew",
+      "language_code": "he",
+      "source_priority": 5,
+      "content_kind": "Official statement",
+      "title": "דיווח: ארה\"ב נערכת לאפשרות של הרחבת הלחימה באיראן - ותשלח לישראל עשרות מתדלקים",
+      "url": "https://kan.org.il/content/kan-news/defense/1077902/",
+      "published_utc": "2026-07-17T16:37:35+00:00",
+      "summary": "",
+      "matched_terms": [
+        "איראן"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "IranWire",
       "source_type": "regional_media",
       "country": "Iran",
@@ -2916,6 +3066,27 @@
       "importance_label": "Worth a look",
       "language": "English",
       "language_code": "en"
+    },
+    {
+      "source": "Kan News Hebrew",
+      "source_type": "official",
+      "country": "Israel",
+      "language": "Hebrew",
+      "language_code": "he",
+      "source_priority": 5,
+      "content_kind": "Official statement",
+      "title": "איראן: סגן מושל במחוז בושהר מסר שמיכלית נפט ריקה הותקפה בטילים אמריקניים באי ח'ארג",
+      "url": "https://kan.org.il/content/kan-news/defense/live-1077684/",
+      "published_utc": "2026-07-17T15:39:04+00:00",
+      "summary": "",
+      "matched_terms": [
+        "איראן"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -3045,30 +3216,6 @@
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T14:20:57+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
     },
     {
       "source": "BESA Center",
@@ -3573,6 +3720,56 @@
       "importance_label": "Useful background"
     },
     {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-17T10:10:34+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Spotlight",
+      "url": "https://asia.nikkei.com/spotlight",
+      "published_utc": "2026-07-17T10:10:34+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Protests & Rights",
+        "Russia & China",
+        "Economy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
@@ -3592,32 +3789,6 @@
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Spotlight",
-      "url": "https://asia.nikkei.com/spotlight",
-      "published_utc": "2026-07-17T08:59:24+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Protests & Rights",
-        "Russia & China",
-        "Economy"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
