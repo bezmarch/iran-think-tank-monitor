@@ -1,73 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Iran Think-Tank Monitor</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iran Intelligence Monitor</title>
 <style>
-:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;--accent:#8a1538}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
-header{background:#111827;color:white;padding:34px 20px}.wrap{max-width:1100px;margin:auto}
-h1{margin:0 0 8px;font-size:32px}.subtitle{color:#d0d5dd}
-.controls{display:grid;grid-template-columns:1fr 210px 190px 170px;gap:10px;margin:24px 0}
-input,select{width:100%;padding:13px;border:1px solid var(--line);border-radius:10px;background:white;font-size:14px}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}.pill{background:white;border:1px solid var(--line);padding:8px 12px;border-radius:99px;color:var(--muted)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:13px 0;box-shadow:0 2px 8px rgba(16,24,40,.04)}
-.card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.source{font-weight:700;color:var(--accent);font-size:14px}
-.importance{white-space:nowrap;font-size:13px;font-weight:700;background:#f2f4f7;border-radius:99px;padding:6px 10px}.stars{letter-spacing:1px}
-.title{font-size:21px;line-height:1.3;margin:7px 0}.title a{color:var(--text);text-decoration:none}.title a:hover{text-decoration:underline}
-.meta,.summary{color:var(--muted);line-height:1.55}.meta{font-size:13px}.summary{margin-bottom:12px}
-.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{background:#f9fafb;border:1px solid var(--line);border-radius:99px;padding:5px 9px;font-size:12px;color:#475467}
-.empty{background:white;padding:30px;border-radius:14px;text-align:center;color:var(--muted)}footer{padding:30px 0 50px;color:var(--muted);font-size:13px}
-@media(max-width:850px){.controls{grid-template-columns:1fr 1fr}}@media(max-width:520px){.controls{grid-template-columns:1fr}.card-top{display:block}.importance{display:inline-block;margin-top:8px}h1{font-size:27px}}
-</style>
-</head>
-<body>
-<header><div class="wrap"><h1>Iran Think-Tank Monitor</h1>
-<div class="subtitle">A searchable seven-day archive of Iran-related analysis, ranked and tagged automatically</div></div></header>
+:root{--bg:#f4f6fa;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;--accent:#8a1538;--nav:#111827}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}header{background:var(--nav);color:white;padding:34px 20px}.wrap{max-width:1180px;margin:auto}h1{margin:0 0 8px;font-size:32px}.subtitle{color:#d0d5dd;line-height:1.5}
+.collections{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0 14px}.collection{border:1px solid var(--line);background:white;border-radius:999px;padding:9px 13px;cursor:pointer;font-weight:650;color:#475467}.collection.active{background:#172033;coloxr:white;border-color:#172033}
+.controls{display:grid;grid-template-columns:1.5fr repeat(4,minmax(150px,1fr));gap:10px;margin-bottom:16px}input,select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:white;font-size:14px}.stats{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}.pill{background:white;border:1px solid var(--line);padding:8px 12px;border-radius:99px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:13px 0;box-shadow:0 2px 8px rgba(16,24,40,.04)}.card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.eyebrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.source{font-weight:750;color:var(--accent);font-size:14px}.type{font-size:11px;text-transform:uppercase;letter-spacing:.05em;background:#f2f4f7;padding:4px 7px;border-radius:6px;color:#475467}.importance{white-space:nowrap;font-size:13px;font-weight:700;background:#f2f4f7;border-radius:99px;padding:6px 10px}.stars{letter-spacing:1px}.title{font-size:21px;line-height:1.3;margin:8px 0}.title a{color:var(--text);text-decoration:none}.title a:hover{text-decoration:underline}.meta,.summary{color:var(--muted);line-height:1.55}.meta{font-size:13px}.summary{margin-bottom:12px}.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{background:#f9fafb;border:1px solid var(--line);border-radius:99px;padding:5px 9px;font-size:12px;color:#475467}.empty{background:white;padding:30px;border-radius:14px;text-align:center;color:var(--muted)}footer{padding:30px 0 50px;color:var(--muted);font-size:13px;line-height:1.5}
+@media(max-width:980px){.controls{grid-template-columns:1fr 1fr 1fr}}@media(max-width:650px){.controls{grid-template-columns:1fr}.card-top{display:block}.importance{display:inline-block;margin-top:8px}h1{font-size:27px}}
+</style></head>
+<body><header><div class="wrap"><h1>Iran Intelligence Monitor</h1><div class="subtitle">Iran-related research, reporting and official statements in one searchable seven-day archive</div></div></header>
 <main class="wrap" style="padding:0 18px">
-<div class="controls">
-<input id="search" placeholder="Search title, summary, source or tag…">
-<select id="source"><option value="">All think tanks</option></select>
-<select id="topic"><option value="">All topics</option></select>
-<select id="importance"><option value="0">All importance levels</option><option value="5">Must read only</option><option value="4">Important or higher</option><option value="3">Useful or higher</option></select>
+<div class="collections" id="collections">
+<button class="collection active" data-type="">All sources</button><button class="collection" data-type="think_tank">Think tanks</button><button class="collection" data-type="newspaper">Newspapers</button><button class="collection" data-type="regional_media">Regional media</button><button class="collection" data-type="official">Official sources</button>
 </div>
-<div class="stats" id="stats"></div>
-<div id="results"><div class="empty">Loading latest report…</div></div>
-<footer>Importance scores and tags are automated editorial aids, not factual judgements. Publication dates and RSS availability are controlled by source websites.</footer>
-</main>
+<div class="controls"><input id="search" placeholder="Search title, summary, source or tag…"><select id="source"><option value="">All organisations</option></select><select id="country"><option value="">All countries</option></select><select id="topic"><option value="">All topics</option></select><select id="importance"><option value="0">All importance levels</option><option value="5">Must read only</option><option value="4">Important or higher</option><option value="3">Useful or higher</option></select></div>
+<div class="stats" id="stats"></div><div id="results"><div class="empty">Loading latest report…</div></div>
+<footer>Importance scores, topic labels and source categories are automated editorial aids. Publication dates, feeds and page access remain controlled by each source website.</footer></main>
 <script>
-let DATA={items:[]};
+let DATA={items:[]},activeType="";const labels={think_tank:"Think tank",newspaper:"Newspaper",regional_media:"Regional media",official:"Official"};
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function relative(iso){const d=new Date(iso),h=Math.round((Date.now()-d)/36e5);if(h<=0)return"less than an hour ago";if(h===1)return"1 hour ago";if(h<24)return h+" hours ago";const days=Math.floor(h/24);return days===1?"1 day ago":days+" days ago"}
-function stars(n){return `<span class="stars">${"★".repeat(n)}${"☆".repeat(5-n)}</span>`}
-function render(){
- const q=document.querySelector("#search").value.toLowerCase().trim();
- const source=document.querySelector("#source").value;
- const topic=document.querySelector("#topic").value;
- const minimum=Number(document.querySelector("#importance").value);
- const items=DATA.items.filter(x=>{
-   const haystack=(x.title+" "+x.summary+" "+x.source+" "+(x.tags||[]).join(" ")).toLowerCase();
-   return(!source||x.source===source)&&(!topic||(x.tags||[]).includes(topic))&&((x.importance_score||1)>=minimum)&&(!q||haystack.includes(q));
- });
+function relative(iso){const d=new Date(iso),h=Math.round((Date.now()-d)/36e5);if(h<=0)return"less than an hour ago";if(h===1)return"1 hour ago";if(h<24)return h+" hours ago";const days=Math.floor(h/24);return days===1?"1 day ago":days+" days ago"}function stars(n){return `<span class="stars">${"★".repeat(n)}${"☆".repeat(5-n)}</span>`}
+function render(){const q=document.querySelector("#search").value.toLowerCase().trim(),source=document.querySelector("#source").value,country=document.querySelector("#country").value,topic=document.querySelector("#topic").value,minimum=Number(document.querySelector("#importance").value);const items=DATA.items.filter(x=>{const hay=(x.title+" "+x.summary+" "+x.source+" "+x.country+" "+x.content_kind+" "+(x.tags||[]).join(" ")).toLowerCase();return(!activeType||x.source_type===activeType)&&(!source||x.source===source)&&(!country||x.country===country)&&(!topic||(x.tags||[]).includes(topic))&&((x.importance_score||1)>=minimum)&&(!q||hay.includes(q))});
  document.querySelector("#stats").innerHTML=`<span class="pill"><b>${items.length}</b> matching items</span><span class="pill">${DATA.source_count||0} monitored sources</span><span class="pill">${DATA.archive_days||7}-day archive</span><span class="pill">Updated ${DATA.generated_utc?relative(DATA.generated_utc):"—"}</span>`;
- document.querySelector("#results").innerHTML=items.length?items.map(x=>`
- <article class="card">
-   <div class="card-top"><div class="source">${esc(x.source)}</div><div class="importance">${stars(x.importance_score||1)} ${esc(x.importance_label||"")}</div></div>
-   <div class="title"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></div>
-   <div class="meta">${relative(x.published_utc)} · ${new Date(x.published_utc).toLocaleString()}</div>
-   ${x.summary?`<p class="summary">${esc(x.summary)}</p>`:""}
-   <div class="tags">${(x.tags||["General Iran"]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
- </article>`).join(""):`<div class="empty">No items match the current filters.</div>`;
-}
-fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{
- DATA=d;
- const names=[...new Set(d.items.map(x=>x.source))].sort();
- const topics=[...new Set(d.items.flatMap(x=>x.tags||[]))].sort();
- document.querySelector("#source").innerHTML='<option value="">All think tanks</option>'+names.map(n=>`<option>${esc(n)}</option>`).join("");
- document.querySelector("#topic").innerHTML='<option value="">All topics</option>'+topics.map(n=>`<option>${esc(n)}</option>`).join("");
- render();
-}).catch(()=>document.querySelector("#results").innerHTML='<div class="empty">The report could not be loaded. Run “Update Iran monitor” in the Actions tab.</div>');
-["search","source","topic","importance"].forEach(id=>document.querySelector("#"+id).addEventListener(id==="search"?"input":"change",render));
-</script>
-</body></html>
+ document.querySelector("#results").innerHTML=items.length?items.map(x=>`<article class="card"><div class="card-top"><div class="eyebrow"><span class="source">${esc(x.source)}</span><span class="type">${esc(labels[x.source_type]||x.source_type||"Source")}</span></div><div class="importance">${stars(x.importance_score||1)} ${esc(x.importance_label||"")}</div></div><div class="title"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></div><div class="meta">${esc(x.country||"International")} · ${esc(x.content_kind||"")} · ${relative(x.published_utc)} · ${new Date(x.published_utc).toLocaleString()}</div>${x.summary?`<p class="summary">${esc(x.summary)}</p>`:""}<div class="tags">${(x.tags||["General Iran"]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div></article>`).join(""):`<div class="empty">No items match the current filters.</div>`}
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{DATA=d;const names=[...new Set(d.items.map(x=>x.source))].sort(),countries=[...new Set(d.items.map(x=>x.country).filter(Boolean))].sort(),topics=[...new Set(d.items.flatMap(x=>x.tags||[]))].sort();document.querySelector("#source").innerHTML='<option value="">All organisations</option>'+names.map(n=>`<option>${esc(n)}</option>`).join("");document.querySelector("#country").innerHTML='<option value="">All countries</option>'+countries.map(n=>`<option>${esc(n)}</option>`).join("");document.querySelector("#topic").innerHTML='<option value="">All topics</option>'+topics.map(n=>`<option>${esc(n)}</option>`).join("");render()}).catch(()=>document.querySelector("#results").innerHTML='<div class="empty">The report could not be loaded. Run “Update Iran monitor” in the Actions tab.</div>');
+["search","source","country","topic","importance"].forEach(id=>document.querySelector("#"+id).addEventListener(id==="search"?"input":"change",render));document.querySelectorAll(".collection").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".collection").forEach(x=>x.classList.remove("active"));b.classList.add("active");activeType=b.dataset.type;render()}));
+</script></body></html>
