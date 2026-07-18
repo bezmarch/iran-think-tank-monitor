@@ -1,24 +1,24 @@
 {
-  "generated_utc": "2026-07-18T13:15:22.018805+00:00",
+  "generated_utc": "2026-07-18T13:29:31.280235+00:00",
   "scan_hours": 72,
   "archive_days": 30,
   "source_count": 71,
-  "item_count": 170,
+  "item_count": 171,
   "type_counts": {
     "newspaper": 15,
-    "regional_media": 113,
+    "regional_media": 114,
     "think_tank": 41,
     "official": 1
   },
   "country_counts": {
     "United States": 37,
+    "Qatar": 3,
     "Saudi Arabia": 33,
     "Iran": 55,
     "United Arab Emirates": 7,
     "United Kingdom": 19,
     "Turkey": 2,
     "France": 3,
-    "Qatar": 2,
     "Israel": 5,
     "Germany": 2,
     "Japan": 4,
@@ -401,6 +401,27 @@
       ],
       "importance_score": 3,
       "importance_label": "Useful background"
+    },
+    {
+      "source": "Al Jazeera",
+      "source_type": "regional_media",
+      "country": "Qatar",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Iran accuses US of striking critical infrastructure as war intensifies",
+      "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
+      "published_utc": "2026-07-18T12:59:26+00:00",
+      "summary": "The conflict has been escalating since US President Donald Trump declared 10 days ago the peace deal with Iran is over.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Diplomacy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "Asharq Al-Awsat",
