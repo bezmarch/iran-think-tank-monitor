@@ -1,7 +1,61 @@
 {
-  "generated_utc": null,
+  "generated_utc": "2026-07-18T09:27:59.963919+00:00",
   "window_hours": 24,
   "source_count": 30,
-  "item_count": 0,
-  "items": []
+  "item_count": 5,
+  "items": [
+    {
+      "source": "FDD",
+      "title": "Washington Should Prepare for a Summer of Unrest in Iran",
+      "url": "https://www.fdd.org/analysis/2026/07/17/washington-should-prepare-for-a-summer-of-unrest-in-iran/",
+      "published_utc": "2026-07-17T19:00:30+00:00",
+      "summary": "The United States has reimposed its naval blockade against Iranian ports while striking the Islamic Republic’s military assets for a full consecutive week, all in response to Tehran’s repeated violations... The post Washington Should Prepare for a Summer of Unrest in Iran appeared first on FDD .",
+      "matched_terms": [
+        "Iran",
+        "Iranian",
+        "Islamic Republic",
+        "Tehran"
+      ]
+    },
+    {
+      "source": "FDD",
+      "title": "Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid",
+      "url": "https://www.fdd.org/analysis/2026/07/17/iran-reportedly-tells-houthis-to-close-bab-al-mandeb-strait-if-us-strikes-power-grid/",
+      "published_utc": "2026-07-17T17:23:56+00:00",
+      "summary": "Three sources told Reuters on July 16 that Iran has instructed Yemen’s Houthis to close the Red Sea to shipping if the US attacks Iran’s power network, which President Donald Trump threatened to... The post Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ]
+    },
+    {
+      "source": "FDD",
+      "title": "Trump threatens new Iran war escalation and risks repeating old mistakes",
+      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/17/trump-threatens-new-iran-war-escalation-and-risks-repeating-old-mistakes/",
+      "published_utc": "2026-07-17T16:01:23+00:00",
+      "summary": "The post Trump threatens new Iran war escalation and risks repeating old mistakes appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ]
+    },
+    {
+      "source": "FDD",
+      "title": "Iran, AI, and the Death of Traditional Warfare",
+      "url": "https://www.fdd.org/podcasts/2026/07/17/iran-ai-and-the-death-of-traditional-warfare/",
+      "published_utc": "2026-07-17T15:00:00+00:00",
+      "summary": "The post Iran, AI, and the Death of Traditional Warfare appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ]
+    },
+    {
+      "source": "FDD",
+      "title": "Iran never wanted a deal, just prep time for next phase",
+      "url": "https://www.fdd.org/in_the_news/2026/07/17/iran-never-wanted-a-deal-just-prep-time-for-next-phase/",
+      "published_utc": "2026-07-17T14:58:16+00:00",
+      "summary": "The post Iran never wanted a deal, just prep time for next phase appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ]
+    }
+  ]
 }
