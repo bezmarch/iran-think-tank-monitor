@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCES = [s for s in json.loads((ROOT / "sources.json").read_text(encoding="utf-8")) if s.get("enabled", True)]
 OUTPUT = ROOT / "docs" / "data.json"
 SCAN_HOURS = 72
-ARCHIVE_DAYS = 7
+ARCHIVE_DAYS = 30
 MAX_SITEMAP_URLS = 35
 MAX_ARTICLE_FETCHES_PER_SOURCE = 12
 
@@ -277,7 +277,7 @@ def load_existing() -> list[dict]:
 async def main() -> None:
     scan_cutoff = now() - timedelta(hours=SCAN_HOURS)
     archive_cutoff = now() - timedelta(days=ARCHIVE_DAYS)
-    headers = {"User-Agent": "IranIntelligenceMonitor/3.0 (journalistic research monitor; contact via repository)"}
+    headers = {"User-Agent": "IranIntelligenceMonitor/3.1 (journalistic research monitor; contact via repository)"}
     connector = aiohttp.TCPConnector(limit=20)
     timeout = aiohttp.ClientTimeout(total=45)
     async with aiohttp.ClientSession(headers=headers, connector=connector, timeout=timeout) as session:
@@ -299,7 +299,8 @@ async def main() -> None:
                 key = item["url"].rstrip("/") or item["source"] + "|" + item["title"].lower()
                 unique[key] = item
 
-    items = sorted(unique.values(), key=lambda i:(i.get("importance_score",0), i.get("source_priority",0), i.get("published_utc","")), reverse=True)
+    # Store the archive newest-first. The website can still re-sort it by importance, source or oldest-first.
+    items = sorted(unique.values(), key=lambda i: i.get("published_utc", ""), reverse=True)
     type_counts={}
     country_counts={}
     for item in items:
