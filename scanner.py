@@ -23,11 +23,18 @@ MAX_SITEMAP_URLS = 35
 MAX_ARTICLE_FETCHES_PER_SOURCE = 12
 
 PATTERNS = [
-    r"\biran(?:ian|ians)?\b", r"\btehran\b", r"\bislamic republic\b",
-    r"\birgc\b", r"\brevolutionary guards?\b", r"\bkhamenei\b",
-    r"\bpezeshkian\b", r"\bnatanz\b", r"\bfordow\b", r"\barak\b",
-    r"\bstr(?:ait)?\.?\s+of\s+hormuz\b", r"\bquds force\b",
-    r"\bbasij\b", r"\biran nuclear\b", r"\bpersian gulf\b"
+    # English and Latin-script variants
+    r"\biran(?:ian|ians)?\b", r"\biranien(?:ne|nes|s)?\b", r"\biranisch\w*\b",
+    r"\biranian[oa]s?\b", r"\biran[ií]\w*\b", r"\biranlı\w*\b", r"\biran\b",
+    r"\bteh[eé]ran\b", r"\bteheran\b", r"\bteherán\b", r"\btahran\b",
+    # Cyrillic, Hebrew, Chinese, Japanese, Korean and Greek
+    r"иран\w*", r"тегеран\w*", r"איראן", r"איראני\w*", r"טהרן",
+    r"伊朗", r"德黑兰", r"イラン", r"テヘラン", r"이란", r"테헤란", r"Ιράν", r"Τεχεράνη",
+    # Important Iran-specific entities that may appear without the country name
+    r"\birgc\b", r"\brevolutionary guards?\b", r"\bkhamenei\b", r"\bpezeshkian\b",
+    r"\bnatanz\b", r"\bfordow\b", r"\bquds force\b", r"\bbasij\b",
+    r"سپاه پاسداران", r"خامنه[‌ ]?ای", r"نتنز", r"فردو", r"משמרות המהפכה",
+    r"хамене[ия]", r"ксир", r"哈梅内伊", r"革命卫队", r"ハメネイ", r"혁명수비대"
 ]
 IRAN_RE = re.compile("|".join(PATTERNS), re.I)
 FEED_PATHS = [
@@ -150,6 +157,8 @@ def make_item(source: dict, title: str, url: str, published: datetime, summary: 
         "source": source["name"],
         "source_type": source.get("type", "other"),
         "country": source.get("country", "International"),
+        "language": source.get("language", "English"),
+        "language_code": source.get("language_code", "en"),
         "source_priority": source.get("priority", 3),
         "content_kind": content_kind(source, title, url, text),
         "title": title,
@@ -277,16 +286,20 @@ def load_existing() -> list[dict]:
 async def main() -> None:
     scan_cutoff = now() - timedelta(hours=SCAN_HOURS)
     archive_cutoff = now() - timedelta(days=ARCHIVE_DAYS)
-    headers = {"User-Agent": "IranIntelligenceMonitor/3.1 (journalistic research monitor; contact via repository)"}
+    headers = {"User-Agent": "IranIntelligenceMonitor/3.2 (journalistic research monitor; contact via repository)"}
     connector = aiohttp.TCPConnector(limit=20)
     timeout = aiohttp.ClientTimeout(total=45)
     async with aiohttp.ClientSession(headers=headers, connector=connector, timeout=timeout) as session:
         groups = await asyncio.gather(*(scan_source(session, source, scan_cutoff) for source in SOURCES), return_exceptions=True)
 
     unique: dict[str, dict] = {}
+    source_lookup = {source["name"]: source for source in SOURCES}
     for item in load_existing():
         published = parse_date(item.get("published_utc"))
         if published and published >= archive_cutoff:
+            metadata = source_lookup.get(item.get("source", ""), {})
+            item.setdefault("language", metadata.get("language", "English"))
+            item.setdefault("language_code", metadata.get("language_code", "en"))
             key = item.get("url", "").rstrip("/") or item.get("source", "") + "|" + item.get("title", "").lower()
             unique[key] = item
 
@@ -303,13 +316,16 @@ async def main() -> None:
     items = sorted(unique.values(), key=lambda i: i.get("published_utc", ""), reverse=True)
     type_counts={}
     country_counts={}
+    language_counts={}
     for item in items:
         type_counts[item.get("source_type","other")]=type_counts.get(item.get("source_type","other"),0)+1
         country_counts[item.get("country","International")]=country_counts.get(item.get("country","International"),0)+1
+        language_counts[item.get("language","English")]=language_counts.get(item.get("language","English"),0)+1
     payload = {
         "generated_utc": now().isoformat(), "scan_hours":SCAN_HOURS, "archive_days":ARCHIVE_DAYS,
         "source_count":len(SOURCES), "item_count":len(items), "type_counts":type_counts,
-        "country_counts":country_counts, "source_status":source_status, "items":items
+        "country_counts":country_counts, "language_counts":language_counts,
+        "source_status":source_status, "items":items
     }
     OUTPUT.parent.mkdir(exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
