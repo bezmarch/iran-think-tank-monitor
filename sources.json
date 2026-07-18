@@ -1,122 +1,570 @@
 [
   {
     "name": "Brookings",
-    "url": "https://www.brookings.edu/"
-  },
-  {
-    "name": "CSIS",
-    "url": "https://www.csis.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.brookings.edu/",
+    "priority": 5,
+    "enabled": true
   },
   {
     "name": "Carnegie Endowment",
-    "url": "https://carnegieendowment.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://carnegieendowment.org/",
+    "priority": 5,
+    "enabled": true
   },
   {
-    "name": "Chatham House",
-    "url": "https://www.chathamhouse.org/"
-  },
-  {
-    "name": "Atlantic Council",
-    "url": "https://www.atlanticcouncil.org/"
-  },
-  {
-    "name": "Council on Foreign Relations",
-    "url": "https://www.cfr.org/"
+    "name": "CSIS",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.csis.org/",
+    "priority": 5,
+    "enabled": true
   },
   {
     "name": "RAND",
-    "url": "https://www.rand.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.rand.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Atlantic Council",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.atlanticcouncil.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Council on Foreign Relations",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.cfr.org/",
+    "priority": 5,
+    "enabled": true
   },
   {
     "name": "Washington Institute",
-    "url": "https://www.washingtoninstitute.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.washingtoninstitute.org/",
+    "priority": 5,
+    "enabled": true
   },
   {
     "name": "Middle East Institute",
-    "url": "https://www.mei.edu/"
-  },
-  {
-    "name": "International Crisis Group",
-    "url": "https://www.crisisgroup.org/"
-  },
-  {
-    "name": "RUSI",
-    "url": "https://www.rusi.org/"
-  },
-  {
-    "name": "IISS",
-    "url": "https://www.iiss.org/"
-  },
-  {
-    "name": "ECFR",
-    "url": "https://ecfr.eu/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.mei.edu/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "FDD",
-    "url": "https://www.fdd.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.fdd.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "Stimson Center",
-    "url": "https://www.stimson.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.stimson.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "Wilson Center",
-    "url": "https://www.wilsoncenter.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.wilsoncenter.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "Hudson Institute",
-    "url": "https://www.hudson.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.hudson.org/",
+    "priority": 3,
+    "enabled": true
   },
   {
     "name": "Quincy Institute",
-    "url": "https://quincyinst.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://quincyinst.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "Belfer Center",
-    "url": "https://www.belfercenter.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.belfercenter.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
-    "name": "Arab Gulf States Institute",
-    "url": "https://agsiw.org/"
+    "name": "CNAS",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.cnas.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
-    "name": "Clingendael Institute",
-    "url": "https://www.clingendael.org/"
+    "name": "FPRI",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.fpri.org/",
+    "priority": 3,
+    "enabled": true
   },
   {
-    "name": "German Marshall Fund",
-    "url": "https://www.gmfus.org/"
-  },
-  {
-    "name": "SWP Berlin",
-    "url": "https://www.swp-berlin.org/"
-  },
-  {
-    "name": "European Policy Centre",
-    "url": "https://www.epc.eu/"
-  },
-  {
-    "name": "Center for a New American Security",
-    "url": "https://www.cnas.org/"
-  },
-  {
-    "name": "Foreign Policy Research Institute",
-    "url": "https://www.fpri.org/"
-  },
-  {
-    "name": "Jamestown Foundation",
-    "url": "https://jamestown.org/"
+    "name": "AEI",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.aei.org/",
+    "priority": 3,
+    "enabled": true
   },
   {
     "name": "Hoover Institution",
-    "url": "https://www.hoover.org/"
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://www.hoover.org/",
+    "priority": 3,
+    "enabled": true
+  },
+  {
+    "name": "Jamestown Foundation",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://jamestown.org/",
+    "priority": 3,
+    "enabled": true
+  },
+  {
+    "name": "Arab Gulf States Institute",
+    "type": "think_tank",
+    "country": "United States",
+    "url": "https://agsiw.org/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "International Crisis Group",
+    "type": "think_tank",
+    "country": "International",
+    "url": "https://www.crisisgroup.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Chatham House",
+    "type": "think_tank",
+    "country": "United Kingdom",
+    "url": "https://www.chathamhouse.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "RUSI",
+    "type": "think_tank",
+    "country": "United Kingdom",
+    "url": "https://www.rusi.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "IISS",
+    "type": "think_tank",
+    "country": "United Kingdom",
+    "url": "https://www.iiss.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "ECFR",
+    "type": "think_tank",
+    "country": "Europe",
+    "url": "https://ecfr.eu/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "SWP Berlin",
+    "type": "think_tank",
+    "country": "Germany",
+    "url": "https://www.swp-berlin.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Clingendael Institute",
+    "type": "think_tank",
+    "country": "Netherlands",
+    "url": "https://www.clingendael.org/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "IFRI",
+    "type": "think_tank",
+    "country": "France",
+    "url": "https://www.ifri.org/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "German Marshall Fund",
+    "type": "think_tank",
+    "country": "International",
+    "url": "https://www.gmfus.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
     "name": "Lowy Institute",
-    "url": "https://www.lowyinstitute.org/"
+    "type": "think_tank",
+    "country": "Australia",
+    "url": "https://www.lowyinstitute.org/",
+    "priority": 4,
+    "enabled": true
   },
   {
-    "name": "Royal United Services Institute Australia",
-    "url": "https://www.rusi.com.au/"
+    "name": "INSS",
+    "type": "think_tank",
+    "country": "Israel",
+    "url": "https://www.inss.org.il/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "BESA Center",
+    "type": "think_tank",
+    "country": "Israel",
+    "url": "https://besacenter.org/",
+    "priority": 3,
+    "enabled": true
+  },
+  {
+    "name": "BBC News",
+    "type": "newspaper",
+    "country": "United Kingdom",
+    "url": "https://www.bbc.com/news",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Reuters",
+    "type": "newspaper",
+    "country": "International",
+    "url": "https://www.reuters.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Financial Times",
+    "type": "newspaper",
+    "country": "United Kingdom",
+    "url": "https://www.ft.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "The Economist",
+    "type": "newspaper",
+    "country": "United Kingdom",
+    "url": "https://www.economist.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "The Guardian",
+    "type": "newspaper",
+    "country": "United Kingdom",
+    "url": "https://www.theguardian.com/international",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "New York Times",
+    "type": "newspaper",
+    "country": "United States",
+    "url": "https://www.nytimes.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Washington Post",
+    "type": "newspaper",
+    "country": "United States",
+    "url": "https://www.washingtonpost.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Wall Street Journal",
+    "type": "newspaper",
+    "country": "United States",
+    "url": "https://www.wsj.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Associated Press",
+    "type": "newspaper",
+    "country": "International",
+    "url": "https://apnews.com/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "France 24",
+    "type": "newspaper",
+    "country": "France",
+    "url": "https://www.france24.com/en/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Deutsche Welle",
+    "type": "newspaper",
+    "country": "Germany",
+    "url": "https://www.dw.com/en/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Haaretz",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.haaretz.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Times of Israel",
+    "type": "newspaper",
+    "country": "Israel",
+    "url": "https://www.timesofisrael.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Nikkei Asia",
+    "type": "newspaper",
+    "country": "Japan",
+    "url": "https://asia.nikkei.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Iran International",
+    "type": "regional_media",
+    "country": "Iran",
+    "url": "https://www.iranintl.com/en",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "IranWire",
+    "type": "regional_media",
+    "country": "Iran",
+    "url": "https://iranwire.com/en/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Radio Farda",
+    "type": "regional_media",
+    "country": "Iran",
+    "url": "https://www.rferl.org/RadioFarda",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Amwaj.media",
+    "type": "regional_media",
+    "country": "Middle East",
+    "url": "https://amwaj.media/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Al Jazeera",
+    "type": "regional_media",
+    "country": "Qatar",
+    "url": "https://www.aljazeera.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Asharq Al-Awsat",
+    "type": "regional_media",
+    "country": "Saudi Arabia",
+    "url": "https://english.aawsat.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "The National",
+    "type": "regional_media",
+    "country": "United Arab Emirates",
+    "url": "https://www.thenationalnews.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Al-Monitor",
+    "type": "regional_media",
+    "country": "Middle East",
+    "url": "https://www.al-monitor.com/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "Middle East Eye",
+    "type": "regional_media",
+    "country": "United Kingdom",
+    "url": "https://www.middleeasteye.net/",
+    "priority": 3,
+    "enabled": true
+  },
+  {
+    "name": "Anadolu Agency",
+    "type": "regional_media",
+    "country": "Turkey",
+    "url": "https://www.aa.com.tr/en",
+    "priority": 3,
+    "enabled": true
+  },
+  {
+    "name": "IAEA",
+    "type": "official",
+    "country": "International",
+    "url": "https://www.iaea.org/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "White House",
+    "type": "official",
+    "country": "United States",
+    "url": "https://www.whitehouse.gov/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "US State Department",
+    "type": "official",
+    "country": "United States",
+    "url": "https://www.state.gov/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "US Department of Defense",
+    "type": "official",
+    "country": "United States",
+    "url": "https://www.defense.gov/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "US CENTCOM",
+    "type": "official",
+    "country": "United States",
+    "url": "https://www.centcom.mil/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "UK Foreign Office",
+    "type": "official",
+    "country": "United Kingdom",
+    "url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "European Council",
+    "type": "official",
+    "country": "European Union",
+    "url": "https://www.consilium.europa.eu/en/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "European External Action Service",
+    "type": "official",
+    "country": "European Union",
+    "url": "https://www.eeas.europa.eu/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "NATO",
+    "type": "official",
+    "country": "International",
+    "url": "https://www.nato.int/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "UN News",
+    "type": "official",
+    "country": "International",
+    "url": "https://news.un.org/en/",
+    "priority": 4,
+    "enabled": true
+  },
+  {
+    "name": "UN Security Council",
+    "type": "official",
+    "country": "International",
+    "url": "https://www.un.org/securitycouncil/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Iran Foreign Ministry",
+    "type": "official",
+    "country": "Iran",
+    "url": "https://en.mfa.gov.ir/",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Iran Presidency",
+    "type": "official",
+    "country": "Iran",
+    "url": "https://president.ir/en",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Israel Prime Minister's Office",
+    "type": "official",
+    "country": "Israel",
+    "url": "https://www.gov.il/en/departments/prime_ministers_office/govil-landing-page",
+    "priority": 5,
+    "enabled": true
+  },
+  {
+    "name": "Israel Defense Forces",
+    "type": "official",
+    "country": "Israel",
+    "url": "https://www.idf.il/en/",
+    "priority": 5,
+    "enabled": true
   }
 ]
