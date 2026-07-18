@@ -1,27 +1,27 @@
 {
-  "generated_utc": "2026-07-18T12:28:39.067250+00:00",
+  "generated_utc": "2026-07-18T13:00:33.608554+00:00",
   "scan_hours": 72,
   "archive_days": 7,
   "source_count": 71,
-  "item_count": 161,
+  "item_count": 168,
   "type_counts": {
-    "think_tank": 39,
-    "regional_media": 106,
+    "think_tank": 41,
+    "regional_media": 111,
     "newspaper": 15,
     "official": 1
   },
   "country_counts": {
     "United States": 37,
     "Germany": 2,
-    "United Arab Emirates": 5,
-    "United Kingdom": 17,
-    "Israel": 3,
-    "France": 3,
+    "United Arab Emirates": 7,
+    "United Kingdom": 19,
+    "Israel": 5,
     "Japan": 4,
+    "France": 3,
     "Iran": 53,
     "Europe": 1,
     "Qatar": 2,
-    "Saudi Arabia": 32,
+    "Saudi Arabia": 33,
     "Turkey": 2
   },
   "source_status": [
@@ -182,8 +182,8 @@
     },
     {
       "source": "BESA Center",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 2
     },
     {
       "source": "BBC News",
@@ -207,8 +207,8 @@
     },
     {
       "source": "The Guardian",
-      "method": "feed",
-      "items": 12
+      "method": "none",
+      "items": 0
     },
     {
       "source": "New York Times",
@@ -263,7 +263,7 @@
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 53
+      "items": 45
     },
     {
       "source": "Radio Farda",
@@ -283,12 +283,12 @@
     {
       "source": "Asharq Al-Awsat",
       "method": "feed",
-      "items": 32
+      "items": 66
     },
     {
       "source": "The National",
       "method": "sitemap",
-      "items": 5
+      "items": 6
     },
     {
       "source": "Al-Monitor",
@@ -298,12 +298,12 @@
     {
       "source": "Middle East Eye",
       "method": "feed",
-      "items": 12
+      "items": 13
     },
     {
       "source": "Anadolu Agency",
-      "method": "feed",
-      "items": 6
+      "method": "none",
+      "items": 0
     },
     {
       "source": "IAEA",
@@ -500,7 +500,6 @@
       "summary": "Live updates | Iran executes man accused of killing security agent during 2022 protests, Mizan agency reports. Lebanon's President Aoun headed to Washington for White House summit. Sirens sound in Bahrain, Interior Ministry says",
       "matched_terms": [
         "Iran",
-        "Iranian",
         "Revolutionary Guard"
       ],
       "tags": [
@@ -511,6 +510,61 @@
         "Military",
         "Hormuz & Maritime",
         "Energy"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Iran tensions",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions",
+      "published_utc": "2026-07-17T17:18:47+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran",
+        "Revolutionary Guards",
+        "Strait of Hormuz",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "IRGC",
+        "Military",
+        "Hormuz & Maritime",
+        "Energy",
+        "Russia & China",
+        "Economy"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Iran war",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war",
+      "published_utc": "2026-07-17T17:18:47+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran",
+        "Revolutionary Guards",
+        "Strait of Hormuz",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "IRGC",
+        "Military",
+        "Hormuz & Maritime",
+        "Energy",
+        "Russia & China"
       ],
       "importance_score": 4,
       "importance_label": "Important"
@@ -561,61 +615,6 @@
         "Nuclear",
         "US–Iran",
         "Sanctions",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Iran tensions",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions",
-      "published_utc": "2026-07-15T15:47:16+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Revolutionary Guards",
-        "Strait of Hormuz",
-        "Tehran"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Russia & China",
-        "Economy"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Iran war",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war",
-      "published_utc": "2026-07-15T15:47:16+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Revolutionary Guards",
-        "Strait of Hormuz",
-        "Tehran"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
         "Military",
         "Hormuz & Maritime",
         "Energy",
@@ -1141,6 +1140,50 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "The National",
+      "source_type": "regional_media",
+      "country": "United Arab Emirates",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "UAE widens investigation into false reporting of explosions in Dubai | The National",
+      "url": "https://www.thenationalnews.com/news/uae/2026/07/18/uae-widens-investigation-into-false-reporting-of-explosions-in-dubai/",
+      "published_utc": "2026-07-18T12:46:17.541000+00:00",
+      "summary": "Report of loud booms heard in Business Bay was denied by authorities",
+      "matched_terms": [
+        "Iran",
+        "Iranian"
+      ],
+      "tags": [
+        "Missiles & Drones",
+        "Military"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "The National",
+      "source_type": "regional_media",
+      "country": "United Arab Emirates",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "UAE condemns further Iranian attacks on Bahrain, Kuwait and Jordan | The National",
+      "url": "https://www.thenationalnews.com/news/uae/2026/07/18/uae-condemns-further-iranian-attacks-on-bahrain-kuwait-and-jordan/",
+      "published_utc": "2026-07-18T12:35:42.333000+00:00",
+      "summary": "Ministry of Foreign Affairs says strikes threaten security and stability",
+      "matched_terms": [
+        "Iran",
+        "Iranian"
+      ],
+      "tags": [
+        "US–Iran",
+        "Missiles & Drones",
+        "Military",
+        "Economy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
@@ -1287,6 +1330,53 @@
       ],
       "tags": [
         "Military"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-17T21:00:19+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Spotlight",
+      "url": "https://asia.nikkei.com/spotlight",
+      "published_utc": "2026-07-17T21:00:19+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Protests & Rights",
+        "Russia & China",
+        "Economy"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -1493,53 +1583,6 @@
         "US–Iran",
         "Military",
         "Domestic Politics"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T08:59:24+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Tehran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Spotlight",
-      "url": "https://asia.nikkei.com/spotlight",
-      "published_utc": "2026-07-17T08:59:24+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Protests & Rights",
-        "Russia & China",
-        "Economy"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -2226,6 +2269,44 @@
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
+    },
+    {
+      "source": "BESA Center",
+      "source_type": "think_tank",
+      "country": "Israel",
+      "source_priority": 3,
+      "content_kind": "Research & analysis",
+      "title": "Webinar :The Impact of the War with Iran on the Eastern Mediterranean 22.7.2026",
+      "url": "https://besacenter.org/webinar-the-impact-of-the-war-with-iran-on-the-eastern-mediterranean-22-7-2026/",
+      "published_utc": "2026-07-16T09:02:10+00:00",
+      "summary": "Register for the webinar here …",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Asharq Al-Awsat",
+      "source_type": "regional_media",
+      "country": "Saudi Arabia",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Iran Executes a Man Convicted of Killing a Security Force Member during 2022 Protests",
+      "url": "https://english.aawsat.com/node/5297386",
+      "published_utc": "2026-07-18T12:55:41+00:00",
+      "summary": "",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Protests & Rights"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3639,10 +3720,53 @@
       "country": "United Kingdom",
       "source_priority": 3,
       "content_kind": "News & reporting",
-      "title": "US attacks kill 50 people since July 6: Iran Health Ministry",
+      "title": "Iran suspends agreement with Washington after 'US violations'",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suspends-mou-washington-after-us-violations",
+      "published_utc": "2026-07-18T12:39:03+00:00",
+      "summary": "Iran suspends agreement with Washington after 'US violations' Iran's deputy foreign minister, Kazem Gharibabadi, said Tehran had suspended its commitments to the memorandum of understanding (MoU) with Washington as US attacks continue. “The US has violated and suspended all its commitments within the framework of the Islamabad MoU,” Gharibabadi said. The deputy foreign minister added that Tehran had suspended its commitments under the agreement as it is \"busy defending the country\".",
+      "matched_terms": [
+        "Iran",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Diplomacy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "Middle East Eye",
+      "source_type": "regional_media",
+      "country": "United Kingdom",
+      "source_priority": 3,
+      "content_kind": "News & reporting",
+      "title": "Kuwait Petroleum Corporation reports damage and injuries from Iranian attacks",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-petroleum-corporation-reports-damage-and-injuries-iranian-attacks",
+      "published_utc": "2026-07-18T12:35:33+00:00",
+      "summary": "Kuwait Petroleum Corporation reports damage and injuries from Iranian attacks Kuwait Petroleum Corporation said one of its oil facilities was hit on Saturday by \"repeated Iranian attacks\". The corporation said the attacks led to significant material damage and some injuries.",
+      "matched_terms": [
+        "Iranian"
+      ],
+      "tags": [
+        "Military",
+        "Energy",
+        "Economy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "Middle East Eye",
+      "source_type": "regional_media",
+      "country": "United Kingdom",
+      "source_priority": 3,
+      "content_kind": "News & reporting",
+      "title": "US attacks kill 50 people since 6 July: Iran's health ministry",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-attacks-kill-50-people-july-6-iran-health-ministry",
       "published_utc": "2026-07-18T12:03:14+00:00",
-      "summary": "US attacks kill 50 people since July 6: Iran Health Ministry Iran's health ministry said US attacks since July 6 has killed at least 50 people and wounded more than 500 others.",
+      "summary": "US attacks kill 50 people since 6 July: Iran's health ministry Iran's Ministry of Health and Medical Education said US attacks since 6 July have killed at least 50 people and wounded more than 500 others.",
       "matched_terms": [
         "Iran"
       ],
@@ -3770,6 +3894,26 @@
         "Missiles & Drones",
         "Military",
         "Economy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "BESA Center",
+      "source_type": "think_tank",
+      "country": "Israel",
+      "source_priority": 3,
+      "content_kind": "Research & analysis",
+      "title": "Tolerated Memory, Withheld Recognition: Iran, the Armenian Genocide, and the Politics of Historical Asymmetry",
+      "url": "https://besacenter.org/tolerated-memory-withheld-recognition-iran-the-armenian-genocide-and-the-politics-of-historical-asymmetry/",
+      "published_utc": "2026-07-17T14:01:11+00:00",
+      "summary": "PSCRP-BESA Reports No 218 (July 17, 2026) by Gershon Kogan Introduction The Israeli cabinet’s unanimous recognition of the Armenian Genocide in June 2026 generated predictable reactions: Turkish condemnation, Azerbaijani diplomatic protest, and Armenian restraint. Less predictable — and analytically more …",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Israel",
+        "Protests & Rights"
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
