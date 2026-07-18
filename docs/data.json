@@ -1,9 +1,143 @@
 {
-  "generated_utc": "2026-07-18T09:27:59.963919+00:00",
-  "window_hours": 24,
+  "generated_utc": "2026-07-18T10:20:09.115707+00:00",
+  "scan_hours": 48,
+  "archive_days": 7,
   "source_count": 30,
-  "item_count": 5,
+  "item_count": 21,
   "items": [
+    {
+      "source": "FDD",
+      "title": "Hopes for US-Iran diplomacy still alive as fighting intensifies over the Strait of Hormuz",
+      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/16/hopes-for-us-iran-diplomacy-still-alive-as-fighting-intensifies-over-the-strait-of-hormuz/",
+      "published_utc": "2026-07-16T14:20:26+00:00",
+      "summary": "The post Hopes for US-Iran diplomacy still alive as fighting intensifies over the Strait of Hormuz appeared first on FDD .",
+      "matched_terms": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "tags": [
+        "US–Iran",
+        "Hormuz & Maritime",
+        "Diplomacy"
+      ],
+      "importance_score": 5,
+      "importance_label": "Must read"
+    },
+    {
+      "source": "Quincy Institute",
+      "title": "3 islands help control access to the Strait of Hormuz. They’re in the crosshairs of the Iran war",
+      "url": "https://apnews.com/article/iran-us-war-abu-musa-tunb-kharg-islands-e98279652479c24a99c9907177ecb990",
+      "published_utc": "2026-07-16T13:20:00+00:00",
+      "summary": "The post 3 islands help control access to the Strait of Hormuz. They’re in the crosshairs of the Iran war appeared first on Quincy Institute for Responsible Statecraft .",
+      "matched_terms": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "tags": [
+        "Military",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 5,
+      "importance_label": "Must read"
+    },
+    {
+      "source": "FDD",
+      "title": "Trump threatens new Iran war escalation and risks repeating old mistakes",
+      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/17/trump-threatens-new-iran-war-escalation-and-risks-repeating-old-mistakes/",
+      "published_utc": "2026-07-17T16:01:23+00:00",
+      "summary": "The post Trump threatens new Iran war escalation and risks repeating old mistakes appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "FDD",
+      "title": "Iran, AI, and the Death of Traditional Warfare",
+      "url": "https://www.fdd.org/podcasts/2026/07/17/iran-ai-and-the-death-of-traditional-warfare/",
+      "published_utc": "2026-07-17T15:00:00+00:00",
+      "summary": "The post Iran, AI, and the Death of Traditional Warfare appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "FDD",
+      "title": "Revealed: Step-by-step plan to finally end Iran war with US victory… and it doesn’t require any American boots on the ground or handing Tehran a single dollar",
+      "url": "https://www.fdd.org/analysis/2026/07/16/revealed-step-by-step-plan-to-finally-end-iran-war-with-us-victory-and-it-doesnt-require-any-american-boots-on-the-ground-or-handing-tehran-a-single-dollar/",
+      "published_utc": "2026-07-17T01:05:00+00:00",
+      "summary": "Excerpt Even as Washington and Tehran continue to intensify strikes against each other’s assets across the Persian Gulf, the key lesson of America’s ongoing conflict with Iran is... The post Revealed: Step-by-step plan to finally end Iran war with US victory… and it doesn’t require any American boots on the ground or handing Tehran a single dollar appeared first on FDD .",
+      "matched_terms": [
+        "Iran",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "FDD",
+      "title": "The U.S.-Iran feud over the Strait of Hormuz",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/the-u-s-iran-feud-over-the-strait-of-hormuz/",
+      "published_utc": "2026-07-16T20:44:04+00:00",
+      "summary": "The post The U.S.-Iran feud over the Strait of Hormuz appeared first on FDD .",
+      "matched_terms": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "tags": [
+        "US–Iran",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "FDD",
+      "title": "President Trump leans toward expanding U.S. military operations in Iran",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/president-trump-leans-toward-expanding-u-s-military-operations-in-iran/",
+      "published_utc": "2026-07-16T20:03:23+00:00",
+      "summary": "The post President Trump leans toward expanding U.S. military operations in Iran appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
+    {
+      "source": "FDD",
+      "title": "U.S., Iran ramp up battle over Strait of Hormuz control",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/u-s-iran-ramp-up-battle-over-strait-of-hormuz-control/",
+      "published_utc": "2026-07-16T15:57:02+00:00",
+      "summary": "The post U.S., Iran ramp up battle over Strait of Hormuz control appeared first on FDD .",
+      "matched_terms": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "tags": [
+        "US–Iran",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 4,
+      "importance_label": "Important"
+    },
     {
       "source": "FDD",
       "title": "Washington Should Prepare for a Summer of Unrest in Iran",
@@ -15,7 +149,14 @@
         "Iranian",
         "Islamic Republic",
         "Tehran"
-      ]
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
     },
     {
       "source": "FDD",
@@ -25,27 +166,127 @@
       "summary": "Three sources told Reuters on July 16 that Iran has instructed Yemen’s Houthis to close the Red Sea to shipping if the US attacks Iran’s power network, which President Donald Trump threatened to... The post Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid appeared first on FDD .",
       "matched_terms": [
         "Iran"
-      ]
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Hormuz & Maritime",
+        "Regional Influence"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
     },
     {
       "source": "FDD",
-      "title": "Trump threatens new Iran war escalation and risks repeating old mistakes",
-      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/17/trump-threatens-new-iran-war-escalation-and-risks-repeating-old-mistakes/",
-      "published_utc": "2026-07-17T16:01:23+00:00",
-      "summary": "The post Trump threatens new Iran war escalation and risks repeating old mistakes appeared first on FDD .",
+      "title": "Iran’s Renewed Aggression Should Spur U.S. To Revive Maximum Pressure Campaign",
+      "url": "https://www.fdd.org/analysis/2026/07/16/irans-renewed-aggression-should-spur-u-s-to-revive-maximum-pressure-campaign/",
+      "published_utc": "2026-07-16T18:38:55+00:00",
+      "summary": "Iran’s repeated attacks on commercial shipping may ultimately force the United States to take a more aggressive posture by reviving its maximum pressure campaign against the Tehran regime. Following... The post Iran’s Renewed Aggression Should Spur U.S. To Revive Maximum Pressure Campaign appeared first on FDD .",
       "matched_terms": [
-        "Iran"
-      ]
+        "Iran",
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Sanctions",
+        "Military",
+        "Hormuz & Maritime",
+        "Domestic Politics"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
     },
     {
       "source": "FDD",
-      "title": "Iran, AI, and the Death of Traditional Warfare",
-      "url": "https://www.fdd.org/podcasts/2026/07/17/iran-ai-and-the-death-of-traditional-warfare/",
-      "published_utc": "2026-07-17T15:00:00+00:00",
-      "summary": "The post Iran, AI, and the Death of Traditional Warfare appeared first on FDD .",
+      "title": "Iran-backed Houthis instructed to shut down more shipping routes",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/iran-backed-houthis-instructed-to-shut-down-more-shipping-routes/",
+      "published_utc": "2026-07-16T21:10:05+00:00",
+      "summary": "The post Iran-backed Houthis instructed to shut down more shipping routes appeared first on FDD .",
       "matched_terms": [
         "Iran"
-      ]
+      ],
+      "tags": [
+        "Hormuz & Maritime",
+        "Regional Influence"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "FDD",
+      "title": "Syria intercepts Iranian weapons headed for Hezbollah",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/syria-intercepts-iranian-weapons-headed-for-hezbollah/",
+      "published_utc": "2026-07-16T20:11:23+00:00",
+      "summary": "The post Syria intercepts Iranian weapons headed for Hezbollah appeared first on FDD .",
+      "matched_terms": [
+        "Iranian"
+      ],
+      "tags": [
+        "Regional Influence"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "FDD",
+      "title": "Iran calls on Houthis to prepare to cut off Red Sea gateway — can the terror group do it?",
+      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/16/iran-calls-on-houthis-to-prepare-to-cut-off-red-sea-gateway-can-the-terror-group-do-it/",
+      "published_utc": "2026-07-16T19:16:18+00:00",
+      "summary": "The post Iran calls on Houthis to prepare to cut off Red Sea gateway — can the terror group do it? appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Regional Influence"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Quincy Institute",
+      "title": "Has Iran Successfully Driven a Wedge Between U.S. and Israel?",
+      "url": "https://www.wrmea.org/waging-peace/has-iran-successfully-driven-a-wedge-between-u.s.-and-israel.html",
+      "published_utc": "2026-07-16T15:48:00+00:00",
+      "summary": "The post Has Iran Successfully Driven a Wedge Between U.S. and Israel? appeared first on Quincy Institute for Responsible Statecraft .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Israel"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "FDD",
+      "title": "Tehran billboard hints Trump is the ‘next one’ after Graham’s death",
+      "url": "https://www.fdd.org/in_the_news/quotes/2026/07/16/tehran-billboard-hints-trump-is-the-next-one-after-grahams-death/",
+      "published_utc": "2026-07-16T14:31:16+00:00",
+      "summary": "The post Tehran billboard hints Trump is the ‘next one’ after Graham’s death appeared first on FDD .",
+      "matched_terms": [
+        "Tehran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "FDD",
+      "title": "Trump walking ‘tightrope act’ with Iran bombing campaign",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/trump-walking-tightrope-act-with-iran-bombing-campaign/",
+      "published_utc": "2026-07-16T13:26:02+00:00",
+      "summary": "The post Trump walking ‘tightrope act’ with Iran bombing campaign appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "FDD",
@@ -55,7 +296,58 @@
       "summary": "The post Iran never wanted a deal, just prep time for next phase appeared first on FDD .",
       "matched_terms": [
         "Iran"
-      ]
+      ],
+      "tags": [
+        "Diplomacy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "FDD",
+      "title": "U.S. launches strikes against Iran for a fifth night",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/u-s-launches-strikes-against-iran-for-a-fifth-night/",
+      "published_utc": "2026-07-16T21:06:00+00:00",
+      "summary": "The post U.S. launches strikes against Iran for a fifth night appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "FDD",
+      "title": "Objectives of renewed U.S. military action against Iran",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/objectives-of-renewed-u-s-military-action-against-iran/",
+      "published_utc": "2026-07-16T18:25:27+00:00",
+      "summary": "The post Objectives of renewed U.S. military action against Iran appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "FDD",
+      "title": "Iran-nexus actors using AI to enhance cyber playbook",
+      "url": "https://www.fdd.org/in_the_news/2026/07/16/iran-nexus-actors-using-ai-to-enhance-cyber-playbook/",
+      "published_utc": "2026-07-16T14:26:21+00:00",
+      "summary": "The post Iran-nexus actors using AI to enhance cyber playbook appeared first on FDD .",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     }
   ]
 }
