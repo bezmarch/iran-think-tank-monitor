@@ -1,0 +1,4 @@
+aiohttp>=3.10
+beautifulsoup4>=4.12
+feedparser>=6.0
+python-dateutil>=2.9
