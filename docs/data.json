@@ -1,28 +1,42 @@
 {
-  "generated_utc": "2026-07-18T13:29:31.280235+00:00",
+  "generated_utc": "2026-07-18T14:00:34.118554+00:00",
   "scan_hours": 72,
   "archive_days": 30,
-  "source_count": 71,
-  "item_count": 171,
+  "source_count": 124,
+  "item_count": 213,
   "type_counts": {
-    "newspaper": 15,
-    "regional_media": 114,
-    "think_tank": 41,
+    "newspaper": 38,
+    "regional_media": 131,
+    "think_tank": 43,
     "official": 1
   },
   "country_counts": {
+    "Japan": 5,
+    "Russia": 6,
+    "Germany": 10,
     "United States": 37,
     "Qatar": 3,
     "Saudi Arabia": 33,
-    "Iran": 55,
+    "Iran": 68,
+    "Turkey": 5,
     "United Arab Emirates": 7,
+    "France": 9,
     "United Kingdom": 19,
-    "Turkey": 2,
-    "France": 3,
-    "Israel": 5,
-    "Germany": 2,
-    "Japan": 4,
+    "Spain": 1,
+    "Israel": 6,
+    "Italy": 3,
     "Europe": 1
+  },
+  "language_counts": {
+    "Japanese": 1,
+    "Russian": 6,
+    "German": 8,
+    "English": 185,
+    "Turkish": 3,
+    "French": 5,
+    "Spanish": 1,
+    "Italian": 3,
+    "Hebrew": 1
   },
   "source_status": [
     {
@@ -68,7 +82,7 @@
     {
       "source": "FDD",
       "method": "feed",
-      "items": 27
+      "items": 26
     },
     {
       "source": "Stimson Center",
@@ -88,7 +102,7 @@
     {
       "source": "Quincy Institute",
       "method": "feed",
-      "items": 4
+      "items": 2
     },
     {
       "source": "Belfer Center",
@@ -148,7 +162,7 @@
     {
       "source": "ECFR",
       "method": "feed",
-      "items": 3
+      "items": 2
     },
     {
       "source": "SWP Berlin",
@@ -163,7 +177,7 @@
     {
       "source": "IFRI",
       "method": "sitemap",
-      "items": 1
+      "items": 2
     },
     {
       "source": "German Marshall Fund",
@@ -208,7 +222,7 @@
     {
       "source": "The Guardian",
       "method": "feed",
-      "items": 12
+      "items": 8
     },
     {
       "source": "New York Times",
@@ -233,7 +247,7 @@
     {
       "source": "France 24",
       "method": "feed",
-      "items": 9
+      "items": 8
     },
     {
       "source": "Deutsche Welle",
@@ -253,17 +267,17 @@
     {
       "source": "Nikkei Asia",
       "method": "sitemap",
-      "items": 4
+      "items": 3
     },
     {
       "source": "Iran International",
-      "method": "sitemap",
-      "items": 2
+      "method": "feed",
+      "items": 3
     },
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 45
+      "items": 10
     },
     {
       "source": "Radio Farda",
@@ -278,12 +292,12 @@
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 4
+      "items": 2
     },
     {
       "source": "Asharq Al-Awsat",
-      "method": "feed",
-      "items": 66
+      "method": "none",
+      "items": 0
     },
     {
       "source": "The National",
@@ -297,13 +311,13 @@
     },
     {
       "source": "Middle East Eye",
-      "method": "feed",
-      "items": 13
+      "method": "none",
+      "items": 0
     },
     {
       "source": "Anadolu Agency",
-      "method": "none",
-      "items": 0
+      "method": "feed",
+      "items": 1
     },
     {
       "source": "IAEA",
@@ -379,13 +393,366 @@
       "source": "Israel Defense Forces",
       "method": "none",
       "items": 0
+    },
+    {
+      "source": "Der Spiegel",
+      "method": "feed",
+      "items": 1
+    },
+    {
+      "source": "Die Zeit",
+      "method": "feed",
+      "items": 2
+    },
+    {
+      "source": "Frankfurter Allgemeine",
+      "method": "feed",
+      "items": 2
+    },
+    {
+      "source": "Süddeutsche Zeitung",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Tagesschau",
+      "method": "feed",
+      "items": 6
+    },
+    {
+      "source": "Le Monde",
+      "method": "feed",
+      "items": 1
+    },
+    {
+      "source": "Le Figaro",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Franceinfo",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "RFI Français",
+      "method": "feed",
+      "items": 8
+    },
+    {
+      "source": "Corriere della Sera",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "La Repubblica",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "La Stampa",
+      "method": "feed",
+      "items": 2
+    },
+    {
+      "source": "ISPI Italiano",
+      "method": "sitemap",
+      "items": 1
+    },
+    {
+      "source": "El País",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "El Mundo",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "ABC España",
+      "method": "feed",
+      "items": 1
+    },
+    {
+      "source": "Real Instituto Elcano",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Kommersant",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "RBC Russian",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "Interfax Russian",
+      "method": "feed",
+      "items": 6
+    },
+    {
+      "source": "TASS Russian",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "RIAC Russian",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Anadolu Türkçe",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "TRT Haber",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "Hürriyet",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Cumhuriyet",
+      "method": "feed",
+      "items": 3
+    },
+    {
+      "source": "SETA Türkçe",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Haaretz Hebrew",
+      "method": "sitemap",
+      "items": 1
+    },
+    {
+      "source": "Ynet",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "N12",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Kan News Hebrew",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Maariv",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "Israel Hayom Hebrew",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Xinhua Chinese",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "People's Daily Chinese",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Caixin Chinese",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Guancha",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "NHK Japanese",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Nikkei Japanese",
+      "method": "sitemap",
+      "items": 1
+    },
+    {
+      "source": "Asahi Shimbun",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "Yomiuri Shimbun",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "Mainichi Shimbun",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Yonhap Korean",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Chosun Ilbo Korean",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Hankyoreh Korean",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "JoongAng Korean",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Kathimerini Greek",
+      "method": "sitemap",
+      "items": 0
+    },
+    {
+      "source": "APA Azerbaijan",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Report.az Azerbaijani",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "NOS Dutch",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "NRC Dutch",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Rzeczpospolita",
+      "method": "none",
+      "items": 0
+    },
+    {
+      "source": "Público Portugal",
+      "method": "none",
+      "items": 0
     }
   ],
   "items": [
     {
+      "source": "Nikkei Japanese",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "Japanese",
+      "language_code": "ja",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "日本経済新聞 - ニュース・速報 最新情報",
+      "url": "https://www.nikkei.com/",
+      "published_utc": "2026-07-18T13:50:23+00:00",
+      "summary": "日本経済新聞の電子版。日経や日経ＢＰの提供する経済、企業、国際、政治、マーケット、情報・通信、社会など各分野のニュース。ビジネス、マネー、IT、スポーツ、住宅、キャリアなどの専門情報も満載。",
+      "matched_terms": [
+        "イラン"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Два муниципалитета Белгородской области атакованы дронами, один человек погиб",
+      "url": "https://www.interfax.ru/russia/1104083",
+      "published_utc": "2026-07-18T13:42:00+00:00",
+      "summary": "Атакам ВСУ подверглись два муниципалитета Белгородской области, зафиксированы повреждения, есть погибшая и пострадавшая, сообщил оперативный штаб Белгородской области в субботу.\"В Грайворонском округе в селе Заречье-Первое в результате удара FPV-дрона по частному дому от полученных ранений погибла женщина.",
+      "matched_terms": [
+        "ксир"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "В Иране зарегистрированы тысячи исков против США и Израиля",
+      "url": "https://www.interfax.ru/world/1104080",
+      "published_utc": "2026-07-18T13:28:00+00:00",
+      "summary": "Судебная система Ирана зарегистрировала более 3 тыс. исков в связи с военными преступлениями, совершенными Израилем и США за время прошлогодней 12-дневной войны и конфликта против Ирана, начавшегося 28 февраля этого года.",
+      "matched_terms": [
+        "Ирана",
+        "Иране"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Die Zeit",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Iran-Krieg: Kuwait verurteilt iranische Angriffe - Schaden an Ölanlage",
+      "url": "https://www.zeit.de/news/2026-07/18/berichte-ueber-neue-explosionen-im-iran",
+      "published_utc": "2026-07-18T13:27:50+00:00",
+      "summary": "None",
+      "matched_terms": [
+        "Iran",
+        "iranische"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "New York Times",
       "source_type": "newspaper",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "News & reporting",
       "title": "Israel Counters Iranian Spying by Warning Against Recruitment",
@@ -403,9 +770,32 @@
       "importance_label": "Useful background"
     },
     {
+      "source": "Die Zeit",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Irankrieg: Iran meldet mindestens 50 Tote seit erneuten US-Angriffen",
+      "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
+      "published_utc": "2026-07-18T13:02:09+00:00",
+      "summary": "Bei den jüngsten US-Angriffen sind dem Iran zufolge mindestens 50 Menschen gestorben, gut 500 wurden verletzt. Der Präsident des Libanon reist in die USA. Das Liveblog",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
       "source": "Al Jazeera",
       "source_type": "regional_media",
       "country": "Qatar",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Iran accuses US of striking critical infrastructure as war intensifies",
@@ -440,7 +830,9 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Iran International",
@@ -469,18 +861,67 @@
         "Protests & Rights"
       ],
       "importance_score": 4,
-      "importance_label": "Important"
+      "importance_label": "Important",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Иран отказывается от соблюдения меморандума о взаимопонимании с США",
+      "url": "https://www.interfax.ru/world/1104078",
+      "published_utc": "2026-07-18T12:51:00+00:00",
+      "summary": "Тегеран приостанавливает выполнение всех пунктов меморандума о взаимопонимании с США в связи с тем, что Вашингтон продолжает нарушать его, сообщил заместитель министра иностранных дел Ирана Казем Гарибабади.\"США нарушили и сами остановили все обязательства, принятые в рамках меморандума, подписание которого прошло в Исламабаде\", - приводит в субботу слова дипломата иранское агентство FARS.",
+      "matched_terms": [
+        "Иран",
+        "Ирана",
+        "иранское",
+        "Тегеран"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Cumhuriyet",
+      "source_type": "newspaper",
+      "country": "Turkey",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Teknoloji çakıldı, petrol uçtu! Piyasaları yoğun bir hafta bekliyor...",
+      "url": "https://www.cumhuriyet.com.tr/ekonomi/teknoloji-cakildi-petrol-uctu-piyasalari-yogun-bir-hafta-bekliyor-2521883",
+      "published_utc": "2026-07-18T12:49:00+00:00",
+      "summary": "ABD-İran gerilimi Brent petrolü yüzde 14'ün üzerinde artırırken, yapay zeka balonu endişesi Asya ve ABD borsalarında satış baskısı yarattı. Yurt içinde ise tüm gözler perşembe günkü TCMB faiz kararı ve cuma günkü Moody's değerlendirmesine kilitlendi.",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
-      "title": "UAE widens investigation into false reporting of explosions in Dubai | The National",
+      "title": "UAE widens investigation into false reports of explosions in Dubai | The National",
       "url": "https://www.thenationalnews.com/news/uae/2026/07/18/uae-widens-investigation-into-false-reporting-of-explosions-in-dubai/",
       "published_utc": "2026-07-18T12:46:17.541000+00:00",
-      "summary": "Report of loud booms heard in Business Bay was denied by authorities",
+      "summary": "Claims of blasts heard in Business Bay denied by authorities",
       "matched_terms": [
         "Iran",
         "Iranian"
@@ -491,6 +932,27 @@
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
+    },
+    {
+      "source": "RFI Français",
+      "source_type": "regional_media",
+      "country": "France",
+      "language": "French",
+      "language_code": "fr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Israël annonce la mise en œuvre des «zones-pilotes» dans le sud du Liban, malgré les accords conclus à Washington",
+      "url": "https://www.rfi.fr/fr/moyen-orient/20260718-isra%C3%ABl-annonce-la-mise-en-%C5%93uvre-des-zones-pilotes-dans-le-sud-du-liban-malgr%C3%A9-les-accords-conclus-%C3%A0-washington",
+      "published_utc": "2026-07-18T12:42:33+00:00",
+      "summary": "Alors que les négociations entre l'Iran et les États-Unis sont au point mort et que les frappes ont repris, la situation évolue un peu au Liban. L’armée israélienne prévoit de se retirer de deux localités, dans le cadre de la mise en œuvre du projet des « zones-pilotes », qui seraient placées sous le contrôle des Forces armées libanaises. Zaoutar al-Charkiyé et Zaoutar al-Gharbiyé sont situées sur la rive nord du fleuve Litani, c’est-à-dire à l’extérieur de la zone tampon établie par Israël.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "Middle East Eye",
@@ -512,12 +974,16 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "UAE condemns further Iranian attacks on Bahrain, Kuwait and Jordan | The National",
@@ -556,7 +1022,9 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Iran International",
@@ -587,7 +1055,31 @@
         "Domestic Politics"
       ],
       "importance_score": 4,
-      "importance_label": "Important"
+      "importance_label": "Important",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "В Иране сообщили о 50 погибших с момента возобновления ударов США",
+      "url": "https://www.interfax.ru/world/1104076",
+      "published_utc": "2026-07-18T12:17:00+00:00",
+      "summary": "Не менее 50 человек погибли в Иране с 6 июля, когда США возобновили удары по стране, сообщило в субботу иранское министерство здравоохранения.",
+      "matched_terms": [
+        "Иране",
+        "иранское"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "Middle East Eye",
@@ -606,12 +1098,16 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "When Trump accuses others of wrongdoing, you can bet he’s up to something himself | Arwa Mahdawi",
@@ -631,9 +1127,32 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "روحانی: برای لغو نشست مقامات با خامنه‌ای از چند مسیر اقدام کردم",
+      "url": "https://iranwire.com/fa/news-1/155134-%D8%B1%D9%88%D8%AD%D8%A7%D9%86%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%84%D8%BA%D9%88-%D9%86%D8%B4%D8%B3%D8%AA-%D9%85%D9%82%D8%A7%D9%85%D8%A7%D8%AA-%D8%A8%D8%A7-%D8%AE%D8%A7%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%A7%D8%B2-%DA%86%D9%86%D8%AF-%D9%85%D8%B3%DB%8C%D8%B1-%D8%A7%D9%82%D8%AF%D8%A7%D9%85-%DA%A9%D8%B1%D8%AF%D9%85/",
+      "published_utc": "2026-07-18T11:31:07+00:00",
+      "summary": "حسن روحانی، رئیس‌جمهوری پیشین جمهوری اسلامی می‌گوید پس از اطلاع از برنامه برگزاری نشست مقام‌های ارشد جمهوری اسلامی با علی خامنه‌ای در ما ...",
+      "matched_terms": [
+        "خامنه‌ای"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Dubai Police issue warning over scam adverts offering visas and jobs for cash | The National",
@@ -650,6 +1169,134 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Важному НПЗ в Кувейте нанесен серьезный ущерб после иранских ударов",
+      "url": "https://www.interfax.ru/world/1104071",
+      "published_utc": "2026-07-18T11:05:00+00:00",
+      "summary": "Нефтеперерабатывающему заводу в Кувейте нанесен серьезный материальный ущерб в результате одной из атак Ирана на энергетическую инфраструктуру страны Персидского залива в ответ на удары США по Ирану.\"Один из важнейших объектов нефтяного сектора сегодня утром подвергся неоднократным атакам Ирана, в результате которых несколько человек получили ранения, а также нанесен серьезный материальный ущерб\", - говорится в опубликованном в субботу сообщении кувейтского агентства KUNA, которое приводит данные Кувейтской национальной нефтяной компании.",
+      "matched_terms": [
+        "Ирана",
+        "иранских",
+        "Ирану"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Iran International",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "علیرضا فغانی: دوبار تا یک قدمی آرزویم رفتم، اما قسمت من نبود",
+      "url": "https://www.iranintl.com/202607187860",
+      "published_utc": "2026-07-18T10:55:28+00:00",
+      "summary": "علیرضا فغانی، داور ایرانی و نماینده استرالیا در جام جهانی، پس از انتخاب نشدن به عنوان داور فینال جام جهانی ۲۰۲۶، در گفت‌وگو با عادل فردوسی‌پور در برنامه فوتبال ۳۶۰ گفت: «همین آرزو و هدف، یک عمر زندگی آنها را می‌سازد. دو بار تا یک قدمی این هدف رفتم، اما قسمت نشد.»",
+      "matched_terms": [
+        "فردو"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "Tagesschau",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "USA und Iran melden neue gegenseitige Angriffe in der Golfregion",
+      "url": "https://www.tagesschau.de/ausland/asien/iran-angriffe-usa-104.html",
+      "published_utc": "2026-07-18T10:48:39+00:00",
+      "summary": "Der Streit um die Straße von Hormus zwischen den USA und Iran scheint immer mehr außer Kontrolle zu geraten: Die siebte Nacht in Folge kam es zu gegenseitigen Angriffen - und Iran droht, noch weiter zu eskalieren.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Interfax Russian",
+      "source_type": "newspaper",
+      "country": "Russia",
+      "language": "Russian",
+      "language_code": "ru",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Удар США по опреснительной установке на юге Ирана оставил без питьевой воды 10 тыс. человек",
+      "url": "https://www.interfax.ru/world/1104069",
+      "published_utc": "2026-07-18T10:46:00+00:00",
+      "summary": "Не менее 10 тыс. жителей двадцати населенных пунктов в провинции Хормозган на юге Ирана остались без питьевой воды после удара США по опреснительной установке, сообщило в субботу агентство Tasnim со ссылкой на местные власти.",
+      "matched_terms": [
+        "Ирана"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Frankfurter Allgemeine",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Liveblog Irankrieg: Iran: Haben amerikanische Flugzeuge zerstört",
+      "url": "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-iran-meldet-zerstoerung-amerikanischer-flugzeuge-faz-200583539.html",
+      "published_utc": "2026-07-18T10:33:21+00:00",
+      "summary": "Angeblicher Angriff auf US-Stützpunkt in Jordanien +++ Libanons Präsident unterwegs zu Trump +++ USA bombardieren Ziele in Iran +++ alle Entwicklungen im Liveblog",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "RFI Français",
+      "source_type": "regional_media",
+      "country": "France",
+      "language": "French",
+      "language_code": "fr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Iran: des centaines de condamnés à mort en grève de la faim pour «faire entendre leur voix à l'étranger»",
+      "url": "https://www.rfi.fr/fr/moyen-orient/20260718-iran-des-centaines-de-condamn%C3%A9s-%C3%A0-mort-en-gr%C3%A8ve-de-la-faim-pour-faire-entendre-leur-voix-%C3%A0-l-%C3%A9tranger",
+      "published_utc": "2026-07-18T10:32:35+00:00",
+      "summary": "Alors que la guerre entre les États-Unis et l'Iran semble reprendre, Téhéran intensifie également sa répression. Le recours à la peine de mort de manière massive est l'un des outils habituels de la République islamique pour gouverner par la peur. Depuis six jours, des centaines de condamnés à mort sont en grève de la faim dans l'ultime espoir d'éviter l'exécution de leurs codétenus.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Asharq Al-Awsat",
       "source_type": "regional_media",
       "country": "Saudi Arabia",
@@ -664,6 +1311,32 @@
       ],
       "tags": [
         "Missiles & Drones"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "ABC España",
+      "source_type": "newspaper",
+      "country": "Spain",
+      "language": "Spanish",
+      "language_code": "es",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Adnan Khashoggi, el multimillonario que celebró las fiestas más exclusivas de Marbella",
+      "url": "https://www.abc.es/gente/adnan-khashoggi-multimillonario-celebro-fiestas-exclusivas-marbella-20260716013551-nt.html",
+      "published_utc": "2026-07-18T10:07:10+00:00",
+      "summary": "Los Rolls-Royce comenzaron a llegar al caer la tarde. Tras ellos, una interminable hilera de Mercedes, Ferrari y limusinas ascendía por la carretera que conducía a Al Baraka, la finca que Adnan Khashoggi poseía en las colinas de Benahavís. A la entrada, un pasillo de honor formado por jóvenes uniformados con espadas ceremoniales recibía a los invitados. Dentro, los salones aparecían cubiertos de terciopelos rojos, dorados y miles de flores. Las bandejas de caviar y marisco se sucedían sin descanso, el champán francés corría como el agua y Shirley Bassey afinaba la voz para cantar el 'Happy Birthday' al anfitrión. Entre los asistentes paseaba un cachorro de león con un collar de diamantes. Era julio de 1985 y Marbella asistía a la fiesta privada más deslumbrante que había conocido .Aquella celebración por el cincuenta cumpleaños de Adnan Khashoggi fue mítica y forma parte de la historia del lujo de Marbella. Algunas crónicas hablaron de unos cuatrocientos invitados ; otras elevaron la cifra hasta cerca de mil quinientas personas si se sumaban acompañantes, artistas, personal de servic",
+      "matched_terms": [
+        "iraní"
+      ],
+      "tags": [
+        "US–Iran",
+        "Sanctions",
+        "Energy",
+        "Economy"
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
@@ -697,12 +1370,16 @@
         "Regional Influence"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Israel advances plan to use crocodiles at prisons holding Palestinians | The National",
@@ -738,12 +1415,16 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Anadolu Agency",
       "source_type": "regional_media",
       "country": "Turkey",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 3,
       "content_kind": "News & reporting",
       "title": "Yemen'de hükümet ile Husiler arasında \"İran uçağı kriziyle\" başlayan gerginlik karşılıklı tehditlerle sürüyor",
@@ -776,7 +1457,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Anadolu Agency",
@@ -796,12 +1479,16 @@
         "Israel"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Why is Trump risking midterm disaster by resuming an already unpopular war with Iran?",
@@ -837,7 +1524,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -860,12 +1549,16 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "France 24",
       "source_type": "newspaper",
       "country": "France",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US strikes hit Iran for seventh night",
@@ -874,8 +1567,7 @@
       "summary": "Kuwait said on Saturday that an Iranian attack hit a water and electricity plant one day after a similar strike damaged another plant. Tehran launched attacks on US military sites hosted by several of its Gulf neighbours in response to a seventh night of US strikes on Iran overnight on Friday. Morgan Ayre reports.",
       "matched_terms": [
         "Iran",
-        "Iranian",
-        "Tehran"
+        "Iranian"
       ],
       "tags": [
         "Military"
@@ -884,23 +1576,43 @@
       "importance_label": "Minor mention"
     },
     {
+      "source": "Cumhuriyet",
+      "source_type": "newspaper",
+      "country": "Turkey",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "İran'dan BM'ye ABD şikâyeti: 'Sivil altyapıyı hedef alıyor!'",
+      "url": "https://www.cumhuriyet.com.tr/dunya/iran-dan-bm-ye-abd-sikayeti-sivil-altyapiyi-hedef-aliyor-2521828",
+      "published_utc": "2026-07-18T08:11:00+00:00",
+      "summary": "İran, ABD'nin son hava saldırılarında limanlar, ulaşım ağları ve su altyapısı gibi sivil tesisleri hedef aldığı gerekçesiyle Birleşmiş Milletler'e (BM) resmî şikâyette bulundu.",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "Iran hits second power and water plant in Kuwait after another night of US strikes | The National",
+      "title": "Iran hits infrastructure in Gulf after another night of US strikes | The National",
       "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/",
       "published_utc": "2026-07-18T08:02:10.025000+00:00",
-      "summary": "Washington and Tehran each report attacks on ships in Strait of Hormuz",
+      "summary": "War escalates ​one week after ceasefire collapsed",
       "matched_terms": [
         "Iran",
         "Iranian",
         "IRGC",
-        "Khamenei",
-        "Revolutionary Guard",
-        "Strait of Hormuz",
-        "Tehran"
+        "Revolutionary Guard"
       ],
       "tags": [
         "US–Iran",
@@ -909,15 +1621,83 @@
         "Military",
         "Hormuz & Maritime",
         "Energy",
-        "Domestic Politics"
+        "Diplomacy"
       ],
-      "importance_score": 4,
-      "importance_label": "Important"
+      "importance_score": 3,
+      "importance_label": "Useful background"
+    },
+    {
+      "source": "Cumhuriyet",
+      "source_type": "newspaper",
+      "country": "Turkey",
+      "language": "Turkish",
+      "language_code": "tr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Bölgedeki gerilim 7. gecesinde: ABD İran'ı, İran Körfez'i vuruyor",
+      "url": "https://www.cumhuriyet.com.tr/dunya/bolgedeki-gerilim-7-gecesinde-abd-iran-i-iran-korfez-i-vuruyor-2521820",
+      "published_utc": "2026-07-18T07:30:00+00:00",
+      "summary": "ABD ile İran arasındaki savaş, yedinci gecesinde daha da genişledi. CENTCOM'un İran'ın farklı kentlerine yönelik yeni saldırı dalgası başlatmasının ardından İran, Hürmüz Boğazı'nda ABD destekli olduğu belirtilen gemileri hedef aldı, iki petrol tankerinde patlama yaşandığını duyurdu ve Kuveyt ile Bahreyn'deki ABD üslerine füze ve İHA saldırıları düzenledi. Bölge genelinde hava savunma sistemleri devreye girerken, Körfez'de gerilim kritik eşiğe ulaştı.",
+      "matched_terms": [
+        "İran"
+      ],
+      "tags": [
+        "Hormuz & Maritime",
+        "Energy"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "از تهدیدهای رسمی و غیررسمی علیه دونالد ترامپ چه می‌دانیم؟",
+      "url": "https://iranwire.com/fa/features/155109-%D8%A7%D8%B2-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF%D9%87%D8%A7%DB%8C-%D8%B1%D8%B3%D9%85%DB%8C-%D9%88-%D8%BA%DB%8C%D8%B1%D8%B1%D8%B3%D9%85%DB%8C-%D8%B9%D9%84%DB%8C%D9%87-%D8%AF%D9%88%D9%86%D8%A7%D9%84%D8%AF-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%DA%86%D9%87-%D9%85%DB%8C%D8%AF%D8%A7%D9%86%DB%8C%D9%85/",
+      "published_utc": "2026-07-18T07:29:59+00:00",
+      "summary": "ده روز پیش و در پی حملات سپاه به کشتی‌های تجاری در تنگه هرمز، وقتی هنوز جنازه «علی خامنه‌ای» در عراق بود، «دونالد ترامپ»، پایان آتش‌بس ب ...",
+      "matched_terms": [
+        "خامنه‌ای"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "RFI Français",
+      "source_type": "regional_media",
+      "country": "France",
+      "language": "French",
+      "language_code": "fr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "«Iran – Plaidoyer pour la justice»: documenter les massacres pour juger les crimes",
+      "url": "https://www.rfi.fr/fr/culture/20260718-iran-%E2%80%93-plaidoyer-pour-la-justice-documenter-les-massacres-pour-juger-les-crimes",
+      "published_utc": "2026-07-18T07:29:26+00:00",
+      "summary": "Présenté en avant-première le jeudi 16 juillet à la Maison du barreau de Paris, c’est le premier documentaire qui aborde sous un angle juridique les massacres commis par le régime iranien contre ses propres citoyens lors des manifestations début janvier. Le but d'Iran – Plaidoyer pour la justice est que les responsables des crimes soient traduits en justice. Initié par l’association Norouz, le film a été monté par les journalistes et réalisateurs Rudy Saada et Maxime Perez à partir de preuves recueillies sur place. Entretien avec Hilda Dehghani-Schmit, activiste iranienne et cofondatrice de l'association Norouz, et les deux réalisateurs.",
+      "matched_terms": [
+        "Iran",
+        "iranien",
+        "iranienne"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "The National",
       "source_type": "regional_media",
       "country": "United Arab Emirates",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Abu Dhabi property transactions surge 112% despite war to hit Dh117 billion in first half of year | The National",
@@ -939,6 +1719,27 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "سنتکام ادعاهای سپاه درباره حمله به ۴کشتی در هرمز را رد کرد",
+      "url": "https://iranwire.com/fa/news-1/155112-%D8%B3%D9%86%D8%AA%DA%A9%D8%A7%D9%85-%D8%A7%D8%AF%D8%B9%D8%A7%D9%87%D8%A7%DB%8C-%D8%B3%D9%BE%D8%A7%D9%87-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%DB%B4%DA%A9%D8%B4%D8%AA%DB%8C-%D8%AF%D8%B1-%D9%87%D8%B1%D9%85%D8%B2-%D8%B1%D8%A7-%D8%B1%D8%AF-%DA%A9%D8%B1%D8%AF/",
+      "published_utc": "2026-07-18T06:59:33+00:00",
+      "summary": "سپاه پاسداران مدعی شده است چهار کشتی را که قصد عبور از تنگه هرمز داشته‌اند، در یک عملیات موشکی و پهپادی متوقف کرده است. هم‌زمان، فرمانده ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Middle East Eye",
       "source_type": "regional_media",
       "country": "United Kingdom",
@@ -956,7 +1757,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -982,12 +1785,16 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "US launches seventh night of Iran strikes as Hormuz conflict escalates",
@@ -996,8 +1803,7 @@
       "summary": "Central Command says attacks were designed to ‘continue degrading Iranian military capabilities’ The US military said it had launched a seventh consecutive night of strikes on Iran on Friday night as fighting escalated over the strait of Hormuz. US Central Command, in a post on X, said the strikes, which began at 7pm GMT, were designed to “continue degrading Iranian military capabilities”. Continue reading...",
       "matched_terms": [
         "Iran",
-        "Iranian",
-        "strait of Hormuz"
+        "Iranian"
       ],
       "tags": [
         "Military",
@@ -1028,7 +1834,9 @@
         "Russia & China"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -1048,7 +1856,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -1073,7 +1883,9 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -1094,33 +1906,38 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "France 24",
       "source_type": "newspaper",
       "country": "France",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
-      "title": "Middle East live: Kuwait accuses Iran of targeting civilian sites, vital infrastructure",
+      "title": "Middle East live: Iran attacks on civilian facilities are ‘war crimes’, Gulf council head says",
       "url": "https://www.france24.com/en/middle-east/20260718-middle-east-live-tehran-threatens-full-scale-offensive-as-us-launches-seventh-night-of-attacks",
       "published_utc": "2026-07-18T05:02:22+00:00",
-      "summary": "Kuwait accused Iran on Saturday of targeting civilian sites and vital infrastructure in the country, after reporting attacks on an oil facility and a power and water plant. Tehran launched attacks on US military sites hosted by several of its Gulf neighbours in response to a seventh night of US strikes on Iran overnight on Friday. Follow our liveblog for the latest updates.",
+      "summary": "Iranian attacks on civilian facilities in Bahrain, Kuwait and Jordan amounted to \"war crimes\", Gulf Cooperation Council Secretary-General Jasem Mohamed Albudaiwi said Saturday after Kuwait accused Iran of targeting vital infrastructure in the country. Follow our liveblog for the latest updates.",
       "matched_terms": [
         "Iran",
-        "Tehran"
+        "Iranian"
       ],
       "tags": [
-        "Military",
-        "Energy"
+        "Military"
       ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Trump, not Iran, is the world’s greatest danger. He’s a one-man weapon of mass destruction | Simon Tisdall",
@@ -1129,8 +1946,7 @@
       "summary": "As the bombing starts again, it’s clear the president has dragged the US into a limitless fiasco – and the world into an economic quagmire Feckless and clueless, Donald Trump is lost in Iran, unable to find a way out of the disastrous war he started. Once again, the US military is pummelling the country and, increasingly, its civilian infrastructure. As before, this unlawful bludgeoning strengthens the resistance of a hardline regime that cares little for its people’s suffering. How often have Trump and Pete Hegseth, the Pentagon’s wildling lord of bones, hailed a bogus victory? The president claimed this week to be “winning big”. No one believes him. Even as it counts the vast human and economic cost of his Persian folly, a watching world scoffs at US impotence. Control of the strait of Hormuz, closed due to Trump’s belligerence, is now the White House’s limited, elusive objective. The grander US and Israeli war aims – eliminating Iran’s nuclear programme, degrading its regional militias, regime change – are less attainable than ever. It’s Trump’s craven leadership that renders US f",
       "matched_terms": [
         "Iran",
-        "Revolutionary Guard",
-        "strait of Hormuz"
+        "Revolutionary Guard"
       ],
       "tags": [
         "Nuclear",
@@ -1145,9 +1961,53 @@
       "importance_label": "Important"
     },
     {
+      "source": "Iran International",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "روزنامه کیهان: باید سران کشورهای عربی را «قصاص» کنیم",
+      "url": "https://www.iranintl.com/202607181002",
+      "published_utc": "2026-07-18T04:53:24+00:00",
+      "summary": "روزنامه کیهان که زیر نظر نماینده رهبر جمهوری اسلامی منتشر می‌شود، در ستون «گفت و شنود» خود نوشت که جنگنده‌های آمریکا و اسرائیل برای کشتن علی خامنه‌ای و فرماندهان نظامی، از کشورهای عربی پرواز کرده بودند و بنابراین سران این دسته از کشورهای عربی، باید «قصاص» شوند.",
+      "matched_terms": [
+        "خامنه‌ای"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "RFI Français",
+      "source_type": "regional_media",
+      "country": "France",
+      "language": "French",
+      "language_code": "fr",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "EN DIRECT - Moyen-Orient: le Koweït accuse l'Iran de cibler des sites civils et des infrastructures",
+      "url": "https://www.rfi.fr/fr/moyen-orient/20260718-en-direct-moyen-orient-les-%C3%A9tats-unis-ont-frapp%C3%A9-des-d%C3%A9p%C3%B4ts-d-armes-et-des-sites-de-surveillance-en-iran",
+      "published_utc": "2026-07-18T04:51:32+00:00",
+      "summary": "Pour la septième nuit consécutive, les États-Unis ont bombardé l'Iran samedi 18 juillet. De son côté, Téhéran a riposté en frappant des cibles en Jordanie, au Koweït et à Bahreïn, tout en menaçant de passer à une « offensive totale ». Le Koweït accuse l'Iran de prendre pour cible des sites civils et des infrastructures essentielles, après des attaques contre une installation pétrolière ainsi qu'une centrale électrique et de dessalement.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "Al Jazeera",
       "source_type": "regional_media",
       "country": "Qatar",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "A seventh night of US strikes cuts water to villages in Iran’s south",
@@ -1181,7 +2041,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Middle East Eye",
@@ -1200,6 +2062,51 @@
       ],
       "tags": [
         "Military",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Frankfurter Allgemeine",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "F.A.Z. MACHTPROBE: Wie am Irankrieg das US-israelische Bündnis zerbrechen könnte",
+      "url": "https://www.faz.net/podcasts/f-a-z-podcast-machtprobe/wie-netanjahus-kriege-israel-isolieren-201041616.html",
+      "published_utc": "2026-07-18T04:05:00+00:00",
+      "summary": "Während der Krieg zwischen den USA und Iran gerade wieder eskaliert, steht Israel inzwischen vermeintlich an der Seitenlinie. Welche Rolle spielt Benjamin Netanjahu noch im Irankrieg?",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Israel"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Der Spiegel",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Iran meldet »Explosion« von Öltankern – USA dementieren",
+      "url": "https://www.spiegel.de/ausland/strasse-von-hormus-iran-meldet-explosion-von-oeltankern-usa-dementieren-a-a638df2b-3a68-4401-872b-ed5f635fe8db#ref=rss",
+      "published_utc": "2026-07-18T04:03:00+00:00",
+      "summary": "US-Angriffe seit sieben Nächten, iranische Gegenschläge, Sirenen in den Golfstaaten: Die Lage an der Straße von Hormus eskaliert. Ein Friedensabkommen scheint ferner denn je.",
+      "matched_terms": [
+        "Iran",
+        "iranische"
+      ],
+      "tags": [
         "Hormuz & Maritime"
       ],
       "importance_score": 2,
@@ -1222,6 +2129,29 @@
       "tags": [
         "Military",
         "Energy"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Le Monde",
+      "source_type": "newspaper",
+      "country": "France",
+      "language": "French",
+      "language_code": "fr",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "EN DIRECT, guerre en Iran : le Koweït annonce qu’une deuxième centrale électrique et de dessalement a été attaquée ; Téhéran menace tous les pays accueillant des forces américaines de représailles",
+      "url": "https://www.lemonde.fr/international/live/2026/07/18/en-direct-guerre-au-moyen-orient-l-armee-americaine-a-frappe-des-infrastructures-militaires-et-des-depots-d-armes-souterrains-en-iran_6722873_3210.html",
+      "published_utc": "2026-07-18T03:13:36+00:00",
+      "summary": "L’Iran a fait état jeudi soir de trois morts lors de bombardements américains dans le sud du pays et a répliqué. L’armée jordanienne affirme avoir intercepté dix missiles ; Bahreïn et le Koweït ont aussi été ciblés par Téhéran.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Missiles & Drones"
       ],
       "importance_score": 2,
       "importance_label": "Worth a look"
@@ -1247,7 +2177,31 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Tagesschau",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "USA und Iran: Rechtswidriger Krieg - aber zulässige Seeblockade?",
+      "url": "https://www.tagesschau.de/ausland/asien/iran-blockade-maut-angriffe-recht-100.html",
+      "published_utc": "2026-07-18T03:10:36+00:00",
+      "summary": "Um Iran unter Druck zu setzen, blockieren die USA die Häfen in der Straße von Hormus. Ein Tanker, der die Blockade durchbrechen wollte, wurde beschossen. Auch eine Maut war im Gespräch. Ist all das durch das Völkerrecht gedeckt? Von B.-H. Otte.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military",
+        "Hormuz & Maritime"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
     },
     {
       "source": "Al Jazeera",
@@ -1268,15 +2222,19 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Haaretz",
       "source_type": "newspaper",
       "country": "Israel",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
-      "title": "Live updates • Iran strikes Kuwait oil facility, causes major damage, injuries",
+      "title": "Live updates • Iran strikes Kuwait oil facility, major damage and injuries reported",
       "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-18/ty-article-live/for-seventh-night-in-a-row-u-s-launches-strikes-on-iranian-infrastructure/0000019f-72d8-de8e-afff-f3fad06d0000",
       "published_utc": "2026-07-18T01:49:00+00:00",
       "summary": "Live updates | Iran executes man accused of killing security agent during 2022 protests, Mizan agency reports. Lebanon's President Aoun headed to Washington for White House summit. Sirens sound in Bahrain, Interior Ministry says",
@@ -1297,9 +2255,75 @@
       "importance_label": "Important"
     },
     {
+      "source": "La Stampa",
+      "source_type": "newspaper",
+      "country": "Italy",
+      "language": "Italian",
+      "language_code": "it",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Sceicchi orfani d’America. Il Golfo senza scudo ha paura",
+      "url": "https://www.lastampa.it/esteri/2026/07/18/news/sceicchi_orfani_d_america_il_golfo_senza_scudo_ha_paura-15692940/",
+      "published_utc": "2026-07-17T21:00:00+00:00",
+      "summary": "Il conflitto in Iran ha trasformato le basi statunitensi da garanzia a bersagli",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "La Stampa",
+      "source_type": "newspaper",
+      "country": "Italy",
+      "language": "Italian",
+      "language_code": "it",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "Teheran: “Sospesi tutti gli impegni dell'intesa con Usa”. Mamdani: “Valuto arresto Netanyahu”",
+      "url": "https://www.lastampa.it/esteri/2026/07/18/diretta/guerra_iran_usa_israele_news_oggi-15692989/",
+      "published_utc": "2026-07-17T20:05:00+00:00",
+      "summary": "Trump ha comunicato a Israele l'invio di altre decine di aerei per il rifornimento in volo",
+      "matched_terms": [
+        "Teheran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Israel"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
+    },
+    {
+      "source": "Iran International",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "محسن رضایی: اگر حملات آمریکا ادامه یابد، وارد فاز تهاجم و انهدام کامل می‌شویم",
+      "url": "https://www.iranintl.com/202607177305",
+      "published_utc": "2026-07-17T19:23:58+00:00",
+      "summary": "محسن رضایی، مشاور نظامی مجتبی خامنه‌ای، در صدا و سیمای جمهوری اسلامی گفت: «اگر آمریکا دو سه روز دیگر به حملات خود ادامه دهند، وارد فاز تهاجم و انهدام کامل خواهیم شد و هیچ مرز سیاسی‌ای برای حملات خود نمی‌شناسیم.»",
+      "matched_terms": [
+        "خامنه‌ای"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Washington Should Prepare for a Summer of Unrest in Iran",
@@ -1308,9 +2332,7 @@
       "summary": "The United States has reimposed its naval blockade against Iranian ports while striking the Islamic Republic’s military assets for a full consecutive week, all in response to Tehran’s repeated violations... The post Washington Should Prepare for a Summer of Unrest in Iran appeared first on FDD .",
       "matched_terms": [
         "Iran",
-        "Iranian",
-        "Islamic Republic",
-        "Tehran"
+        "Iranian"
       ],
       "tags": [
         "US–Iran",
@@ -1324,6 +2346,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid",
@@ -1360,7 +2384,9 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1379,7 +2405,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1398,7 +2426,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1421,12 +2451,37 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "ارتش آمریکا ادعای حمله سپاه به پایگاه التنف را رد کرد",
+      "url": "https://iranwire.com/fa/news-1/155102-%D8%B3%D9%86%D8%AA%DA%A9%D8%A7%D9%85-%D8%A7%D8%AF%D8%B9%D8%A7%DB%8C-%D8%B3%D9%BE%D8%A7%D9%87-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%DA%A9%D8%B4%D8%AA%D9%87-%D8%B4%D8%AF%D9%86-%D9%86%DB%8C%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%D8%A7%D9%84%D8%AA%D9%86%D9%81-%D8%B1%D8%A7-%D8%B1%D8%AF-%DA%A9%D8%B1%D8%AF/",
+      "published_utc": "2026-07-17T16:10:25+00:00",
+      "summary": "فرماندهی مرکزی ارتش ایالات متحده آمریکا (سنتکام) ادعاهای سپاه پاسداران درباره حمله به پایگاه تنف در سوریه و کشته شدن نیروهای آمریکایی را ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Trump threatens new Iran war escalation and risks repeating old mistakes",
@@ -1461,7 +2516,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1481,7 +2538,9 @@
         "Domestic Politics"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1501,7 +2560,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1522,12 +2583,16 @@
         "Domestic Politics"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Iran, AI, and the Death of Traditional Warfare",
@@ -1547,6 +2612,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Iran never wanted a deal, just prep time for next phase",
@@ -1579,12 +2646,40 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Nikkei Asia",
+      "source_type": "newspaper",
+      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Home",
+      "url": "https://asia.nikkei.com/",
+      "published_utc": "2026-07-17T14:20:57+00:00",
+      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "US–Iran",
+        "Military",
+        "Energy",
+        "Russia & China"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "BESA Center",
       "source_type": "think_tank",
       "country": "Israel",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 3,
       "content_kind": "Research & analysis",
       "title": "Tolerated Memory, Withheld Recognition: Iran, the Armenian Genocide, and the Politics of Historical Asymmetry",
@@ -1602,9 +2697,35 @@
       "importance_label": "Minor mention"
     },
     {
+      "source": "ISPI Italiano",
+      "source_type": "think_tank",
+      "country": "Italy",
+      "language": "Italian",
+      "language_code": "it",
+      "source_priority": 5,
+      "content_kind": "Research & analysis",
+      "title": "Home | ISPI",
+      "url": "https://www.ispionline.it/it",
+      "published_utc": "2026-07-17T13:53:51+00:00",
+      "summary": "",
+      "matched_terms": [
+        "iraniane"
+      ],
+      "tags": [
+        "US–Iran",
+        "Hormuz & Maritime",
+        "Domestic Politics",
+        "Regional Influence"
+      ],
+      "importance_score": 3,
+      "importance_label": "Useful background"
+    },
+    {
       "source": "Arab Gulf States Institute",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Qalibaf Emerges as Iran’s De Facto Wartime Leader - AGSI",
@@ -1614,8 +2735,7 @@
       "matched_terms": [
         "Iran",
         "Iranian",
-        "Khamenei",
-        "Tehran"
+        "Khamenei"
       ],
       "tags": [
         "US–Iran",
@@ -1626,6 +2746,29 @@
       ],
       "importance_score": 3,
       "importance_label": "Useful background"
+    },
+    {
+      "source": "Tagesschau",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "German",
+      "language_code": "de",
+      "source_priority": 5,
+      "content_kind": "News & reporting",
+      "title": "Iranische Medien: USA greifen Brücken und Flughafen an",
+      "url": "https://www.tagesschau.de/ausland/asien/usa-angriffe-iran-104.html",
+      "published_utc": "2026-07-17T13:48:27+00:00",
+      "summary": "In der sechsten Angriffsnacht in Folge haben die USA in Iran unter anderem Brücken bombardiert. Iranische Medien berichten von mindestens acht Toten. Teheran reagierte mit Schlägen gegen die Golfstaaten.",
+      "matched_terms": [
+        "Iran",
+        "Iranische",
+        "Teheran"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -1646,7 +2789,9 @@
         "Regional Influence"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1666,12 +2811,16 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "SWP Berlin",
       "source_type": "think_tank",
       "country": "Germany",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "Research & analysis",
       "title": "Die USA und die transatlantischen Beziehungen",
@@ -1708,7 +2857,9 @@
         "Energy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -1727,7 +2878,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1749,7 +2902,9 @@
         "Energy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1770,7 +2925,9 @@
         "Regional Influence"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1790,7 +2947,9 @@
         "Energy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -1810,12 +2969,16 @@
         "Energy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "The Guardian",
       "source_type": "newspaper",
       "country": "United Kingdom",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "The White House’s guide to manhood: pop some T, restart a war and do WHAT with a corn dog? | Marina Hyde",
@@ -1834,9 +2997,32 @@
       "importance_label": "Worth a look"
     },
     {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "سپاه از حمله به مرکز فرماندهی آمریکا در سوریه خبر داد",
+      "url": "https://iranwire.com/fa/news-1/155081-%D8%B3%D9%BE%D8%A7%D9%87-%D8%A7%D8%B2-%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%AF%D8%B1-%D8%B3%D9%88%D8%B1%DB%8C%D9%87-%D8%AE%D8%A8%D8%B1-%D8%AF%D8%A7%D8%AF/",
+      "published_utc": "2026-07-17T10:47:33+00:00",
+      "summary": "سپاه پاسداران اعلام کرد بامداد جمعه ۲۶ تیر، یک مرکز فرماندهی عملیات ویژه نیروهای آمریکا در منطقه تنف سوریه را هدف حمله قرار داده است. س ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
       "source": "IFRI",
       "source_type": "think_tank",
       "country": "France",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Ifri | Knowledge for Action",
@@ -1844,8 +3030,7 @@
       "published_utc": "2026-07-17T10:34:27+00:00",
       "summary": "Ifri, leading French think tank since 1979, analyzes key issues in geopolitics and international relations. Discover our latest insights.",
       "matched_terms": [
-        "Iran",
-        "Islamic Republic"
+        "Iran"
       ],
       "tags": [
         "Nuclear",
@@ -1858,6 +3043,27 @@
       ],
       "importance_score": 4,
       "importance_label": "Important"
+    },
+    {
+      "source": "IFRI",
+      "source_type": "think_tank",
+      "country": "France",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "Analysis",
+      "title": "Ifri | L'intelligence des relations internationales",
+      "url": "https://www.ifri.org/fr",
+      "published_utc": "2026-07-17T10:34:27+00:00",
+      "summary": "L’Ifri, premier think tank français depuis 1979, analyse les grands enjeux de la géopolitique et des relations internationales. Découvrez nos dernières publications.",
+      "matched_terms": [
+        "iraniennes"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -1882,7 +3088,9 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1902,7 +3110,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1922,7 +3132,9 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -1942,59 +3154,21 @@
         "IRGC"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
-    },
-    {
-      "source": "Asharq Al-Awsat",
-      "source_type": "regional_media",
-      "country": "Saudi Arabia",
-      "source_priority": 4,
-      "content_kind": "News & reporting",
-      "title": "Kuwait Says Iran Attacked Power and Water Desalination Plant, Causing Damage",
-      "url": "https://english.aawsat.com/node/5297035",
-      "published_utc": "2026-07-17T09:16:44+00:00",
-      "summary": "",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Military"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Nikkei Asia",
       "source_type": "newspaper",
       "country": "Japan",
-      "source_priority": 4,
-      "content_kind": "Analysis",
-      "title": "Home",
-      "url": "https://asia.nikkei.com/",
-      "published_utc": "2026-07-17T08:59:24+00:00",
-      "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
-      "matched_terms": [
-        "Iran",
-        "Tehran"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Nikkei Asia",
-      "source_type": "newspaper",
-      "country": "Japan",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Spotlight",
       "url": "https://asia.nikkei.com/spotlight",
-      "published_utc": "2026-07-17T08:59:24+00:00",
+      "published_utc": "2026-07-17T10:10:34+00:00",
       "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
       "matched_terms": [
         "Iran"
@@ -2016,6 +3190,27 @@
       "country": "Saudi Arabia",
       "source_priority": 4,
       "content_kind": "News & reporting",
+      "title": "Kuwait Says Iran Attacked Power and Water Desalination Plant, Causing Damage",
+      "url": "https://english.aawsat.com/node/5297035",
+      "published_utc": "2026-07-17T09:16:44+00:00",
+      "summary": "",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Military"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Asharq Al-Awsat",
+      "source_type": "regional_media",
+      "country": "Saudi Arabia",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
       "title": "What is Pickaxe Mountain, the Iranian Nuclear-linked Site Threatened by Trump?",
       "url": "https://english.aawsat.com/node/5297012",
       "published_utc": "2026-07-17T08:06:46+00:00",
@@ -2028,7 +3223,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2048,7 +3245,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2067,7 +3266,9 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2087,7 +3288,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2106,7 +3309,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2125,7 +3330,30 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "حمله  پهپادی و موشکی به اردوگاه حزب کومله کردستان ایران",
+      "url": "https://iranwire.com/fa/news-1/155071-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D9%88-%D9%85%D9%88%D8%B4%DA%A9%DB%8C-%D8%A8%D9%87-%D8%A7%D8%B1%D8%AF%D9%88%DA%AF%D8%A7%D9%87-%D8%AD%D8%B2%D8%A8-%DA%A9%D9%88%D9%85%D9%84%D9%87-%DA%A9%D8%B1%D8%AF%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/",
+      "published_utc": "2026-07-17T07:54:05+00:00",
+      "summary": "بامداد جمعه ۲۶تیر۱۴۰۵ و در ادامه حملات پهپادی و موشکی سپاه پاسداران به مقر احزاب کرد در عراق، اردوگاه حزب کومله کردستان ایران هدف حمله ق ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2146,7 +3374,51 @@
         "Domestic Politics"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "حملات نیروهای مسلح جمهوری‌اسلامی به پایگاه‌های آمریکا در چند کشور منطقه",
+      "url": "https://iranwire.com/fa/news-1/155064-%D9%86%DB%8C%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%D9%85%D8%B3%D9%84%D8%AD-%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C-%D8%A7%D8%B2-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A8%D9%87-%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%AF%D8%B1-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D8%AE%D8%A8%D8%B1-%D8%AF%D8%A7%D8%AF/",
+      "published_utc": "2026-07-17T07:25:53+00:00",
+      "summary": "رسانه‌های ایران به نقل از ارتش جمهوری اسلامی و سپاه پاسداران از دور تازه‌ای از حملات موشکی و پهپادی به پایگاه‌های نظامی آمریکا در چند کش ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "سپاه پاسداران از حمله به اهدافی در عمان خبر داد",
+      "url": "https://iranwire.com/fa/news-1/155062-%D8%B3%D9%BE%D8%A7%D9%87-%D9%BE%D8%A7%D8%B3%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%A7%D8%B2-%D8%AD%D9%85%D9%84%D9%87-%D8%A8%D9%87-%D8%A7%D9%87%D8%AF%D8%A7%D9%81%DB%8C-%D8%AF%D8%B1-%D8%B9%D9%85%D8%A7%D9%86-%D8%AE%D8%A8%D8%B1-%D8%AF%D8%A7%D8%AF/",
+      "published_utc": "2026-07-17T07:13:40+00:00",
+      "summary": "سپاه پاسداران اعلام کرد بامداد جمعه ۲۶ تیر، اهدافی را در جزیره سلامه و منطقه غنم در استان مسندم عمان هدف حمله قرار داده است.روابط عمومی ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2165,7 +3437,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2185,7 +3459,9 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2205,7 +3481,9 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2225,7 +3503,9 @@
         "Economy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2245,7 +3525,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -2264,12 +3546,16 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "CNAS",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Brussels Sprouts LIVE | Forecasting the Future of the Axis of Upheaval: The View from Moscow",
@@ -2294,6 +3580,8 @@
       "source": "White House",
       "source_type": "official",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "Official statement",
       "title": "Election Integrity",
@@ -2317,6 +3605,8 @@
       "source": "Haaretz",
       "source_type": "newspaper",
       "country": "Israel",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "News & reporting",
       "title": "Live updates • For seventh night in a row, U.S. launches strikes on Iranian infrastructure",
@@ -2327,8 +3617,7 @@
         "Iran",
         "Iranian",
         "IRGC",
-        "Revolutionary Guard",
-        "Strait of Hormuz"
+        "Revolutionary Guard"
       ],
       "tags": [
         "US–Iran",
@@ -2344,6 +3633,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Revealed: Step-by-step plan to finally end Iran war with US victory… and it doesn’t require any American boots on the ground or handing Tehran a single dollar",
@@ -2351,9 +3642,7 @@
       "published_utc": "2026-07-17T01:05:00+00:00",
       "summary": "Excerpt Even as Washington and Tehran continue to intensify strikes against each other’s assets across the Persian Gulf, the key lesson of America’s ongoing conflict with Iran is... The post Revealed: Step-by-step plan to finally end Iran war with US victory… and it doesn’t require any American boots on the ground or handing Tehran a single dollar appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Persian Gulf",
-        "Tehran"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -2366,6 +3655,8 @@
       "source": "Haaretz",
       "source_type": "newspaper",
       "country": "Israel",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Opinion | The Netanyahu regime's black boxes must be revealed",
@@ -2388,6 +3679,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Iran-backed Houthis instructed to shut down more shipping routes",
@@ -2408,6 +3701,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "U.S. launches strikes against Iran for a fifth night",
@@ -2427,6 +3722,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "The U.S.-Iran feud over the Strait of Hormuz",
@@ -2434,8 +3731,7 @@
       "published_utc": "2026-07-16T20:44:04+00:00",
       "summary": "The post The U.S.-Iran feud over the Strait of Hormuz appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Strait of Hormuz"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -2448,6 +3744,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Syria intercepts Iranian weapons headed for Hezbollah",
@@ -2467,6 +3765,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "President Trump leans toward expanding U.S. military operations in Iran",
@@ -2487,6 +3787,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Iran calls on Houthis to prepare to cut off Red Sea gateway — can the terror group do it?",
@@ -2506,6 +3808,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Iran’s Renewed Aggression Should Spur U.S. To Revive Maximum Pressure Campaign",
@@ -2513,8 +3817,7 @@
       "published_utc": "2026-07-16T18:38:55+00:00",
       "summary": "Iran’s repeated attacks on commercial shipping may ultimately force the United States to take a more aggressive posture by reviving its maximum pressure campaign against the Tehran regime. Following... The post Iran’s Renewed Aggression Should Spur U.S. To Revive Maximum Pressure Campaign appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Tehran"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -2530,6 +3833,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Objectives of renewed U.S. military action against Iran",
@@ -2550,6 +3855,8 @@
       "source": "CNAS",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Is There a Trump Sanctions Doctrine? With Josh Kretman",
@@ -2557,10 +3864,7 @@
       "published_utc": "2026-07-16T17:11:25+00:00",
       "summary": "Developing strong, pragmatic and principled national security and defense policies.",
       "matched_terms": [
-        "Iran",
-        "Islamic Republic",
-        "Strait of Hormuz",
-        "Tehran"
+        "Iran"
       ],
       "tags": [
         "Nuclear",
@@ -2591,7 +3895,30 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "Haaretz Hebrew",
+      "source_type": "newspaper",
+      "country": "Israel",
+      "language": "Hebrew",
+      "language_code": "he",
+      "source_priority": 5,
+      "content_kind": "Analysis",
+      "title": "נתניהו מוליך את העלילה בספר החדש על טראמפ. מתי ייחשפו עלילות המשטר פה? | דעה",
+      "url": "https://www.haaretz.co.il/opinions/2026-07-16/ty-article-opinion/.premium/0000019f-6b6a-de8e-afff-fbfa5de80000",
+      "published_utc": "2026-07-16T17:00:00+00:00",
+      "summary": "\"שינוי משטר\", ספרם של העיתונאים האמריקאים מגי הברמן וג'ונתן סוואן על כהונתו הנוכחית של דונלד טראמפ, מתאר את הדרך שעבר הנשיא מבניית ממשל ריכוזי ונטול מעצורים באמ",
+      "matched_terms": [
+        "איראן"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "IranWire",
@@ -2612,7 +3939,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2632,7 +3961,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2652,7 +3983,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2672,12 +4005,16 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "U.S., Iran ramp up battle over Strait of Hormuz control",
@@ -2685,8 +4022,7 @@
       "published_utc": "2026-07-16T15:57:02+00:00",
       "summary": "The post U.S., Iran ramp up battle over Strait of Hormuz control appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Strait of Hormuz"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -2699,6 +4035,8 @@
       "source": "Quincy Institute",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Has Iran Successfully Driven a Wedge Between U.S. and Israel?",
@@ -2732,12 +4070,16 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Arab Gulf States Institute",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "The Emir Who Refused To Hide - AGSI",
@@ -2777,12 +4119,16 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Iran-nexus actors using AI to enhance cyber playbook",
@@ -2802,6 +4148,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Hopes for US-Iran diplomacy still alive as fighting intensifies over the Strait of Hormuz",
@@ -2809,8 +4157,7 @@
       "published_utc": "2026-07-16T14:20:26+00:00",
       "summary": "The post Hopes for US-Iran diplomacy still alive as fighting intensifies over the Strait of Hormuz appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Strait of Hormuz"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -2839,12 +4186,16 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Trump walking ‘tightrope act’ with Iran bombing campaign",
@@ -2864,6 +4215,8 @@
       "source": "Quincy Institute",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "3 islands help control access to the Strait of Hormuz. They’re in the crosshairs of the Iran war",
@@ -2871,8 +4224,7 @@
       "published_utc": "2026-07-16T13:20:00+00:00",
       "summary": "The post 3 islands help control access to the Strait of Hormuz. They’re in the crosshairs of the Iran war appeared first on Quincy Institute for Responsible Statecraft .",
       "matched_terms": [
-        "Iran",
-        "Strait of Hormuz"
+        "Iran"
       ],
       "tags": [
         "Military",
@@ -2900,7 +4252,9 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2919,7 +4273,9 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2938,7 +4294,9 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2960,7 +4318,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -2980,7 +4340,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3001,12 +4363,16 @@
         "US–Iran"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "SWP Berlin",
       "source_type": "think_tank",
       "country": "Germany",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "Research & analysis",
       "title": "Außen- und Sicherheitspolitik",
@@ -3014,7 +4380,8 @@
       "published_utc": "2026-07-16T10:45:54+00:00",
       "summary": "Außen- und Sicherheitspolitik - Politikwissenschaftliche Forschung und unabhängige Beratung in internationalen Beziehungen, Außenpolitik und Sicherheitspolitik für Bundestag und Bundesregierung",
       "matched_terms": [
-        "Iran"
+        "Iran",
+        "iranische"
       ],
       "tags": [
         "US–Iran",
@@ -3047,7 +4414,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3067,7 +4436,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3086,12 +4457,16 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "BESA Center",
       "source_type": "think_tank",
       "country": "Israel",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 3,
       "content_kind": "Research & analysis",
       "title": "Webinar :The Impact of the War with Iran on the Eastern Mediterranean 22.7.2026",
@@ -3124,7 +4499,9 @@
         "US–Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3143,7 +4520,30 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "ترامپ: سپاه را همان‌گونه نابود می‌کنیم که داعش را شکست دادیم",
+      "url": "https://iranwire.com/fa/news-1/155031-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%B3%D9%BE%D8%A7%D9%87-%D8%B1%D8%A7-%D9%87%D9%85%D8%A7%D9%86%DA%AF%D9%88%D9%86%D9%87-%D9%86%D8%A7%D8%A8%D9%88%D8%AF-%D9%85%DB%8C%DA%A9%D9%86%DB%8C%D9%85-%DA%A9%D9%87-%D8%AF%D8%A7%D8%B9%D8%B4-%D8%B1%D8%A7-%D8%B4%DA%A9%D8%B3%D8%AA-%D8%AF%D8%A7%D8%AF%DB%8C%D9%85/",
+      "published_utc": "2026-07-16T08:42:50+00:00",
+      "summary": "دونالد ترامپ، رییس‌ جمهوری آمریکا، با اشاره به ادامه عملیات نظامی ایالات متحده علیه جمهوری اسلامی، اعلام کرد که واشنگتن سپاه پاسداران را ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
     },
     {
       "source": "IranWire",
@@ -3164,7 +4564,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3184,7 +4586,9 @@
         "Domestic Politics"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3205,7 +4609,9 @@
         "Energy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3226,7 +4632,9 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3245,7 +4653,9 @@
         "Diplomacy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3264,7 +4674,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3283,7 +4695,9 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3302,7 +4716,9 @@
         "Missiles & Drones"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3321,7 +4737,9 @@
         "Regional Influence"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3340,12 +4758,16 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Trump tells Tehran to ‘behave’ as U.S. wraps up fresh strikes on Iran",
@@ -3353,8 +4775,7 @@
       "published_utc": "2026-07-16T03:30:00+00:00",
       "summary": "The post Trump tells Tehran to ‘behave’ as U.S. wraps up fresh strikes on Iran appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Tehran"
+        "Iran"
       ],
       "tags": [
         "US–Iran"
@@ -3366,6 +4787,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Riyadh Strikes Houthi-Controlled Airport To Block Flight From Iran",
@@ -3373,8 +4796,7 @@
       "published_utc": "2026-07-15T21:41:26+00:00",
       "summary": "The Houthis and Saudi Arabia broke a four-year truce after Iran and its Yemeni proxy attempted to establish a direct flight path between Tehran and the Houthi-controlled capital of Sanaa. The flight openly... The post Riyadh Strikes Houthi-Controlled Airport To Block Flight From Iran appeared first on FDD .",
       "matched_terms": [
-        "Iran",
-        "Tehran"
+        "Iran"
       ],
       "tags": [
         "Regional Influence"
@@ -3386,6 +4808,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "How will the resumption of the U.S.-Iran conflict affect Israel?",
@@ -3406,6 +4830,8 @@
       "source": "Council on Foreign Relations",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "Research & analysis",
       "title": "The Strait of Hormuz: A U.S.-Iran Maritime Flash Point",
@@ -3413,8 +4839,7 @@
       "published_utc": "2026-07-15T19:47:56+00:00",
       "summary": "The narrow and congested Mideast waterway has become a site of escalating U.S.-Iran tensions. Trump’s war on Iran has placed it in the middle of the battlefield, driving a spike in oil and gas prices worldwide.",
       "matched_terms": [
-        "Iran",
-        "Strait of Hormuz"
+        "Iran"
       ],
       "tags": [
         "US–Iran",
@@ -3429,6 +4854,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "For Israel, the U.S.-Iran Hostilities Have Created an Uneasy Limbo",
@@ -3449,6 +4876,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "U.S. strikes on Iran continue as IRGC launches attacks across Gulf",
@@ -3485,12 +4914,37 @@
         "Domestic Politics"
       ],
       "importance_score": 1,
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
+    },
+    {
+      "source": "IranWire",
+      "source_type": "regional_media",
+      "country": "Iran",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "content_kind": "News & reporting",
+      "title": "آمریکا هفت فرد و نهاد مرتبط با سپاه پاسداران را تحریم کرد",
+      "url": "https://iranwire.com/fa/news-1/155012-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%87%D9%81%D8%AA-%D9%81%D8%B1%D8%AF-%D9%88-%D9%86%D9%87%D8%A7%D8%AF-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D8%B3%D9%BE%D8%A7%D9%87-%D9%BE%D8%A7%D8%B3%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%DA%A9%D8%B1%D8%AF/",
+      "published_utc": "2026-07-15T17:17:57+00:00",
+      "summary": "دفتر کنترل دارایی‌های خارجی وزارت خزانه‌داری آمریکا، روز چهارشنبه ۲۴ تیر، از اعمال تحریم علیه هفت فرد و نهاد به اتهام همکاری با شبکه بین ...",
+      "matched_terms": [
+        "سپاه پاسداران"
+      ],
+      "tags": [
+        "General Iran"
+      ],
+      "importance_score": 1,
       "importance_label": "Minor mention"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "The irrational Iranian regime",
@@ -3523,7 +4977,9 @@
         "Sanctions"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3545,7 +5001,9 @@
         "Hormuz & Maritime"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3565,7 +5023,9 @@
         "Regional Influence"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3586,7 +5046,9 @@
         "Military"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3607,12 +5069,16 @@
         "IRGC"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "The escalation of the battle with Iran",
@@ -3632,6 +5098,8 @@
       "source": "ECFR",
       "source_type": "think_tank",
       "country": "Europe",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 5,
       "content_kind": "Research & analysis",
       "title": "Down and out from Rabat to Cairo: The Iran war and North African instability",
@@ -3651,6 +5119,8 @@
       "source": "FDD",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Research & analysis",
       "title": "Trump ‘left himself no choice’ in Iran negotiations",
@@ -3671,6 +5141,8 @@
       "source": "Nikkei Asia",
       "source_type": "newspaper",
       "country": "Japan",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Iran tensions",
@@ -3679,9 +5151,7 @@
       "summary": "Japan, China, India and Southeast Asia news and expert analysis published by Nikkei, an award-winning independent provider of quality journalism.",
       "matched_terms": [
         "Iran",
-        "Revolutionary Guards",
-        "Strait of Hormuz",
-        "Tehran"
+        "Revolutionary Guards"
       ],
       "tags": [
         "US–Iran",
@@ -3720,7 +5190,9 @@
         "Russia & China"
       ],
       "importance_score": 4,
-      "importance_label": "Important"
+      "importance_label": "Important",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Asharq Al-Awsat",
@@ -3739,7 +5211,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3760,7 +5234,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3781,12 +5257,16 @@
         "IRGC"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "Arab Gulf States Institute",
       "source_type": "think_tank",
       "country": "United States",
+      "language": "English",
+      "language_code": "en",
       "source_priority": 4,
       "content_kind": "Analysis",
       "title": "Iranian Parliament Presses for Escalation - AGSI",
@@ -3797,9 +5277,7 @@
         "Iran",
         "Iranian",
         "IRGC",
-        "Revolutionary Guard",
-        "Strait of Hormuz",
-        "Tehran"
+        "Revolutionary Guard"
       ],
       "tags": [
         "US–Iran",
@@ -3831,7 +5309,9 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3850,7 +5330,9 @@
         "Economy"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3870,7 +5352,9 @@
         "Protests & Rights"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3889,7 +5373,9 @@
         "General Iran"
       ],
       "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_label": "Minor mention",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3914,7 +5400,9 @@
         "Energy"
       ],
       "importance_score": 4,
-      "importance_label": "Important"
+      "importance_label": "Important",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3935,7 +5423,9 @@
         "Energy"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3955,7 +5445,9 @@
         "Sanctions"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3976,7 +5468,9 @@
         "Military"
       ],
       "importance_score": 2,
-      "importance_label": "Worth a look"
+      "importance_label": "Worth a look",
+      "language": "English",
+      "language_code": "en"
     },
     {
       "source": "IranWire",
@@ -3997,7 +5491,9 @@
         "Military"
       ],
       "importance_score": 3,
-      "importance_label": "Useful background"
+      "importance_label": "Useful background",
+      "language": "English",
+      "language_code": "en"
     }
   ]
 }
