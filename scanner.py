@@ -70,7 +70,18 @@ MEDIUM_IMPORTANCE = [
     "trump", "khamenei", "pezeshkian", "israel", "united states", "oil",
     "diplomacy", "negotiation", "proxy", "hezbollah", "houthi"
 ]
-ANALYSIS_HINTS = ["analysis", "opinion", "commentary", "explainer", "investigation", "feature", "long read", "editorial"]
+ANALYSIS_HINTS = [
+    "analysis", "opinion", "commentary", "explainer", "investigation", "feature",
+    "long read", "editorial", "perspective", "assessment", "report", "research",
+    "policy brief", "policy paper", "working paper", "interview", "Q&A", "why ",
+    "what next", "what does", "how ", "背景", "分析", "解説", "观点", "комментарий",
+    "анализ", "analyse", "analyse", "commentaire", "opinión", "análisis", "analisi",
+    "yorum", "ניתוח", "פרשנות"
+]
+NEWS_HINTS = [
+    "breaking", "live", "latest", "says", "announces", "confirms", "reports", "kills",
+    "strikes", "attacks", "meeting", "statement", "press release", "news", "update"
+]
 
 
 def now() -> datetime:
@@ -99,15 +110,28 @@ def classify_topics(text: str) -> list[str]:
     return tags[:7] or ["General Iran"]
 
 
-def content_kind(source: dict, title: str, url: str, text: str) -> str:
-    if source.get("type") == "official":
-        return "Official statement"
+def classify_content(source: dict, title: str, url: str, text: str) -> tuple[str, str]:
+    """Return a broad filter group and a more descriptive label.
+
+    This is deliberately rule-based. Think-tank material defaults to analysis; official
+    institutions default to official; newspapers and regional outlets default to news
+    unless the title, URL or summary strongly signals analysis/commentary.
+    """
+    source_type = source.get("type", "other")
     lower = f"{title} {url} {text}".lower()
-    if any(term in lower for term in ANALYSIS_HINTS):
-        return "Analysis"
-    if source.get("type") == "think_tank":
-        return "Research & analysis"
-    return "News & reporting"
+    if source_type == "official":
+        return "official", "Official statement"
+    if source_type == "think_tank":
+        return "analysis", "Research & analysis"
+    if any(term.lower() in lower for term in ANALYSIS_HINTS):
+        if "opinion" in lower or "editorial" in lower or "commentary" in lower:
+            return "analysis", "Opinion & commentary"
+        if "investigation" in lower or "investigative" in lower:
+            return "analysis", "Investigation"
+        if "explainer" in lower or "what does" in lower or "why " in lower or "how " in lower:
+            return "analysis", "Explainer & analysis"
+        return "analysis", "Analysis"
+    return "news", "News & reporting"
 
 
 def importance(text: str, tags: list[str], source: dict) -> dict:
@@ -153,6 +177,7 @@ def make_item(source: dict, title: str, url: str, published: datetime, summary: 
         return None
     tags = classify_topics(text)
     rank = importance(text, tags, source)
+    content_group, content_label = classify_content(source, title, url, text)
     return {
         "source": source["name"],
         "source_type": source.get("type", "other"),
@@ -160,7 +185,8 @@ def make_item(source: dict, title: str, url: str, published: datetime, summary: 
         "language": source.get("language", "English"),
         "language_code": source.get("language_code", "en"),
         "source_priority": source.get("priority", 3),
-        "content_kind": content_kind(source, title, url, text),
+        "content_group": content_group,
+        "content_kind": content_label,
         "title": title,
         "url": url,
         "published_utc": published.isoformat(),
@@ -286,7 +312,7 @@ def load_existing() -> list[dict]:
 async def main() -> None:
     scan_cutoff = now() - timedelta(hours=SCAN_HOURS)
     archive_cutoff = now() - timedelta(days=ARCHIVE_DAYS)
-    headers = {"User-Agent": "IranIntelligenceMonitor/3.2 (journalistic research monitor; contact via repository)"}
+    headers = {"User-Agent": "IranIntelligenceMonitor/3.4 (journalistic research monitor; contact via repository)"}
     connector = aiohttp.TCPConnector(limit=20)
     timeout = aiohttp.ClientTimeout(total=45)
     async with aiohttp.ClientSession(headers=headers, connector=connector, timeout=timeout) as session:
@@ -300,6 +326,14 @@ async def main() -> None:
             metadata = source_lookup.get(item.get("source", ""), {})
             item.setdefault("language", metadata.get("language", "English"))
             item.setdefault("language_code", metadata.get("language_code", "en"))
+            if not item.get("content_group"):
+                kind = (item.get("content_kind") or "").lower()
+                if item.get("source_type") == "official" or "official" in kind:
+                    item["content_group"] = "official"
+                elif item.get("source_type") == "think_tank" or any(word in kind for word in ("analysis", "research", "opinion", "commentary", "explainer", "investigation")):
+                    item["content_group"] = "analysis"
+                else:
+                    item["content_group"] = "news"
             key = item.get("url", "").rstrip("/") or item.get("source", "") + "|" + item.get("title", "").lower()
             unique[key] = item
 
@@ -317,14 +351,16 @@ async def main() -> None:
     type_counts={}
     country_counts={}
     language_counts={}
+    content_counts={}
     for item in items:
         type_counts[item.get("source_type","other")]=type_counts.get(item.get("source_type","other"),0)+1
         country_counts[item.get("country","International")]=country_counts.get(item.get("country","International"),0)+1
         language_counts[item.get("language","English")]=language_counts.get(item.get("language","English"),0)+1
+        content_counts[item.get("content_group","news")]=content_counts.get(item.get("content_group","news"),0)+1
     payload = {
         "generated_utc": now().isoformat(), "scan_hours":SCAN_HOURS, "archive_days":ARCHIVE_DAYS,
         "source_count":len(SOURCES), "item_count":len(items), "type_counts":type_counts,
-        "country_counts":country_counts, "language_counts":language_counts,
+        "country_counts":country_counts, "language_counts":language_counts, "content_counts":content_counts,
         "source_status":source_status, "items":items
     }
     OUTPUT.parent.mkdir(exist_ok=True)
