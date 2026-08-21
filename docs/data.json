@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-08-21T18:52:22.494247+00:00",
+  "generated_utc": "2026-08-21T19:35:11.253008+00:00",
   "scan_hours": 240,
   "archive_days": 10,
   "source_count": 154,
-  "item_count": 1914,
+  "item_count": 1910,
   "type_counts": {
-    "newspaper": 598,
+    "newspaper": 596,
     "regional_media": 959,
     "news": 154,
-    "think_tank": 116,
+    "think_tank": 114,
     "official": 87
   },
   "country_counts": {
@@ -18,11 +18,11 @@
     "Israel": 120,
     "France": 99,
     "Azerbaijan": 49,
-    "Turkey": 128,
+    "Turkey": 127,
     "United Arab Emirates": 396,
     "Iran": 220,
     "Qatar": 123,
-    "United States": 202,
+    "United States": 200,
     "United Kingdom": 206,
     "Cyprus": 6,
     "Saudi Arabia": 60,
@@ -32,25 +32,25 @@
     "Netherlands": 21,
     "European Union": 9,
     "Australia": 5,
-    "International": 5
+    "International": 4
   },
   "language_counts": {
-    "English": 1372,
+    "English": 1369,
     "Japanese": 50,
     "Spanish": 26,
     "French": 71,
     "Azerbaijani": 49,
     "German": 55,
     "Hebrew": 84,
-    "Turkish": 90,
+    "Turkish": 89,
     "Russian": 69,
     "Italian": 16,
     "Polish": 11,
     "Dutch": 21
   },
   "content_counts": {
-    "analysis": 241,
-    "news": 1586,
+    "analysis": 239,
+    "news": 1584,
     "official": 87
   },
   "source_status": [
@@ -78,9 +78,9 @@
     },
     {
       "source": "CSIS",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -111,14 +111,14 @@
     },
     {
       "source": "Council on Foreign Relations",
-      "method": "feed",
-      "items": 3,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 6,
+      "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 0
+      "sitemap_links": 50
     },
     {
       "source": "Washington Institute",
@@ -144,12 +144,12 @@
     },
     {
       "source": "Stimson Center",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 1,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -177,12 +177,12 @@
     },
     {
       "source": "Quincy Institute",
-      "method": "feed",
-      "items": 3,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 6,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -200,7 +200,7 @@
     {
       "source": "CNAS",
       "method": "sitemap",
-      "items": 4,
+      "items": 7,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
@@ -255,7 +255,7 @@
     {
       "source": "Arab Gulf States Institute",
       "method": "sitemap",
-      "items": 14,
+      "items": 12,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
@@ -316,12 +316,12 @@
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 1
+      "sitemap_links": 0
     },
     {
       "source": "SWP Berlin",
       "method": "sitemap",
-      "items": 3,
+      "items": 2,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
@@ -342,25 +342,25 @@
     },
     {
       "source": "IFRI",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
-      "checked": true,
-      "feeds_tried": 10,
-      "feed_items": 0,
-      "listing_links": 0,
-      "sitemap_links": 0
-    },
-    {
-      "source": "German Marshall Fund",
       "method": "sitemap",
-      "items": 3,
+      "items": 2,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 33
+      "sitemap_links": 38
+    },
+    {
+      "source": "German Marshall Fund",
+      "method": "sitemap",
+      "items": 2,
+      "state": "active",
+      "checked": true,
+      "feeds_tried": 10,
+      "feed_items": 0,
+      "listing_links": 0,
+      "sitemap_links": 32
     },
     {
       "source": "Lowy Institute",
@@ -376,7 +376,7 @@
     {
       "source": "INSS",
       "method": "sitemap",
-      "items": 13,
+      "items": 5,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
@@ -485,23 +485,23 @@
     },
     {
       "source": "Associated Press",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "sitemap",
+      "items": 1,
+      "state": "active",
       "checked": true,
-      "feeds_tried": 11,
+      "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 50
     },
     {
       "source": "France 24",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -540,9 +540,9 @@
     },
     {
       "source": "Nikkei Asia",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -552,11 +552,11 @@
     {
       "source": "Iran International",
       "method": "feed",
-      "items": 2,
+      "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 4,
+      "feed_items": 2,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -596,11 +596,11 @@
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 3,
+      "items": 2,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 3,
+      "feed_items": 2,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -618,7 +618,7 @@
     {
       "source": "The National",
       "method": "sitemap",
-      "items": 6,
+      "items": 4,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
@@ -655,7 +655,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 2,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -870,25 +870,25 @@
     },
     {
       "source": "Tagesschau",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 13,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
     {
       "source": "Le Monde",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 1,
+      "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 0
+      "sitemap_links": 50
     },
     {
       "source": "Le Figaro",
@@ -947,12 +947,12 @@
     },
     {
       "source": "La Stampa",
-      "method": "feed",
-      "items": 4,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 4,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -969,12 +969,12 @@
     },
     {
       "source": "El País",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
-      "feeds_tried": 11,
-      "feed_items": 1,
+      "feeds_tried": 10,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -991,14 +991,14 @@
     },
     {
       "source": "ABC España",
-      "method": "feed",
+      "method": "sitemap",
       "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 12,
-      "feed_items": 1,
+      "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 0
+      "sitemap_links": 50
     },
     {
       "source": "Real Instituto Elcano",
@@ -1178,12 +1178,12 @@
     },
     {
       "source": "Israel Hayom Hebrew",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 1,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1244,14 +1244,14 @@
     },
     {
       "source": "Nikkei Japanese",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 50
+      "sitemap_links": 0
     },
     {
       "source": "Asahi Shimbun",
@@ -1381,7 +1381,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 3,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1420,12 +1420,12 @@
     },
     {
       "source": "Arms Control Association",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 1,
+      "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 0,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1502,7 +1502,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 2,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1552,9 +1552,9 @@
     },
     {
       "source": "Naval News",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "sitemap",
+      "items": 1,
+      "state": "active",
       "checked": true,
       "feeds_tried": 12,
       "feed_items": 0,
@@ -1579,7 +1579,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 8,
+      "feed_items": 4,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1607,12 +1607,12 @@
     },
     {
       "source": "Responsible Statecraft",
-      "method": "feed",
-      "items": 16,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 64,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -3720,134 +3720,6 @@
       "countries": [
         "Israel",
         "United Arab Emirates"
-      ]
-    },
-    {
-      "id": "story-48",
-      "headline": "Iran President Masoud Pezeshkian says time has come to end war with US",
-      "latest_utc": "2026-08-21T13:23:46+00:00",
-      "earliest_utc": "2026-08-21T12:41:55+00:00",
-      "tags": [
-        "Diplomacy",
-        "Domestic Politics",
-        "Military"
-      ],
-      "items": [
-        {
-          "source": "Gulf News",
-          "source_type": "news",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Commercial news organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Iran President Masoud Pezeshkian says time has come to end war with US",
-          "url": "https://gulfnews.com/world/mena/iran-president-masoud-pezeshkian-says-time-has-come-to-end-war-with-us-1.500647963",
-          "published_utc": "2026-08-21T13:23:46+00:00",
-          "summary": "Iran president says wants to end war while in position of strength",
-          "matched_terms": [
-            "Iran",
-            "Pezeshkian"
-          ],
-          "tags": [
-            "Military",
-            "Domestic Politics"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        },
-        {
-          "source": "Middle East Eye",
-          "source_type": "regional_media",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 3,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 3,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Iran’s president calls for war to end ‘today’ from position of strength",
-          "url": "https://middleeasteye.net/live-blog/live-blog-update/irans-president-calls-war-end-today-position-strength",
-          "published_utc": "2026-08-21T12:47:20+00:00",
-          "summary": "Iran’s president calls for war to end ‘today’ from position of strength Iranian President Masoud Pezeshkian has called for an end to the war while Tehran remains “in a position of strength and dignity”, warning that Iran would crush any renewed attack. Pezeshkian described the negotiated agreement as a “major achievement” unanimously approved by Iran’s Supreme National Security Council. “They cannot find even one clause in this agreement that indicates surrender; all the commitments are on the other side,” the Iranian Students’ News Agency quoted him as saying. Pezeshkian said Iran should pursue peace without lowering its guard against possible deception. “We will under no circumstances bow to bullying,” he said. “We will stand against them until our last breath and give them a crushing response. “War has to end at some point. It is better to end the war today, while we are in a position of strength and dignity,” he added.",
-          "matched_terms": [
-            "Iran",
-            "Iranian",
-            "Pezeshkian"
-          ],
-          "tags": [
-            "Military",
-            "Domestic Politics",
-            "Diplomacy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        },
-        {
-          "source": "Asharq Al-Awsat",
-          "source_type": "regional_media",
-          "country": "Saudi Arabia",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Iran President Says Time to End War while in Position of Strength",
-          "url": "https://english.aawsat.com/node/5309558",
-          "published_utc": "2026-08-21T12:41:55+00:00",
-          "summary": "",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Military"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 3,
-      "language_count": 1,
-      "country_count": 3,
-      "recent_6h_count": 1,
-      "importance_score": 3,
-      "reliability_score": 3.7,
-      "confidence_score": 2,
-      "emerging_score": 6,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 3,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Asharq Al-Awsat",
-        "Gulf News",
-        "Middle East Eye"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Saudi Arabia",
-        "United Arab Emirates",
-        "United Kingdom"
       ]
     },
     {
@@ -8362,8 +8234,8 @@
     {
       "id": "story-1",
       "headline": "Analysen & Nachrichten: global, regional, unabhängig",
-      "latest_utc": "2026-08-21T18:49:54.903000+00:00",
-      "earliest_utc": "2026-08-21T18:49:54.903000+00:00",
+      "latest_utc": "2026-08-21T19:30:43.083000+00:00",
+      "earliest_utc": "2026-08-21T19:30:43.083000+00:00",
       "tags": [
         "Israel"
       ],
@@ -8384,7 +8256,7 @@
           "content_kind": "Analysis",
           "title": "Analysen & Nachrichten: global, regional, unabhängig",
           "url": "https://dw.com/de/themen/s-9077",
-          "published_utc": "2026-08-21T18:49:54.903000+00:00",
+          "published_utc": "2026-08-21T19:30:43.083000+00:00",
           "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
           "matched_terms": [
             "Iran"
@@ -10896,284 +10768,77 @@
       ]
     },
     {
-      "id": "story-47",
-      "headline": "Dubai's Al Maktoum Airport set for 50km driverless rail network to carry passengers around site | The National",
-      "latest_utc": "2026-08-21T13:24:50.230000+00:00",
-      "earliest_utc": "2026-08-21T13:24:50.230000+00:00",
-      "tags": [
-        "Energy",
-        "Military",
-        "Protests & Rights"
-      ],
-      "items": [
-        {
-          "source": "The National",
-          "source_type": "regional_media",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Dubai's Al Maktoum Airport set for 50km driverless rail network to carry passengers around site | The National",
-          "url": "https://thenationalnews.com/news/uae/2026/08/21/dubais-al-maktoum-airport-set-for-50km-driverless-rail-network-to-carry-passengers",
-          "published_utc": "2026-08-21T13:24:50.230000+00:00",
-          "summary": "Construction due for completion in December 2031, ahead of opening of first phase of airport in 2032",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Military",
-            "Energy",
-            "Protests & Rights"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "The National"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
-      ]
-    },
-    {
-      "id": "story-49",
-      "headline": "Tactical alliances emerging ahead of first Palestinian elections in two decades | The National",
-      "latest_utc": "2026-08-21T13:23:35.661000+00:00",
-      "earliest_utc": "2026-08-21T13:23:35.661000+00:00",
+      "id": "story-48",
+      "headline": "Iran President Masoud Pezeshkian says time has come to end war with US",
+      "latest_utc": "2026-08-21T13:23:46+00:00",
+      "earliest_utc": "2026-08-21T12:41:55+00:00",
       "tags": [
         "Diplomacy",
         "Domestic Politics",
-        "Energy",
-        "Israel",
-        "Military",
-        "Protests & Rights"
-      ],
-      "items": [
-        {
-          "source": "The National",
-          "source_type": "regional_media",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Tactical alliances emerging ahead of first Palestinian elections in two decades | The National",
-          "url": "https://thenationalnews.com/news/mena/2026/08/21/alliances-forged-ahead-of-first-palestinian-elections-in-two-decades",
-          "published_utc": "2026-08-21T13:23:35.661000+00:00",
-          "summary": "Abbas's ruling Fatah party says it is ready to face any coalitions 'built on hostility'",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Israel",
-            "Military",
-            "Energy",
-            "Domestic Politics",
-            "Protests & Rights",
-            "Diplomacy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 3,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "The National"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
-      ]
-    },
-    {
-      "id": "story-50",
-      "headline": "Stargeigerin Anne-Sophie Mutter: 50 Jahre auf der Bühne",
-      "latest_utc": "2026-08-21T13:16:20.426000+00:00",
-      "earliest_utc": "2026-08-21T13:16:20.426000+00:00",
-      "tags": [
-        "Domestic Politics",
-        "Economy",
-        "Military",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Deutsche Welle",
-          "source_type": "newspaper",
-          "country": "Germany",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Stargeigerin Anne-Sophie Mutter: 50 Jahre auf der Bühne",
-          "url": "https://dw.com/de/stargeigerin-anne-sophie-mutter-50-jahre-auf-der-b%C3%BChne/a-78449591",
-          "published_utc": "2026-08-21T13:16:20.426000+00:00",
-          "summary": "Anne-Sophie Mutter erfindet sich immer wieder aufs Neue. Zum 50. Bühnenjubiläum überrascht die Stargeigerin mit Klängen aus fernen Ländern und Auftragswerken, die noch nie eingespielt wurden.",
-          "matched_terms": [
-            "Iran",
-            "iranisch"
-          ],
-          "tags": [
-            "US–Iran",
-            "Military",
-            "Domestic Politics",
-            "Economy"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Deutsche Welle"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Germany"
-      ]
-    },
-    {
-      "id": "story-51",
-      "headline": "Iran Vows 'Devastating' Response to US Threat to Cut off its Economic Lifelines",
-      "latest_utc": "2026-08-21T13:09:58+00:00",
-      "earliest_utc": "2026-08-21T13:09:58+00:00",
-      "tags": [
-        "Economy"
-      ],
-      "items": [
-        {
-          "source": "Asharq Al-Awsat",
-          "source_type": "regional_media",
-          "country": "Saudi Arabia",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Iran Vows 'Devastating' Response to US Threat to Cut off its Economic Lifelines",
-          "url": "https://english.aawsat.com/node/5309572",
-          "published_utc": "2026-08-21T13:09:58+00:00",
-          "summary": "",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Economy"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Asharq Al-Awsat"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "id": "story-52",
-      "headline": "South African Rand Hits Strongest Level since Start of Iran War",
-      "latest_utc": "2026-08-21T12:58:51+00:00",
-      "earliest_utc": "2026-08-21T12:58:51+00:00",
-      "tags": [
         "Military"
       ],
       "items": [
         {
+          "source": "Gulf News",
+          "source_type": "news",
+          "country": "United Arab Emirates",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Commercial news organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 4,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Iran President Masoud Pezeshkian says time has come to end war with US",
+          "url": "https://gulfnews.com/world/mena/iran-president-masoud-pezeshkian-says-time-has-come-to-end-war-with-us-1.500647963",
+          "published_utc": "2026-08-21T13:23:46+00:00",
+          "summary": "Iran president says wants to end war while in position of strength",
+          "matched_terms": [
+            "Iran",
+            "Pezeshkian"
+          ],
+          "tags": [
+            "Military",
+            "Domestic Politics"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        },
+        {
+          "source": "Middle East Eye",
+          "source_type": "regional_media",
+          "country": "United Kingdom",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 3,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 3,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Iran’s president calls for war to end ‘today’ from position of strength",
+          "url": "https://middleeasteye.net/live-blog/live-blog-update/irans-president-calls-war-end-today-position-strength",
+          "published_utc": "2026-08-21T12:47:20+00:00",
+          "summary": "Iran’s president calls for war to end ‘today’ from position of strength Iranian President Masoud Pezeshkian has called for an end to the war while Tehran remains “in a position of strength and dignity”, warning that Iran would crush any renewed attack. Pezeshkian described the negotiated agreement as a “major achievement” unanimously approved by Iran’s Supreme National Security Council. “They cannot find even one clause in this agreement that indicates surrender; all the commitments are on the other side,” the Iranian Students’ News Agency quoted him as saying. Pezeshkian said Iran should pursue peace without lowering its guard against possible deception. “We will under no circumstances bow to bullying,” he said. “We will stand against them until our last breath and give them a crushing response. “War has to end at some point. It is better to end the war today, while we are in a position of strength and dignity,” he added.",
+          "matched_terms": [
+            "Iran",
+            "Iranian",
+            "Pezeshkian"
+          ],
+          "tags": [
+            "Military",
+            "Domestic Politics",
+            "Diplomacy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        },
+        {
           "source": "Asharq Al-Awsat",
           "source_type": "regional_media",
           "country": "Saudi Arabia",
@@ -11187,9 +10852,9 @@
           "original_reporting": 4,
           "content_group": "news",
           "content_kind": "News & reporting",
-          "title": "South African Rand Hits Strongest Level since Start of Iran War",
-          "url": "https://english.aawsat.com/node/5309566",
-          "published_utc": "2026-08-21T12:58:51+00:00",
+          "title": "Iran President Says Time to End War while in Position of Strength",
+          "url": "https://english.aawsat.com/node/5309558",
+          "published_utc": "2026-08-21T12:41:55+00:00",
           "summary": "",
           "matched_terms": [
             "Iran"
@@ -11201,163 +10866,33 @@
           "importance_label": "Worth a look"
         }
       ],
-      "source_count": 1,
+      "source_count": 3,
       "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Asharq Al-Awsat"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "id": "story-53",
-      "headline": "‘Hot competition’: NSA deputy sounds alarm on China threat, AI race",
-      "latest_utc": "2026-08-21T12:58:20+00:00",
-      "earliest_utc": "2026-08-21T12:58:20+00:00",
-      "tags": [
-        "Energy",
-        "Russia & China"
-      ],
-      "items": [
-        {
-          "source": "Breaking Defense",
-          "source_type": "news",
-          "country": "United States",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 5,
-          "ownership": "Independent specialist publication",
-          "region": "North America",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 5,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "‘Hot competition’: NSA deputy sounds alarm on China threat, AI race",
-          "url": "https://breakingdefense.com/2026/08/hot-competition-nsa-deputy-sounds-alarm-on-china-threat-ai-race",
-          "published_utc": "2026-08-21T12:58:20+00:00",
-          "summary": "NSA Deputy Director Tim Kosiba said Beijing is playing “spoiler” the world over, alleging, for example, that “Chinese companies provided GEOINT to the Iranians to help hit our bases and our allies.”",
-          "matched_terms": [
-            "Iranians"
-          ],
-          "tags": [
-            "Energy",
-            "Russia & China"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Breaking Defense"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United States"
-      ]
-    },
-    {
-      "id": "story-54",
-      "headline": "Netanyahu focused on reelection as Israeli govt grows 'less concerned' about international isolation",
-      "latest_utc": "2026-08-21T12:57:22+00:00",
-      "earliest_utc": "2026-08-21T12:57:22+00:00",
-      "tags": [
-        "Domestic Politics",
-        "Israel",
-        "Military",
-        "Regional Influence",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "France 24",
-          "source_type": "newspaper",
-          "country": "France",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Netanyahu focused on reelection as Israeli govt grows 'less concerned' about international isolation",
-          "url": "https://france24.com/en/netanyahu-focused-on-reelection-as-israeli-govt-grows-less-concerned-about-international-isolation",
-          "published_utc": "2026-08-21T12:57:22+00:00",
-          "summary": "Annette Young is pleased to welcome Dr. Aaron Y. Zelin, Senior Fellow at the Washington Institute for Near East Policy. He sees Israel’s recent actions in the West Bank and Syria as part of a broader shift in its strategic posture. Since October 7, the Israeli government has become markedly less concerned with international opinion, prioritizing what it defines as its security interests even at the cost of growing diplomatic isolation. Domestic politics matter here. With elections approaching, some recent military activity can also be understood through an electoral lens. But he would distinguish that from Israel’s increasingly confrontational posture toward Turkey, which predates the current election cycle. As Iran and its regional proxy network have been weakened, figures around the Israeli prime minister have increasingly framed Turkey as a potential future strategic challenge.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "US–Iran",
-            "Israel",
-            "Military",
-            "Domestic Politics",
-            "Regional Influence"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
+      "country_count": 3,
+      "recent_6h_count": 0,
       "importance_score": 3,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
+      "reliability_score": 3.7,
+      "confidence_score": 2,
       "emerging_score": 4,
       "is_emerging": false,
-      "is_outlier": true,
+      "is_outlier": false,
       "content_counts": {
-        "news": 1,
+        "news": 3,
         "analysis": 0,
         "official": 0
       },
       "sources": [
-        "France 24"
+        "Asharq Al-Awsat",
+        "Gulf News",
+        "Middle East Eye"
       ],
       "languages": [
         "English"
       ],
       "countries": [
-        "France"
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "United Kingdom"
       ]
     },
     {
@@ -27145,109 +26680,6 @@
       ]
     },
     {
-      "id": "story-1438",
-      "headline": "US-Iran standoff: What UAE residents need to know today (Aug. 12, 2026)",
-      "latest_utc": "2026-08-12T04:19:48+00:00",
-      "earliest_utc": "2026-08-11T18:50:13+00:00",
-      "tags": [
-        "Diplomacy",
-        "Domestic Politics",
-        "Energy",
-        "Military",
-        "Nuclear",
-        "Russia & China",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Gulf News",
-          "source_type": "news",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Commercial news organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "US-Iran standoff: What UAE residents need to know today (Aug. 12, 2026)",
-          "url": "https://gulfnews.com/uae/us-iran-standoff-what-uae-residents-need-to-know-today-aug-12-2026-1.500638084",
-          "published_utc": "2026-08-12T04:19:48+00:00",
-          "summary": "Emirates check-in",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "US–Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        },
-        {
-          "source": "German Marshall Fund",
-          "source_type": "think_tank",
-          "country": "International",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Independent research institute",
-          "region": "International",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 2,
-          "content_group": "analysis",
-          "content_kind": "Research & analysis",
-          "title": "The 2026 National Defense Authorization Act: What Europeans Need to Know",
-          "url": "https://gmfus.org/news/2026-national-defense-authorization-act-what-europeans-need-know",
-          "published_utc": "2026-08-11T18:50:13+00:00",
-          "summary": "The German Marshall Fund of the United States (GMF) is a nonpartisan organization that advances the transatlantic partnership to meet the challenges and opportunities of the 21st century.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Nuclear",
-            "US–Iran",
-            "Military",
-            "Energy",
-            "Domestic Politics",
-            "Russia & China",
-            "Diplomacy"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 2,
-      "language_count": 1,
-      "country_count": 2,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 2,
-      "emerging_score": 3,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "German Marshall Fund",
-        "Gulf News"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "International",
-        "United Arab Emirates"
-      ]
-    },
-    {
       "id": "story-1442",
       "headline": "Trump’s Air Force One deception faces scrutiny over ‘decoy’ passengers",
       "latest_utc": "2026-08-12T03:55:47+00:00",
@@ -27526,6 +26958,471 @@
       ],
       "countries": [
         "United States"
+      ]
+    },
+    {
+      "id": "story-47",
+      "headline": "Dubai's Al Maktoum Airport set for 50km driverless rail network to carry passengers around site | The National",
+      "latest_utc": "2026-08-21T13:24:50.230000+00:00",
+      "earliest_utc": "2026-08-21T13:24:50.230000+00:00",
+      "tags": [
+        "Energy",
+        "Military",
+        "Protests & Rights"
+      ],
+      "items": [
+        {
+          "source": "The National",
+          "source_type": "regional_media",
+          "country": "United Arab Emirates",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Dubai's Al Maktoum Airport set for 50km driverless rail network to carry passengers around site | The National",
+          "url": "https://thenationalnews.com/news/uae/2026/08/21/dubais-al-maktoum-airport-set-for-50km-driverless-rail-network-to-carry-passengers",
+          "published_utc": "2026-08-21T13:24:50.230000+00:00",
+          "summary": "Construction due for completion in December 2031, ahead of opening of first phase of airport in 2032",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Military",
+            "Energy",
+            "Protests & Rights"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 2,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "The National"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "id": "story-49",
+      "headline": "Tactical alliances emerging ahead of first Palestinian elections in two decades | The National",
+      "latest_utc": "2026-08-21T13:23:35.661000+00:00",
+      "earliest_utc": "2026-08-21T13:23:35.661000+00:00",
+      "tags": [
+        "Diplomacy",
+        "Domestic Politics",
+        "Energy",
+        "Israel",
+        "Military",
+        "Protests & Rights"
+      ],
+      "items": [
+        {
+          "source": "The National",
+          "source_type": "regional_media",
+          "country": "United Arab Emirates",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Tactical alliances emerging ahead of first Palestinian elections in two decades | The National",
+          "url": "https://thenationalnews.com/news/mena/2026/08/21/alliances-forged-ahead-of-first-palestinian-elections-in-two-decades",
+          "published_utc": "2026-08-21T13:23:35.661000+00:00",
+          "summary": "Abbas's ruling Fatah party says it is ready to face any coalitions 'built on hostility'",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Israel",
+            "Military",
+            "Energy",
+            "Domestic Politics",
+            "Protests & Rights",
+            "Diplomacy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 3,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "The National"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "id": "story-50",
+      "headline": "Stargeigerin Anne-Sophie Mutter: 50 Jahre auf der Bühne",
+      "latest_utc": "2026-08-21T13:16:20.426000+00:00",
+      "earliest_utc": "2026-08-21T13:16:20.426000+00:00",
+      "tags": [
+        "Domestic Politics",
+        "Economy",
+        "Military",
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Deutsche Welle",
+          "source_type": "newspaper",
+          "country": "Germany",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Stargeigerin Anne-Sophie Mutter: 50 Jahre auf der Bühne",
+          "url": "https://dw.com/de/stargeigerin-anne-sophie-mutter-50-jahre-auf-der-b%C3%BChne/a-78449591",
+          "published_utc": "2026-08-21T13:16:20.426000+00:00",
+          "summary": "Anne-Sophie Mutter erfindet sich immer wieder aufs Neue. Zum 50. Bühnenjubiläum überrascht die Stargeigerin mit Klängen aus fernen Ländern und Auftragswerken, die noch nie eingespielt wurden.",
+          "matched_terms": [
+            "Iran",
+            "iranisch"
+          ],
+          "tags": [
+            "US–Iran",
+            "Military",
+            "Domestic Politics",
+            "Economy"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 2,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "story-51",
+      "headline": "Iran Vows 'Devastating' Response to US Threat to Cut off its Economic Lifelines",
+      "latest_utc": "2026-08-21T13:09:58+00:00",
+      "earliest_utc": "2026-08-21T13:09:58+00:00",
+      "tags": [
+        "Economy"
+      ],
+      "items": [
+        {
+          "source": "Asharq Al-Awsat",
+          "source_type": "regional_media",
+          "country": "Saudi Arabia",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Iran Vows 'Devastating' Response to US Threat to Cut off its Economic Lifelines",
+          "url": "https://english.aawsat.com/node/5309572",
+          "published_utc": "2026-08-21T13:09:58+00:00",
+          "summary": "",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Economy"
+          ],
+          "importance_score": 1,
+          "importance_label": "Minor mention"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 1,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "id": "story-52",
+      "headline": "South African Rand Hits Strongest Level since Start of Iran War",
+      "latest_utc": "2026-08-21T12:58:51+00:00",
+      "earliest_utc": "2026-08-21T12:58:51+00:00",
+      "tags": [
+        "Military"
+      ],
+      "items": [
+        {
+          "source": "Asharq Al-Awsat",
+          "source_type": "regional_media",
+          "country": "Saudi Arabia",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "South African Rand Hits Strongest Level since Start of Iran War",
+          "url": "https://english.aawsat.com/node/5309566",
+          "published_utc": "2026-08-21T12:58:51+00:00",
+          "summary": "",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Military"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 2,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "id": "story-53",
+      "headline": "‘Hot competition’: NSA deputy sounds alarm on China threat, AI race",
+      "latest_utc": "2026-08-21T12:58:20+00:00",
+      "earliest_utc": "2026-08-21T12:58:20+00:00",
+      "tags": [
+        "Energy",
+        "Russia & China"
+      ],
+      "items": [
+        {
+          "source": "Breaking Defense",
+          "source_type": "news",
+          "country": "United States",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 5,
+          "ownership": "Independent specialist publication",
+          "region": "North America",
+          "reliability": 4,
+          "iran_expertise": 4,
+          "original_reporting": 5,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "‘Hot competition’: NSA deputy sounds alarm on China threat, AI race",
+          "url": "https://breakingdefense.com/2026/08/hot-competition-nsa-deputy-sounds-alarm-on-china-threat-ai-race",
+          "published_utc": "2026-08-21T12:58:20+00:00",
+          "summary": "NSA Deputy Director Tim Kosiba said Beijing is playing “spoiler” the world over, alleging, for example, that “Chinese companies provided GEOINT to the Iranians to help hit our bases and our allies.”",
+          "matched_terms": [
+            "Iranians"
+          ],
+          "tags": [
+            "Energy",
+            "Russia & China"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 2,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Breaking Defense"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United States"
+      ]
+    },
+    {
+      "id": "story-54",
+      "headline": "Netanyahu focused on reelection as Israeli govt grows 'less concerned' about international isolation",
+      "latest_utc": "2026-08-21T12:57:22+00:00",
+      "earliest_utc": "2026-08-21T12:57:22+00:00",
+      "tags": [
+        "Domestic Politics",
+        "Israel",
+        "Military",
+        "Regional Influence",
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "France 24",
+          "source_type": "newspaper",
+          "country": "France",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Netanyahu focused on reelection as Israeli govt grows 'less concerned' about international isolation",
+          "url": "https://france24.com/en/netanyahu-focused-on-reelection-as-israeli-govt-grows-less-concerned-about-international-isolation",
+          "published_utc": "2026-08-21T12:57:22+00:00",
+          "summary": "Annette Young is pleased to welcome Dr. Aaron Y. Zelin, Senior Fellow at the Washington Institute for Near East Policy. He sees Israel’s recent actions in the West Bank and Syria as part of a broader shift in its strategic posture. Since October 7, the Israeli government has become markedly less concerned with international opinion, prioritizing what it defines as its security interests even at the cost of growing diplomatic isolation. Domestic politics matter here. With elections approaching, some recent military activity can also be understood through an electoral lens. But he would distinguish that from Israel’s increasingly confrontational posture toward Turkey, which predates the current election cycle. As Iran and its regional proxy network have been weakened, figures around the Israeli prime minister have increasingly framed Turkey as a potential future strategic challenge.",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "US–Iran",
+            "Israel",
+            "Military",
+            "Domestic Politics",
+            "Regional Influence"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 3,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "France 24"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "France"
       ]
     },
     {
@@ -111278,6 +111175,68 @@
       ]
     },
     {
+      "id": "story-1438",
+      "headline": "US-Iran standoff: What UAE residents need to know today (Aug. 12, 2026)",
+      "latest_utc": "2026-08-12T04:19:48+00:00",
+      "earliest_utc": "2026-08-12T04:19:48+00:00",
+      "tags": [
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Gulf News",
+          "source_type": "news",
+          "country": "United Arab Emirates",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Commercial news organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 4,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "US-Iran standoff: What UAE residents need to know today (Aug. 12, 2026)",
+          "url": "https://gulfnews.com/uae/us-iran-standoff-what-uae-residents-need-to-know-today-aug-12-2026-1.500638084",
+          "published_utc": "2026-08-12T04:19:48+00:00",
+          "summary": "Emirates check-in",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "US–Iran"
+          ],
+          "importance_score": 1,
+          "importance_label": "Minor mention"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 1,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Gulf News"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Arab Emirates"
+      ]
+    },
+    {
       "id": "story-1439",
       "headline": "Lebanon's outreach to the region shows it isn't putting all its eggs in the US basket | The National",
       "latest_utc": "2026-08-12T04:00:00+00:00",
@@ -114426,211 +114385,18 @@
       "countries": [
         "United Arab Emirates"
       ]
-    },
-    {
-      "id": "story-1489",
-      "headline": "İran’dan Hürmüz Boğazı’nda yeni hamle: 'Düşman' gemilerine geçiş yasağı",
-      "latest_utc": "2026-08-11T19:22:00+00:00",
-      "earliest_utc": "2026-08-11T19:22:00+00:00",
-      "tags": [
-        "General Iran"
-      ],
-      "items": [
-        {
-          "source": "Cumhuriyet",
-          "source_type": "newspaper",
-          "country": "Turkey",
-          "language": "Turkish",
-          "language_code": "tr",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "İran’dan Hürmüz Boğazı’nda yeni hamle: 'Düşman' gemilerine geçiş yasağı",
-          "url": "https://cumhuriyet.com.tr/dunya/iran-dan-hurmuz-bogazi-nda-yeni-hamle-dusman-gemilerine-gecis-yasagi-2528364",
-          "published_utc": "2026-08-11T19:22:00+00:00",
-          "summary": "İran Meclisi Ulusal Güvenlik ve Dış Politika Komisyonu Başkanı İbrahim Azizi, hazırlanan yeni yasa kapsamında “düşman” ülkelere ait askeri ve ticari gemilerin İran’ın izni olmadan Basra Körfezi’ne girişine izin verilmeyeceğini açıkladı.",
-          "matched_terms": [
-            "İran"
-          ],
-          "tags": [
-            "General Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Cumhuriyet"
-      ],
-      "languages": [
-        "Turkish"
-      ],
-      "countries": [
-        "Turkey"
-      ]
-    },
-    {
-      "id": "story-1490",
-      "headline": "Oil Settles Higher as Market Doubts Progress in Iran Talks",
-      "latest_utc": "2026-08-11T19:05:00+00:00",
-      "earliest_utc": "2026-08-11T19:05:00+00:00",
-      "tags": [
-        "Diplomacy",
-        "Energy",
-        "Hormuz & Maritime",
-        "Military"
-      ],
-      "items": [
-        {
-          "source": "Wall Street Journal",
-          "source_type": "newspaper",
-          "country": "United States",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 5,
-          "ownership": "Media organisation",
-          "region": "North America",
-          "reliability": 5,
-          "iran_expertise": 3,
-          "original_reporting": 5,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Oil Settles Higher as Market Doubts Progress in Iran Talks",
-          "url": "https://wsj.com/finance/commodities-futures/oil-futures-edge-lower-on-likely-technical-correction-f9200cf7",
-          "published_utc": "2026-08-11T19:05:00+00:00",
-          "summary": "Oil futures extended their rally with Brent rising for a fifth straight session as the market reconsiders reports of progress toward an agreement to reopen the Strait of Hormuz.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Military",
-            "Hormuz & Maritime",
-            "Energy",
-            "Diplomacy"
-          ],
-          "importance_score": 4,
-          "importance_label": "Important"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 4,
-      "reliability_score": 5.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Wall Street Journal"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United States"
-      ]
-    },
-    {
-      "id": "story-1491",
-      "headline": "Mossadegh’s Ends, Qavam’s Methods: Iran’s Foreign Policy After the War",
-      "latest_utc": "2026-08-11T18:57:30+00:00",
-      "earliest_utc": "2026-08-11T18:57:30+00:00",
-      "tags": [
-        "Military"
-      ],
-      "items": [
-        {
-          "source": "Stimson Center",
-          "source_type": "think_tank",
-          "country": "United States",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Independent research institute",
-          "region": "North America",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 2,
-          "content_group": "analysis",
-          "content_kind": "Research & analysis",
-          "title": "Mossadegh’s Ends, Qavam’s Methods: Iran’s Foreign Policy After the War",
-          "url": "https://stimson.org/2026/mossadeghs-ends-qavams-methods-irans-foreign-policy-after-the-war",
-          "published_utc": "2026-08-11T18:57:30+00:00",
-          "summary": "For younger Iranians, patriotism may be less about producing the most heroic story and more about protecting the country while limiting the costs imposed on ordinary people. The post Mossadegh’s Ends, Qavam’s Methods: Iran’s Foreign Policy After the War appeared first on Stimson Center .",
-          "matched_terms": [
-            "Iran",
-            "Iranians"
-          ],
-          "tags": [
-            "Military"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 0,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "Stimson Center"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United States"
-      ]
     }
   ],
-  "cluster_count": 1491,
+  "cluster_count": 1488,
   "scan_stats": {
     "checked_sources": 154,
     "skipped_sources": 0,
-    "new_items": 17,
+    "new_items": 0,
     "failed_sources": 0,
-    "runtime_seconds": 178.7
+    "runtime_seconds": 223.7
   },
   "emerging_count": 3,
-  "outlier_count": 41,
+  "outlier_count": 34,
   "items": [
     {
       "source": "Deutsche Welle",
@@ -114648,7 +114414,7 @@
       "content_kind": "Analysis",
       "title": "Analysen & Nachrichten: global, regional, unabhängig",
       "url": "https://dw.com/de/themen/s-9077",
-      "published_utc": "2026-08-21T18:49:54.903000+00:00",
+      "published_utc": "2026-08-21T19:30:43.083000+00:00",
       "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
       "matched_terms": [
         "Iran"
@@ -171157,124 +170923,6 @@
       ],
       "importance_score": 4,
       "importance_label": "Important"
-    },
-    {
-      "source": "Cumhuriyet",
-      "source_type": "newspaper",
-      "country": "Turkey",
-      "language": "Turkish",
-      "language_code": "tr",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "İran’dan Hürmüz Boğazı’nda yeni hamle: 'Düşman' gemilerine geçiş yasağı",
-      "url": "https://cumhuriyet.com.tr/dunya/iran-dan-hurmuz-bogazi-nda-yeni-hamle-dusman-gemilerine-gecis-yasagi-2528364",
-      "published_utc": "2026-08-11T19:22:00+00:00",
-      "summary": "İran Meclisi Ulusal Güvenlik ve Dış Politika Komisyonu Başkanı İbrahim Azizi, hazırlanan yeni yasa kapsamında “düşman” ülkelere ait askeri ve ticari gemilerin İran’ın izni olmadan Basra Körfezi’ne girişine izin verilmeyeceğini açıkladı.",
-      "matched_terms": [
-        "İran"
-      ],
-      "tags": [
-        "General Iran"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
-    },
-    {
-      "source": "Wall Street Journal",
-      "source_type": "newspaper",
-      "country": "United States",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 5,
-      "ownership": "Media organisation",
-      "region": "North America",
-      "reliability": 5,
-      "iran_expertise": 3,
-      "original_reporting": 5,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Oil Settles Higher as Market Doubts Progress in Iran Talks",
-      "url": "https://wsj.com/finance/commodities-futures/oil-futures-edge-lower-on-likely-technical-correction-f9200cf7",
-      "published_utc": "2026-08-11T19:05:00+00:00",
-      "summary": "Oil futures extended their rally with Brent rising for a fifth straight session as the market reconsiders reports of progress toward an agreement to reopen the Strait of Hormuz.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Diplomacy"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Stimson Center",
-      "source_type": "think_tank",
-      "country": "United States",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Independent research institute",
-      "region": "North America",
-      "reliability": 4,
-      "iran_expertise": 4,
-      "original_reporting": 2,
-      "content_group": "analysis",
-      "content_kind": "Research & analysis",
-      "title": "Mossadegh’s Ends, Qavam’s Methods: Iran’s Foreign Policy After the War",
-      "url": "https://stimson.org/2026/mossadeghs-ends-qavams-methods-irans-foreign-policy-after-the-war",
-      "published_utc": "2026-08-11T18:57:30+00:00",
-      "summary": "For younger Iranians, patriotism may be less about producing the most heroic story and more about protecting the country while limiting the costs imposed on ordinary people. The post Mossadegh’s Ends, Qavam’s Methods: Iran’s Foreign Policy After the War appeared first on Stimson Center .",
-      "matched_terms": [
-        "Iran",
-        "Iranians"
-      ],
-      "tags": [
-        "Military"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "German Marshall Fund",
-      "source_type": "think_tank",
-      "country": "International",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Independent research institute",
-      "region": "International",
-      "reliability": 4,
-      "iran_expertise": 4,
-      "original_reporting": 2,
-      "content_group": "analysis",
-      "content_kind": "Research & analysis",
-      "title": "The 2026 National Defense Authorization Act: What Europeans Need to Know",
-      "url": "https://gmfus.org/news/2026-national-defense-authorization-act-what-europeans-need-know",
-      "published_utc": "2026-08-11T18:50:13+00:00",
-      "summary": "The German Marshall Fund of the United States (GMF) is a nonpartisan organization that advances the transatlantic partnership to meet the challenges and opportunities of the 21st century.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Nuclear",
-        "US–Iran",
-        "Military",
-        "Energy",
-        "Domestic Politics",
-        "Russia & China",
-        "Diplomacy"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
     }
   ]
 }
