@@ -1,27 +1,27 @@
 {
-  "generated_utc": "2026-08-22T11:31:37.356437+00:00",
+  "generated_utc": "2026-08-22T12:58:09.416714+00:00",
   "scan_hours": 240,
   "archive_days": 10,
   "source_count": 154,
-  "item_count": 1863,
+  "item_count": 1851,
   "type_counts": {
-    "regional_media": 933,
+    "newspaper": 584,
+    "regional_media": 927,
     "official": 86,
-    "newspaper": 587,
-    "news": 151,
-    "think_tank": 106
+    "news": 149,
+    "think_tank": 105
   },
   "country_counts": {
-    "France": 96,
-    "Turkey": 133,
-    "Iran": 215,
     "Germany": 74,
-    "United Kingdom": 210,
+    "France": 95,
+    "Turkey": 132,
+    "Iran": 212,
+    "United Kingdom": 208,
     "Japan": 68,
-    "United Arab Emirates": 377,
+    "United Arab Emirates": 374,
     "Azerbaijan": 50,
-    "United States": 186,
-    "Qatar": 113,
+    "United States": 185,
+    "Qatar": 112,
     "Israel": 111,
     "Russia": 69,
     "Poland": 12,
@@ -35,9 +35,9 @@
     "European Union": 10
   },
   "language_counts": {
-    "French": 68,
-    "English": 1330,
-    "Turkish": 91,
+    "English": 1320,
+    "French": 67,
+    "Turkish": 90,
     "Japanese": 54,
     "German": 49,
     "Azerbaijani": 50,
@@ -49,9 +49,9 @@
     "Dutch": 18
   },
   "content_counts": {
-    "news": 1554,
-    "official": 86,
-    "analysis": 223
+    "analysis": 220,
+    "news": 1545,
+    "official": 86
   },
   "source_status": [
     {
@@ -182,7 +182,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 6,
+      "feed_items": 3,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -250,18 +250,18 @@
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 0
+      "sitemap_links": 39
     },
     {
       "source": "Arab Gulf States Institute",
       "method": "sitemap",
-      "items": 3,
+      "items": 11,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 36
+      "sitemap_links": 35
     },
     {
       "source": "International Crisis Group",
@@ -343,7 +343,7 @@
     {
       "source": "IFRI",
       "method": "sitemap",
-      "items": 2,
+      "items": 7,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
@@ -369,7 +369,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 1,
+      "feed_items": 2,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -474,12 +474,12 @@
     },
     {
       "source": "Wall Street Journal",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 14,
+      "state": "active",
       "checked": true,
       "feeds_tried": 15,
-      "feed_items": 0,
+      "feed_items": 17,
       "listing_links": 0,
       "sitemap_links": 50
     },
@@ -496,19 +496,19 @@
     },
     {
       "source": "France 24",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 1,
+      "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 0,
+      "feed_items": 2,
       "listing_links": 0,
       "sitemap_links": 0
     },
     {
       "source": "Deutsche Welle",
       "method": "sitemap",
-      "items": 2,
+      "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
@@ -540,9 +540,9 @@
     },
     {
       "source": "Nikkei Asia",
-      "method": "sitemap",
-      "items": 2,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -563,11 +563,11 @@
     {
       "source": "IranWire",
       "method": "feed",
-      "items": 9,
+      "items": 112,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 9,
+      "feed_items": 113,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -591,16 +591,16 @@
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 50
+      "sitemap_links": 0
     },
     {
       "source": "Al Jazeera",
       "method": "feed",
-      "items": 2,
+      "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 4,
+      "feed_items": 2,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -617,14 +617,14 @@
     },
     {
       "source": "The National",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 50
+      "sitemap_links": 0
     },
     {
       "source": "Al-Monitor",
@@ -639,23 +639,23 @@
     },
     {
       "source": "Middle East Eye",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 7,
+      "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 0,
+      "feed_items": 7,
       "listing_links": 0,
       "sitemap_links": 0
     },
     {
       "source": "Anadolu Agency",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 1,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -738,14 +738,14 @@
     },
     {
       "source": "European External Action Service",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "sitemap",
+      "items": 8,
+      "state": "active",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 45
+      "sitemap_links": 44
     },
     {
       "source": "NATO",
@@ -903,9 +903,9 @@
     },
     {
       "source": "Franceinfo",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -947,12 +947,12 @@
     },
     {
       "source": "La Stampa",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 2,
+      "state": "active",
       "checked": true,
-      "feeds_tried": 10,
-      "feed_items": 0,
+      "feeds_tried": 11,
+      "feed_items": 4,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1068,12 +1068,12 @@
     },
     {
       "source": "Anadolu Türkçe",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1101,12 +1101,12 @@
     },
     {
       "source": "Cumhuriyet",
-      "method": "feed",
-      "items": 2,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1123,9 +1123,9 @@
     },
     {
       "source": "Haaretz Hebrew",
-      "method": "sitemap",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -1178,12 +1178,12 @@
     },
     {
       "source": "Israel Hayom Hebrew",
-      "method": "feed",
-      "items": 2,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1266,9 +1266,9 @@
     },
     {
       "source": "Yomiuri Shimbun",
-      "method": "sitemap",
-      "items": 2,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
       "feed_items": 0,
@@ -1343,12 +1343,12 @@
     },
     {
       "source": "APA Azerbaijan",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 3,
+      "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 0,
+      "feed_items": 3,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1387,12 +1387,12 @@
     },
     {
       "source": "Rzeczpospolita",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 1,
+      "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 0,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1420,12 +1420,12 @@
     },
     {
       "source": "Arms Control Association",
-      "method": "none",
-      "items": 0,
-      "state": "quiet",
+      "method": "feed",
+      "items": 1,
+      "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 0,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1438,7 +1438,7 @@
       "feeds_tried": 10,
       "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 12
+      "sitemap_links": 11
     },
     {
       "source": "Egmont Institute",
@@ -1497,14 +1497,14 @@
     },
     {
       "source": "Gulf News",
-      "method": "feed",
-      "items": 1,
-      "state": "active",
+      "method": "none",
+      "items": 0,
+      "state": "quiet",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 2,
+      "feed_items": 0,
       "listing_links": 0,
-      "sitemap_links": 0
+      "sitemap_links": 50
     },
     {
       "source": "Defense News",
@@ -1524,7 +1524,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 2,
+      "feed_items": 1,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1553,7 +1553,7 @@
     {
       "source": "Naval News",
       "method": "sitemap",
-      "items": 2,
+      "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 12,
@@ -1579,7 +1579,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 10,
-      "feed_items": 9,
+      "feed_items": 6,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1601,7 +1601,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 12,
+      "feed_items": 4,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1612,7 +1612,7 @@
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 30,
+      "feed_items": 15,
       "listing_links": 0,
       "sitemap_links": 0
     },
@@ -1652,7 +1652,7 @@
     {
       "source": "Bulletin of the Atomic Scientists",
       "method": "sitemap",
-      "items": 2,
+      "items": 1,
       "state": "active",
       "checked": true,
       "feeds_tried": 12,
@@ -1695,14 +1695,14 @@
     },
     {
       "source": "MEES",
-      "method": "sitemap",
-      "items": 1,
+      "method": "feed",
+      "items": 2,
       "state": "active",
       "checked": true,
       "feeds_tried": 11,
-      "feed_items": 0,
+      "feed_items": 2,
       "listing_links": 0,
-      "sitemap_links": 50
+      "sitemap_links": 0
     },
     {
       "source": "Emirates Policy Center",
@@ -1751,7 +1751,7 @@
   ],
   "clusters": [
     {
-      "id": "story-2",
+      "id": "story-3",
       "headline": "İran Meclis Başkanı'ndan \"komşu ülkelerden, yeni güvenlik ve ekonomik işbirliği mesajları aldık\" açıklaması",
       "latest_utc": "2026-08-22T11:06:33+00:00",
       "earliest_utc": "2026-08-22T11:06:33+00:00",
@@ -4619,108 +4619,6 @@
       "countries": [
         "France",
         "Iran",
-        "Qatar",
-        "United Kingdom"
-      ]
-    },
-    {
-      "id": "story-35",
-      "headline": "US sanctions 'declaration of war on all nations', Iran says",
-      "latest_utc": "2026-08-22T05:54:42+00:00",
-      "earliest_utc": "2026-08-22T00:00:00+00:00",
-      "tags": [
-        "Diplomacy",
-        "Domestic Politics",
-        "Economy",
-        "Military",
-        "Sanctions",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Middle East Eye",
-          "source_type": "regional_media",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 3,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 3,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "US sanctions 'declaration of war on all nations', Iran says",
-          "url": "https://middleeasteye.net/live-blog/live-blog-update/us-sanctions-declaration-war-all-nations-iran-says",
-          "published_utc": "2026-08-22T05:54:42+00:00",
-          "summary": "US sanctions 'declaration of war on all nations', Iran says Iran’s foreign ministry spokesperson, Esmaeil Baghaei, says new US sanctions against Iran amounted to a “declaration of war” on all countries and went beyond “an illegal economic war against a single nation”, according to Iran’s Fars news agency. Baghaei said: “The announcement of new sanctions represents an attempt by the United States to exert extraterritorial sovereignty over all independent UN member states.” “No government has the right to force foreign banks, enterprises, or airports, each operating under the exclusive jurisdiction of their own sovereignty, to refrain from engaging in legitimate trade with a third country.” The minister said “such secondary sanctions have no basis in international law” and “violated the fundamental principle of sovereign equality enshrined in Article 2, Paragraph 1 of the UN Charter”. Baghaei warned that a surrender to “such intimidation would lead to the total erosion of national sovereignty” and serve as “a catastrophic return to blatant, full-scale colonialism”.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "US–Iran",
-            "Sanctions",
-            "Military",
-            "Domestic Politics",
-            "Economy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        },
-        {
-          "source": "Al Jazeera",
-          "source_type": "regional_media",
-          "country": "Qatar",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Tehran says US sanctions on Iran ‘declaration of war’ on all nations",
-          "url": "https://aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war",
-          "published_utc": "2026-08-22T00:00:00+00:00",
-          "summary": "US president says Iran ‘would love to make a deal, but they’re not ready to make the right deal in my opinion’.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Sanctions",
-            "Military",
-            "Diplomacy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 2,
-      "language_count": 1,
-      "country_count": 2,
-      "recent_6h_count": 1,
-      "importance_score": 3,
-      "reliability_score": 3.5,
-      "confidence_score": 2,
-      "emerging_score": 5,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 2,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Al Jazeera",
-        "Middle East Eye"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
         "Qatar",
         "United Kingdom"
       ]
@@ -8292,6 +8190,68 @@
     },
     {
       "id": "story-1",
+      "headline": "Analysen & Nachrichten: global, regional, unabhängig",
+      "latest_utc": "2026-08-22T12:54:00.667000+00:00",
+      "earliest_utc": "2026-08-22T12:54:00.667000+00:00",
+      "tags": [
+        "Israel"
+      ],
+      "items": [
+        {
+          "source": "Deutsche Welle",
+          "source_type": "newspaper",
+          "country": "Germany",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "analysis",
+          "content_kind": "Analysis",
+          "title": "Analysen & Nachrichten: global, regional, unabhängig",
+          "url": "https://dw.com/de/themen/s-9077",
+          "published_utc": "2026-08-22T12:54:00.667000+00:00",
+          "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Israel"
+          ],
+          "importance_score": 1,
+          "importance_label": "Minor mention"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 1,
+      "importance_score": 1,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 4,
+      "is_emerging": false,
+      "is_outlier": true,
+      "content_counts": {
+        "news": 0,
+        "analysis": 1,
+        "official": 0
+      },
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "story-2",
       "headline": "Chine: comment Pékin se retrouve en position de force sur l'Iran",
       "latest_utc": "2026-08-22T11:16:00+00:00",
       "earliest_utc": "2026-08-22T11:16:00+00:00",
@@ -8355,7 +8315,7 @@
       ]
     },
     {
-      "id": "story-3",
+      "id": "story-4",
       "headline": "سایت فوتبال ۳۶۰ دوباره در دسترس قرار گرفت",
       "latest_utc": "2026-08-22T11:04:44+00:00",
       "earliest_utc": "2026-08-22T11:04:44+00:00",
@@ -8417,74 +8377,13 @@
       ]
     },
     {
-      "id": "story-4",
-      "headline": "Analysen & Nachrichten: global, regional, unabhängig",
-      "latest_utc": "2026-08-22T10:33:02.019000+00:00",
-      "earliest_utc": "2026-08-22T10:33:02.019000+00:00",
-      "tags": [
-        "Israel"
-      ],
-      "items": [
-        {
-          "source": "Deutsche Welle",
-          "source_type": "newspaper",
-          "country": "Germany",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "analysis",
-          "content_kind": "Analysis",
-          "title": "Analysen & Nachrichten: global, regional, unabhängig",
-          "url": "https://dw.com/de/themen/s-9077",
-          "published_utc": "2026-08-22T10:33:02.019000+00:00",
-          "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Israel"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 0,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "Deutsche Welle"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Germany"
-      ]
-    },
-    {
       "id": "story-5",
       "headline": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says",
       "latest_utc": "2026-08-22T10:22:32+00:00",
       "earliest_utc": "2026-08-22T10:22:32+00:00",
       "tags": [
-        "Military"
+        "Military",
+        "US–Iran"
       ],
       "items": [
         {
@@ -8504,23 +8403,24 @@
           "title": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says",
           "url": "https://middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim",
           "published_utc": "2026-08-22T10:22:32+00:00",
-          "summary": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says An Iranian military official called on Qatar on Saturday to transfer detained Iranian pilots to a hospital on land, saying they were being held on water and were in \"poor physical condition\", Tasnim news agency reported. Mohammad Baqerzadeh, commander of the Committee for the Search for Missing Persons of Iran's Armed Forces General Staff, said the location where the pilots were being held was unsuitable and requested that the International Committee of the Red Cross send an air ambulance to Qatar to expedite the return of injured and sick detainees to Iran. Reporting by Reuters",
+          "summary": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says An Iranian military official on Saturday called on Qatar to transfer detained Iranian pilots to a hospital on land, saying they were being held on water and were in \"poor physical condition\", Tasnim news agency reported. Last week, Mohammad Baqerzadeh, commander of the Committee for the Search for Missing Persons of Iran's Armed Forces General Staff, wrote to the head of the International Committee of the Red Cross (ICRC) stating that Javad Salehi, Abdul Majid Dashtian and Imran Behroshian had been held captive by Qatar for six months after their jet was downed in the early days of the US-Iran conflict. He said the remains of a fourth pilot, Majid Kazemi, had been returned after he was killed in the same operation on 2 March 2026 - the third day of the war. Baqerzadeh said on Saturday that the location where the pilots were being held was unsuitable and requested that the ICRC send an air ambulance to Qatar to expedite the return of injured and sick detainees to Iran. Qatar \"categorically denied\" th",
           "matched_terms": [
             "Iran",
             "Iranian"
           ],
           "tags": [
+            "US–Iran",
             "Military"
           ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
+          "importance_score": 2,
+          "importance_label": "Worth a look"
         }
       ],
       "source_count": 1,
       "language_count": 1,
       "country_count": 1,
       "recent_6h_count": 1,
-      "importance_score": 1,
+      "importance_score": 2,
       "reliability_score": 3.0,
       "confidence_score": 1,
       "emerging_score": 4,
@@ -9876,408 +9776,6 @@
       ],
       "countries": [
         "Israel"
-      ]
-    },
-    {
-      "id": "story-31",
-      "headline": "Morning recap",
-      "latest_utc": "2026-08-22T06:46:06+00:00",
-      "earliest_utc": "2026-08-22T06:46:06+00:00",
-      "tags": [
-        "Energy",
-        "Hormuz & Maritime",
-        "Israel",
-        "Military",
-        "Nuclear",
-        "Sanctions",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Middle East Eye",
-          "source_type": "regional_media",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 3,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 3,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Morning recap",
-          "url": "https://middleeasteye.net/live-blog/live-blog-update/morning-recap-155",
-          "published_utc": "2026-08-22T06:46:06+00:00",
-          "summary": "Morning recap Good morning, Middle East Eye readers. US President Donald Trump said he views the Strait of Hormuz as “an American territory” and reiterated that the US “cannot let Iran have a nuclear weapon”. His remarks came hours after he said he did not think that Iran was ready to make the \"right deal\" and that Washington was observing \"what happens\" in the war. Tehran, meanwhile, said that new US sanctions against Iran amounted to a “declaration of war” on all nations and went beyond “an illegal economic war against a single nation”. Here are the latest developments from across the region: • Iranian Foreign Minister Abbas Araghchi said Trump’s threat to launch the “most crushing economic operation ever” against Iran was “doomed to failure”. • Israeli forces shelled the town of al-Mansouri, around Bayt al-Sayyad and on the outskirts of Majdal Zoun in southern Lebanon • Commercial shipping through the Strait of Hormuz is still running at roughly a fifth of pre-war volumes. • Tanker traffic at Yanbu, Saudi Arabia's main Red Sea oil terminal, has fallen by more than a third since Ye",
-          "matched_terms": [
-            "Iran",
-            "Iranian"
-          ],
-          "tags": [
-            "Nuclear",
-            "US–Iran",
-            "Israel",
-            "Sanctions",
-            "Military",
-            "Hormuz & Maritime",
-            "Energy"
-          ],
-          "importance_score": 4,
-          "importance_label": "Important"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 4,
-      "reliability_score": 3.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Middle East Eye"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Kingdom"
-      ]
-    },
-    {
-      "id": "story-32",
-      "headline": "Rosjanie zaatakowali Krzywy Róg i Kijów. Płonie rafineria w Rosji",
-      "latest_utc": "2026-08-22T06:39:30+00:00",
-      "earliest_utc": "2026-08-22T06:39:30+00:00",
-      "tags": [
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Rzeczpospolita",
-          "source_type": "newspaper",
-          "country": "Poland",
-          "language": "Polish",
-          "language_code": "pl",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Rosjanie zaatakowali Krzywy Róg i Kijów. Płonie rafineria w Rosji",
-          "url": "https://rp.pl/przeglad-wydarzen-z-nocy/art45038941-rosjanie-zaatakowali-krzywy-rog-i-kijow-plonie-rafineria-w-rosji",
-          "published_utc": "2026-08-22T06:39:30+00:00",
-          "summary": "Przedstawiamy przegląd najważniejszych wydarzeń mijającej nocy: wzrósł bilans ofiar rosyjskiego ataku na centrum handlowe w Krzywym Rogu; Rosja zaatakowała pociskami balistycznymi Kijów; drony uderzyły w rafinerię i centrum logistyczne w rosyjskim obwodzie samarskim; Donald Trump oświadczył, że Iran nie jest gotowy na „właściwe porozumienie”; co najmniej 13 Tunezyjczyków zaginęło po zatonięciu łodzi płynącej w kierunku Włoch.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "US–Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Rzeczpospolita"
-      ],
-      "languages": [
-        "Polish"
-      ],
-      "countries": [
-        "Poland"
-      ]
-    },
-    {
-      "id": "story-33",
-      "headline": "Iran army says new doctrine allows preemptive strikes",
-      "latest_utc": "2026-08-22T06:00:20.307000+00:00",
-      "earliest_utc": "2026-08-22T06:00:20.307000+00:00",
-      "tags": [
-        "Diplomacy",
-        "Hormuz & Maritime",
-        "Military",
-        "Protests & Rights"
-      ],
-      "items": [
-        {
-          "source": "Iran International",
-          "source_type": "regional_media",
-          "country": "Iran",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 5,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Iran army says new doctrine allows preemptive strikes",
-          "url": "https://iranintl.com/en/202608221155",
-          "published_utc": "2026-08-22T06:00:20.307000+00:00",
-          "summary": "Iran army says new doctrine allows preemptive strikes",
-          "matched_terms": [
-            "Iran",
-            "Iranian",
-            "Iranians"
-          ],
-          "tags": [
-            "Military",
-            "Hormuz & Maritime",
-            "Protests & Rights",
-            "Diplomacy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 3,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Iran International"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Iran"
-      ]
-    },
-    {
-      "id": "story-34",
-      "headline": "米国防総省、星条旗新聞の編集長らに解雇通知　テレビで「検閲」批判：朝日新聞",
-      "latest_utc": "2026-08-22T06:00:00+00:00",
-      "earliest_utc": "2026-08-22T06:00:00+00:00",
-      "tags": [
-        "General Iran"
-      ],
-      "items": [
-        {
-          "source": "Asahi Shimbun",
-          "source_type": "newspaper",
-          "country": "Japan",
-          "language": "Japanese",
-          "language_code": "ja",
-          "source_priority": 5,
-          "ownership": "Media organisation",
-          "region": "Asia",
-          "reliability": 5,
-          "iran_expertise": 3,
-          "original_reporting": 5,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "米国防総省、星条旗新聞の編集長らに解雇通知　テレビで「検閲」批判：朝日新聞",
-          "url": "https://asahi.com/articles/ASV8Q15TYV8QUHBI00SM.html",
-          "published_utc": "2026-08-22T06:00:00+00:00",
-          "summary": "米軍の準機関紙「星条旗新聞」は21日、同紙の編集長と発行人、中東担当記者の3人が国防総省から解雇を通知されたと発表した。国防総省が同紙の変革をめざし、編集部門との対立が表面化していた。国防総省は直接…",
-          "matched_terms": [
-            "イラン"
-          ],
-          "tags": [
-            "General Iran"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 2,
-      "reliability_score": 5.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Asahi Shimbun"
-      ],
-      "languages": [
-        "Japanese"
-      ],
-      "countries": [
-        "Japan"
-      ]
-    },
-    {
-      "id": "story-36",
-      "headline": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels",
-      "latest_utc": "2026-08-22T05:38:58+00:00",
-      "earliest_utc": "2026-08-22T05:38:58+00:00",
-      "tags": [
-        "Economy",
-        "Hormuz & Maritime",
-        "IRGC",
-        "Military",
-        "Missiles & Drones"
-      ],
-      "items": [
-        {
-          "source": "Middle East Eye",
-          "source_type": "regional_media",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 3,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 3,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels",
-          "url": "https://middleeasteye.net/live-blog/live-blog-update/ukmto-report-says-hormuz-traffic-just-20-percent-pre-war-levels",
-          "published_utc": "2026-08-22T05:38:58+00:00",
-          "summary": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels Commercial shipping through the Strait of Hormuz has yet to recover from the war, with new data showing traffic still running at roughly a fifth of pre-war volumes. Data from the UK Maritime Trade Operations (UKMTO) show 103 ships entered the strait and 89 left over the past week, which amounts to just 20 percent of the pre-war seven-day average. The curtailed traffic comes despite continued harassment from Iran's Revolutionary Guard, including drone overflights, VHF hailing of vessels, and active mine danger areas along the route. Tankers made up the bulk of the reduced traffic, accounting for 45 percent of all movements through the strait. UKMTO data also shows the southern Omani corridor has become the most dangerous stretch of the route, recording 16 of the 18 projectile strikes reported since 6 July. Tankers make up the bulk of the reduced traffic. (AFP)",
-          "matched_terms": [
-            "Iran",
-            "Revolutionary Guard"
-          ],
-          "tags": [
-            "IRGC",
-            "Missiles & Drones",
-            "Military",
-            "Hormuz & Maritime",
-            "Economy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 3,
-      "reliability_score": 3.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Middle East Eye"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Kingdom"
-      ]
-    },
-    {
-      "id": "story-37",
-      "headline": "Watch: USS George Washington ramps up night flights in Arabian Sea amid Iran tensions",
-      "latest_utc": "2026-08-22T05:37:28+00:00",
-      "earliest_utc": "2026-08-22T05:37:28+00:00",
-      "tags": [
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Gulf News",
-          "source_type": "news",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Commercial news organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Watch: USS George Washington ramps up night flights in Arabian Sea amid Iran tensions",
-          "url": "https://gulfnews.com/world/americas/watch-uss-george-washington-ramps-up-night-flights-in-arabian-sea-amid-iran-tensions-1.500648657",
-          "published_utc": "2026-08-22T05:37:28+00:00",
-          "summary": "",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "US–Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 1,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 4,
-      "is_emerging": false,
-      "is_outlier": true,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Gulf News"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
       ]
     },
     {
@@ -17465,6 +16963,108 @@
       "countries": [
         "Iran",
         "Saudi Arabia",
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "story-35",
+      "headline": "US sanctions 'declaration of war on all nations', Iran says",
+      "latest_utc": "2026-08-22T05:54:42+00:00",
+      "earliest_utc": "2026-08-22T00:00:00+00:00",
+      "tags": [
+        "Diplomacy",
+        "Domestic Politics",
+        "Economy",
+        "Military",
+        "Sanctions",
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Middle East Eye",
+          "source_type": "regional_media",
+          "country": "United Kingdom",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 3,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 3,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "US sanctions 'declaration of war on all nations', Iran says",
+          "url": "https://middleeasteye.net/live-blog/live-blog-update/us-sanctions-declaration-war-all-nations-iran-says",
+          "published_utc": "2026-08-22T05:54:42+00:00",
+          "summary": "US sanctions 'declaration of war on all nations', Iran says Iran’s foreign ministry spokesperson, Esmaeil Baghaei, says new US sanctions against Iran amounted to a “declaration of war” on all countries and went beyond “an illegal economic war against a single nation”, according to Iran’s Fars news agency. Baghaei said: “The announcement of new sanctions represents an attempt by the United States to exert extraterritorial sovereignty over all independent UN member states.” “No government has the right to force foreign banks, enterprises, or airports, each operating under the exclusive jurisdiction of their own sovereignty, to refrain from engaging in legitimate trade with a third country.” The minister said “such secondary sanctions have no basis in international law” and “violated the fundamental principle of sovereign equality enshrined in Article 2, Paragraph 1 of the UN Charter”. Baghaei warned that a surrender to “such intimidation would lead to the total erosion of national sovereignty” and serve as “a catastrophic return to blatant, full-scale colonialism”.",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "US–Iran",
+            "Sanctions",
+            "Military",
+            "Domestic Politics",
+            "Economy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        },
+        {
+          "source": "Al Jazeera",
+          "source_type": "regional_media",
+          "country": "Qatar",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Tehran says US sanctions on Iran ‘declaration of war’ on all nations",
+          "url": "https://aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war",
+          "published_utc": "2026-08-22T00:00:00+00:00",
+          "summary": "US president says Iran ‘would love to make a deal, but they’re not ready to make the right deal in my opinion’.",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "Sanctions",
+            "Military",
+            "Diplomacy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        }
+      ],
+      "source_count": 2,
+      "language_count": 1,
+      "country_count": 2,
+      "recent_6h_count": 0,
+      "importance_score": 3,
+      "reliability_score": 3.5,
+      "confidence_score": 2,
+      "emerging_score": 3,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 2,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Al Jazeera",
+        "Middle East Eye"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Qatar",
         "United Kingdom"
       ]
     },
@@ -25997,6 +25597,408 @@
       "sources": [
         "Gulf News",
         "The National"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "id": "story-31",
+      "headline": "Morning recap",
+      "latest_utc": "2026-08-22T06:46:06+00:00",
+      "earliest_utc": "2026-08-22T06:46:06+00:00",
+      "tags": [
+        "Energy",
+        "Hormuz & Maritime",
+        "Israel",
+        "Military",
+        "Nuclear",
+        "Sanctions",
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Middle East Eye",
+          "source_type": "regional_media",
+          "country": "United Kingdom",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 3,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 3,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Morning recap",
+          "url": "https://middleeasteye.net/live-blog/live-blog-update/morning-recap-155",
+          "published_utc": "2026-08-22T06:46:06+00:00",
+          "summary": "Morning recap Good morning, Middle East Eye readers. US President Donald Trump said he views the Strait of Hormuz as “an American territory” and reiterated that the US “cannot let Iran have a nuclear weapon”. His remarks came hours after he said he did not think that Iran was ready to make the \"right deal\" and that Washington was observing \"what happens\" in the war. Tehran, meanwhile, said that new US sanctions against Iran amounted to a “declaration of war” on all nations and went beyond “an illegal economic war against a single nation”. Here are the latest developments from across the region: • Iranian Foreign Minister Abbas Araghchi said Trump’s threat to launch the “most crushing economic operation ever” against Iran was “doomed to failure”. • Israeli forces shelled the town of al-Mansouri, around Bayt al-Sayyad and on the outskirts of Majdal Zoun in southern Lebanon • Commercial shipping through the Strait of Hormuz is still running at roughly a fifth of pre-war volumes. • Tanker traffic at Yanbu, Saudi Arabia's main Red Sea oil terminal, has fallen by more than a third since Ye",
+          "matched_terms": [
+            "Iran",
+            "Iranian"
+          ],
+          "tags": [
+            "Nuclear",
+            "US–Iran",
+            "Israel",
+            "Sanctions",
+            "Military",
+            "Hormuz & Maritime",
+            "Energy"
+          ],
+          "importance_score": 4,
+          "importance_label": "Important"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 4,
+      "reliability_score": 3.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Middle East Eye"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "story-32",
+      "headline": "Rosjanie zaatakowali Krzywy Róg i Kijów. Płonie rafineria w Rosji",
+      "latest_utc": "2026-08-22T06:39:30+00:00",
+      "earliest_utc": "2026-08-22T06:39:30+00:00",
+      "tags": [
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Rzeczpospolita",
+          "source_type": "newspaper",
+          "country": "Poland",
+          "language": "Polish",
+          "language_code": "pl",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 4,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Rosjanie zaatakowali Krzywy Róg i Kijów. Płonie rafineria w Rosji",
+          "url": "https://rp.pl/przeglad-wydarzen-z-nocy/art45038941-rosjanie-zaatakowali-krzywy-rog-i-kijow-plonie-rafineria-w-rosji",
+          "published_utc": "2026-08-22T06:39:30+00:00",
+          "summary": "Przedstawiamy przegląd najważniejszych wydarzeń mijającej nocy: wzrósł bilans ofiar rosyjskiego ataku na centrum handlowe w Krzywym Rogu; Rosja zaatakowała pociskami balistycznymi Kijów; drony uderzyły w rafinerię i centrum logistyczne w rosyjskim obwodzie samarskim; Donald Trump oświadczył, że Iran nie jest gotowy na „właściwe porozumienie”; co najmniej 13 Tunezyjczyków zaginęło po zatonięciu łodzi płynącej w kierunku Włoch.",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "US–Iran"
+          ],
+          "importance_score": 1,
+          "importance_label": "Minor mention"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 1,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Rzeczpospolita"
+      ],
+      "languages": [
+        "Polish"
+      ],
+      "countries": [
+        "Poland"
+      ]
+    },
+    {
+      "id": "story-33",
+      "headline": "Iran army says new doctrine allows preemptive strikes",
+      "latest_utc": "2026-08-22T06:00:20.307000+00:00",
+      "earliest_utc": "2026-08-22T06:00:20.307000+00:00",
+      "tags": [
+        "Diplomacy",
+        "Hormuz & Maritime",
+        "Military",
+        "Protests & Rights"
+      ],
+      "items": [
+        {
+          "source": "Iran International",
+          "source_type": "regional_media",
+          "country": "Iran",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Media organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 5,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Iran army says new doctrine allows preemptive strikes",
+          "url": "https://iranintl.com/en/202608221155",
+          "published_utc": "2026-08-22T06:00:20.307000+00:00",
+          "summary": "Iran army says new doctrine allows preemptive strikes",
+          "matched_terms": [
+            "Iran",
+            "Iranian",
+            "Iranians"
+          ],
+          "tags": [
+            "Military",
+            "Hormuz & Maritime",
+            "Protests & Rights",
+            "Diplomacy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 3,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Iran International"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "id": "story-34",
+      "headline": "米国防総省、星条旗新聞の編集長らに解雇通知　テレビで「検閲」批判：朝日新聞",
+      "latest_utc": "2026-08-22T06:00:00+00:00",
+      "earliest_utc": "2026-08-22T06:00:00+00:00",
+      "tags": [
+        "General Iran"
+      ],
+      "items": [
+        {
+          "source": "Asahi Shimbun",
+          "source_type": "newspaper",
+          "country": "Japan",
+          "language": "Japanese",
+          "language_code": "ja",
+          "source_priority": 5,
+          "ownership": "Media organisation",
+          "region": "Asia",
+          "reliability": 5,
+          "iran_expertise": 3,
+          "original_reporting": 5,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "米国防総省、星条旗新聞の編集長らに解雇通知　テレビで「検閲」批判：朝日新聞",
+          "url": "https://asahi.com/articles/ASV8Q15TYV8QUHBI00SM.html",
+          "published_utc": "2026-08-22T06:00:00+00:00",
+          "summary": "米軍の準機関紙「星条旗新聞」は21日、同紙の編集長と発行人、中東担当記者の3人が国防総省から解雇を通知されたと発表した。国防総省が同紙の変革をめざし、編集部門との対立が表面化していた。国防総省は直接…",
+          "matched_terms": [
+            "イラン"
+          ],
+          "tags": [
+            "General Iran"
+          ],
+          "importance_score": 2,
+          "importance_label": "Worth a look"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 2,
+      "reliability_score": 5.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Asahi Shimbun"
+      ],
+      "languages": [
+        "Japanese"
+      ],
+      "countries": [
+        "Japan"
+      ]
+    },
+    {
+      "id": "story-36",
+      "headline": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels",
+      "latest_utc": "2026-08-22T05:38:58+00:00",
+      "earliest_utc": "2026-08-22T05:38:58+00:00",
+      "tags": [
+        "Economy",
+        "Hormuz & Maritime",
+        "IRGC",
+        "Military",
+        "Missiles & Drones"
+      ],
+      "items": [
+        {
+          "source": "Middle East Eye",
+          "source_type": "regional_media",
+          "country": "United Kingdom",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 3,
+          "ownership": "Media organisation",
+          "region": "Europe",
+          "reliability": 3,
+          "iran_expertise": 3,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels",
+          "url": "https://middleeasteye.net/live-blog/live-blog-update/ukmto-report-says-hormuz-traffic-just-20-percent-pre-war-levels",
+          "published_utc": "2026-08-22T05:38:58+00:00",
+          "summary": "UKMTO report says Hormuz traffic just 20 percent of pre-war levels Commercial shipping through the Strait of Hormuz has yet to recover from the war, with new data showing traffic still running at roughly a fifth of pre-war volumes. Data from the UK Maritime Trade Operations (UKMTO) show 103 ships entered the strait and 89 left over the past week, which amounts to just 20 percent of the pre-war seven-day average. The curtailed traffic comes despite continued harassment from Iran's Revolutionary Guard, including drone overflights, VHF hailing of vessels, and active mine danger areas along the route. Tankers made up the bulk of the reduced traffic, accounting for 45 percent of all movements through the strait. UKMTO data also shows the southern Omani corridor has become the most dangerous stretch of the route, recording 16 of the 18 projectile strikes reported since 6 July. Tankers make up the bulk of the reduced traffic. (AFP)",
+          "matched_terms": [
+            "Iran",
+            "Revolutionary Guard"
+          ],
+          "tags": [
+            "IRGC",
+            "Missiles & Drones",
+            "Military",
+            "Hormuz & Maritime",
+            "Economy"
+          ],
+          "importance_score": 3,
+          "importance_label": "Useful background"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 3,
+      "reliability_score": 3.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Middle East Eye"
+      ],
+      "languages": [
+        "English"
+      ],
+      "countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "story-37",
+      "headline": "Watch: USS George Washington ramps up night flights in Arabian Sea amid Iran tensions",
+      "latest_utc": "2026-08-22T05:37:28+00:00",
+      "earliest_utc": "2026-08-22T05:37:28+00:00",
+      "tags": [
+        "US–Iran"
+      ],
+      "items": [
+        {
+          "source": "Gulf News",
+          "source_type": "news",
+          "country": "United Arab Emirates",
+          "language": "English",
+          "language_code": "en",
+          "source_priority": 4,
+          "ownership": "Commercial news organisation",
+          "region": "Middle East",
+          "reliability": 4,
+          "iran_expertise": 4,
+          "original_reporting": 4,
+          "content_group": "news",
+          "content_kind": "News & reporting",
+          "title": "Watch: USS George Washington ramps up night flights in Arabian Sea amid Iran tensions",
+          "url": "https://gulfnews.com/world/americas/watch-uss-george-washington-ramps-up-night-flights-in-arabian-sea-amid-iran-tensions-1.500648657",
+          "published_utc": "2026-08-22T05:37:28+00:00",
+          "summary": "",
+          "matched_terms": [
+            "Iran"
+          ],
+          "tags": [
+            "US–Iran"
+          ],
+          "importance_score": 1,
+          "importance_label": "Minor mention"
+        }
+      ],
+      "source_count": 1,
+      "language_count": 1,
+      "country_count": 1,
+      "recent_6h_count": 0,
+      "importance_score": 1,
+      "reliability_score": 4.0,
+      "confidence_score": 1,
+      "emerging_score": 2,
+      "is_emerging": false,
+      "is_outlier": false,
+      "content_counts": {
+        "news": 1,
+        "analysis": 0,
+        "official": 0
+      },
+      "sources": [
+        "Gulf News"
       ],
       "languages": [
         "English"
@@ -102212,8 +102214,8 @@
           "published_utc": "2026-08-13T14:43:37+00:00",
           "summary": "<span>Fact-checking Trump&#039;s claims about how the Iran war is going</span>\n\n<span><span> [email protected] </span></span>\n\n<span>Thu, 08/13/2026 - 10:43</span>\n\n  <div class=\"field field--name-field-news-link field--type-link field--label-above\">\n    <div class=\"field--label\">News Link</div>\n              <div class=\"field--item\"><a href=\"https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-iran-war-is-going\">https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-ir…</a></div>\n          </div>\n\n  <div class=\"field field--name-field-news-source-autocomplete- field--type-entity-reference field--label-above\">\n    <div class=\"field--label\">News Source</div>\n              <div class=\"field--item\"><div>\n  \n      <h2><a href=\"/news-source/news-hour-pbs\">\n            <div class=\"field field--name-name field--type-string field--label-hidden field--item\">News Hour (PBS)</div>\n      </a></h2>\n    \n  \n</div>\n</div>\n          </div>\n\n  <div class=\"field field--name-taxonomy-vocabulary-9 field--type-entity-reference field--label-above\">\n    <div cl",
           "matched_terms": [
-            "iran",
-            "Iran"
+            "Iran",
+            "iran"
           ],
           "tags": [
             "US–Iran",
@@ -103790,6 +103792,7 @@
           "published_utc": "2026-08-13T10:00:49+00:00",
           "summary": "I asked AI chatbots to help me build an autonomous attack drone: They helped, but I failed. For now.",
           "matched_terms": [
+            "Iran",
             "Iranian"
           ],
           "tags": [
@@ -110756,833 +110759,46 @@
       "countries": [
         "Azerbaijan"
       ]
-    },
-    {
-      "id": "story-1439",
-      "headline": "ABD enflasyon verisi açıklandı: Altın fiyatları yükselişe geçti",
-      "latest_utc": "2026-08-12T12:43:00+00:00",
-      "earliest_utc": "2026-08-12T12:43:00+00:00",
-      "tags": [
-        "General Iran"
-      ],
-      "items": [
-        {
-          "source": "Cumhuriyet",
-          "source_type": "newspaper",
-          "country": "Turkey",
-          "language": "Turkish",
-          "language_code": "tr",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "ABD enflasyon verisi açıklandı: Altın fiyatları yükselişe geçti",
-          "url": "https://cumhuriyet.com.tr/ekonomi/abd-enflasyon-verisi-aciklandi-altin-fiyatlari-yukselise-gecti-2528529",
-          "published_utc": "2026-08-12T12:43:00+00:00",
-          "summary": "ABD'de tüketici enflasyonu ve çekirdek enflasyon temmuz ayında piyasa beklentileriyle paralel şekilde geriledi. İran savaşının enerji arzı ve fiyatlar üzerinde yarattığı baskıya rağmen yaşanan bu düşüş, eylül ayında faiz politikasını şekillendirmeye hazırlanan Fed üzerindeki tartışmaların gölgesinde açıklandı.",
-          "matched_terms": [
-            "İran"
-          ],
-          "tags": [
-            "General Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Cumhuriyet"
-      ],
-      "languages": [
-        "Turkish"
-      ],
-      "countries": [
-        "Turkey"
-      ]
-    },
-    {
-      "id": "story-1440",
-      "headline": "کیومرث حیدری از سوریه تا ستاد کل؛ ارتقای فرمانده حامی نیروهای نیابتی",
-      "latest_utc": "2026-08-12T12:36:23+00:00",
-      "earliest_utc": "2026-08-12T12:36:23+00:00",
-      "tags": [
-        "General Iran"
-      ],
-      "items": [
-        {
-          "source": "Iran International",
-          "source_type": "regional_media",
-          "country": "Iran",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 5,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "کیومرث حیدری از سوریه تا ستاد کل؛ ارتقای فرمانده حامی نیروهای نیابتی",
-          "url": "https://iranintl.com/202608126847",
-          "published_utc": "2026-08-12T12:36:23+00:00",
-          "summary": "یکی از انتخاب‌های مجتبی خامنه‌ای در تغییرات فرماندهی نیروهای مسلح، کیومرث حیدری است؛ فرمانده پیشین نیروی زمینی ارتش که به جانشینی رییس ستاد کل نیروهای مسلح رسیده و حمایت از نیروهای نیابتی جمهوری اسلامی، بخشی از کارنامه اوست. حیدری برای این کارنامه، نشان نظامی نیز دریافت کرده است.",
-          "matched_terms": [
-            "خامنه‌ای"
-          ],
-          "tags": [
-            "General Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Iran International"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Iran"
-      ]
-    },
-    {
-      "id": "story-1441",
-      "headline": "Dubai Duty Free draw: Russian seaman, Dubai businessman win $1m each",
-      "latest_utc": "2026-08-12T12:35:30+00:00",
-      "earliest_utc": "2026-08-12T12:35:30+00:00",
-      "tags": [
-        "Energy",
-        "Hormuz & Maritime",
-        "Military",
-        "Russia & China",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Gulf News",
-          "source_type": "news",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Commercial news organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Dubai Duty Free draw: Russian seaman, Dubai businessman win $1m each",
-          "url": "https://gulfnews.com/uae/people/dubai-duty-free-draw-russian-seaman-dubai-businessman-win-1m-each-1.500638676",
-          "published_utc": "2026-08-12T12:35:30+00:00",
-          "summary": "Dubai Duty Free Millennium Millionaire draw crowns two new $1m winners and awards three luxury vehicles to lucky ticket holders at Dubai International Airport",
-          "matched_terms": [
-            "Iranian"
-          ],
-          "tags": [
-            "US–Iran",
-            "Military",
-            "Hormuz & Maritime",
-            "Energy",
-            "Russia & China"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Gulf News"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
-      ]
-    },
-    {
-      "id": "story-1442",
-      "headline": "Top Iranian commander visited Iraq to discuss disarmament plan: Source",
-      "latest_utc": "2026-08-12T12:34:50+00:00",
-      "earliest_utc": "2026-08-12T12:34:50+00:00",
-      "tags": [
-        "Domestic Politics",
-        "Energy",
-        "IRGC",
-        "Military",
-        "Missiles & Drones",
-        "Regional Influence",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Al Jazeera",
-          "source_type": "regional_media",
-          "country": "Qatar",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Top Iranian commander visited Iraq to discuss disarmament plan: Source",
-          "url": "https://aljazeera.com/news/2026/8/12/top-iranian-commander-visited-iraq-to-discuss-disarmament-plan-source",
-          "published_utc": "2026-08-12T12:34:50+00:00",
-          "summary": "Esmail Qaani held meetings over Iraqi government’s plan to disarm armed groups and bring weapons under state control.",
-          "matched_terms": [
-            "Iran",
-            "Iranian",
-            "IRGC",
-            "Pezeshkian",
-            "Quds Force",
-            "Revolutionary Guard"
-          ],
-          "tags": [
-            "US–Iran",
-            "IRGC",
-            "Missiles & Drones",
-            "Military",
-            "Energy",
-            "Domestic Politics",
-            "Regional Influence"
-          ],
-          "importance_score": 4,
-          "importance_label": "Important"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 4,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Al Jazeera"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Qatar"
-      ]
-    },
-    {
-      "id": "story-1443",
-      "headline": "Panama canal fees soar due to Iran war and El Niño as ship ‘pays $4m to jump queue’",
-      "latest_utc": "2026-08-12T12:26:48+00:00",
-      "earliest_utc": "2026-08-12T12:26:48+00:00",
-      "tags": [
-        "Economy",
-        "Hormuz & Maritime",
-        "Military"
-      ],
-      "items": [
-        {
-          "source": "The Guardian",
-          "source_type": "newspaper",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Panama canal fees soar due to Iran war and El Niño as ship ‘pays $4m to jump queue’",
-          "url": "https://theguardian.com/business/2026/aug/12/panama-canal-fees-iran-war-el-nino-ship-jump-queue",
-          "published_utc": "2026-08-12T12:26:48+00:00",
-          "summary": "Falling water levels linked to weather system are expected to limit number of slots to transit shipping lane Commercial ships travelling through the Panama canal are facing a rise in costs amid disruption triggered by the Iran war and falling water levels linked to this year’s intense El Niño weather system . Highlighting the fragility of global trade, a container ship reportedly paid about $4m (£3m) to jump a queue of vessels waiting to pass through the vital maritime choke point. Continue reading...",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Military",
-            "Hormuz & Maritime",
-            "Economy"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "The Guardian"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Kingdom"
-      ]
-    },
-    {
-      "id": "story-1444",
-      "headline": "Iran War 2026 Archives",
-      "latest_utc": "2026-08-12T12:25:50+00:00",
-      "earliest_utc": "2026-08-12T12:25:50+00:00",
-      "tags": [
-        "Military"
-      ],
-      "items": [
-        {
-          "source": "War on the Rocks",
-          "source_type": "think_tank",
-          "country": "United States",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 5,
-          "ownership": "Independent analysis platform",
-          "region": "North America",
-          "reliability": 5,
-          "iran_expertise": 4,
-          "original_reporting": 2,
-          "content_group": "analysis",
-          "content_kind": "Research & analysis",
-          "title": "Iran War 2026 Archives",
-          "url": "https://warontherocks.com/tag/iran-war-2026",
-          "published_utc": "2026-08-12T12:25:50+00:00",
-          "summary": "War on the Rocks is a platform for analysis and debate on strategy, defense, and foreign affairs.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Military"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 3,
-      "reliability_score": 5.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 0,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "War on the Rocks"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United States"
-      ]
-    },
-    {
-      "id": "story-1445",
-      "headline": "Defence stocks, AI, energy and cyber emerge as key investment themes for next five years",
-      "latest_utc": "2026-08-12T12:04:58+00:00",
-      "earliest_utc": "2026-08-12T12:04:58+00:00",
-      "tags": [
-        "Domestic Politics",
-        "Energy",
-        "Hormuz & Maritime",
-        "Israel",
-        "Military",
-        "Missiles & Drones",
-        "Nuclear"
-      ],
-      "items": [
-        {
-          "source": "Gulf News",
-          "source_type": "news",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Commercial news organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 4,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Defence stocks, AI, energy and cyber emerge as key investment themes for next five years",
-          "url": "https://gulfnews.com/business/markets/after-defence-stocks-rally-these-sectors-could-drive-the-next-five-years-for-investors-1.500638534",
-          "published_utc": "2026-08-12T12:04:58+00:00",
-          "summary": "After defence stocks’ rally, investors eye new themes in drones, cybersecurity, AI infrastructure, energy security and critical infrastructure over the next five years.",
-          "matched_terms": [
-            "Iran"
-          ],
-          "tags": [
-            "Nuclear",
-            "Israel",
-            "Missiles & Drones",
-            "Military",
-            "Hormuz & Maritime",
-            "Energy",
-            "Domestic Politics"
-          ],
-          "importance_score": 4,
-          "importance_label": "Important"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 4,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Gulf News"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
-      ]
-    },
-    {
-      "id": "story-1446",
-      "headline": "The war on Iran cracked the US-led regional order. The Mecca pact could deal the final blow",
-      "latest_utc": "2026-08-12T12:03:15+00:00",
-      "earliest_utc": "2026-08-12T12:03:15+00:00",
-      "tags": [
-        "Hormuz & Maritime",
-        "Israel",
-        "Military",
-        "Missiles & Drones",
-        "Nuclear",
-        "Sanctions",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Middle East Eye",
-          "source_type": "regional_media",
-          "country": "United Kingdom",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 3,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 3,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "analysis",
-          "content_kind": "Opinion & commentary",
-          "title": "The war on Iran cracked the US-led regional order. The Mecca pact could deal the final blow",
-          "url": "https://middleeasteye.net/opinion/mecca-pact-war-iran-end-us-hegemony-middle-east",
-          "published_utc": "2026-08-12T12:03:15+00:00",
-          "summary": "The war on Iran cracked the US-led regional order. The Mecca pact could deal the final blow Submitted by Sami Al-Arian on Tue, 08/11/2026 - 22:30 The new alliance is no Sunni 'Islamic Nato' against Iran, but could lay the foundation for an independent security framework that eventually draws in Tehran, Cairo and beyond Turkish President Recep Tayyip Erdogan shakes hands with Pakistani PM Shehbaz Sharif as Saudi Crown Prince Mohammed bin Salman looks on after the signing of the Mecca Joint Defence Agreement on 7 August 2026 (Murat Cetinmuhurdar/Turkish Presidential Press Office/Handout via Reuters) On The signing of a joint defence agreement in Mecca on 7 August between Saudi Arabia , Turkey and Pakistan predictably set off a flurry of explanations. Three of the most important Sunni Muslim states, alarmed by Iran 's strategic ascendancy and the turmoil engulfing the region, were finally banding together, the argument went, to establish a military alliance that could eventually become a \"Sunni\" Islamic version of Nato. This is the obvious reading. Saudi Arabia's contribution is clear: ",
-          "matched_terms": [
-            "Iran",
-            "Iranian"
-          ],
-          "tags": [
-            "Nuclear",
-            "US–Iran",
-            "Israel",
-            "Sanctions",
-            "Missiles & Drones",
-            "Military",
-            "Hormuz & Maritime"
-          ],
-          "importance_score": 4,
-          "importance_label": "Important"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 4,
-      "reliability_score": 3.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 0,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "Middle East Eye"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Kingdom"
-      ]
-    },
-    {
-      "id": "story-1447",
-      "headline": "Trois syndicats d'hôtesses et stewards d'EasyJet France appellent à la grève samedi et dimanche",
-      "latest_utc": "2026-08-12T11:44:45+00:00",
-      "earliest_utc": "2026-08-12T11:44:45+00:00",
-      "tags": [
-        "Military",
-        "US–Iran"
-      ],
-      "items": [
-        {
-          "source": "Franceinfo",
-          "source_type": "newspaper",
-          "country": "France",
-          "language": "French",
-          "language_code": "fr",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Europe",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Trois syndicats d'hôtesses et stewards d'EasyJet France appellent à la grève samedi et dimanche",
-          "url": "https://franceinfo.fr/economie/greve/trois-syndicats-d-hotesses-et-stewards-d-easyjet-france-appellent-a-la-greve-samedi-et-dimanche_8144567.html",
-          "published_utc": "2026-08-12T11:44:45+00:00",
-          "summary": "Ils dénoncent \"un épuisement physique et mental généralisé\" en raison de l'instabilité \"chronique\" des plannings.",
-          "matched_terms": [
-            "iranienne"
-          ],
-          "tags": [
-            "US–Iran",
-            "Military"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "Franceinfo"
-      ],
-      "languages": [
-        "French"
-      ],
-      "countries": [
-        "France"
-      ]
-    },
-    {
-      "id": "story-1448",
-      "headline": "IRGC Official Claims Iran’s Missile Production Exceeds Usage",
-      "latest_utc": "2026-08-12T11:42:02+00:00",
-      "earliest_utc": "2026-08-12T11:42:02+00:00",
-      "tags": [
-        "IRGC",
-        "Missiles & Drones"
-      ],
-      "items": [
-        {
-          "source": "IranWire",
-          "source_type": "regional_media",
-          "country": "Iran",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 5,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "IRGC Official Claims Iran’s Missile Production Exceeds Usage",
-          "url": "https://iranwire.com/en/news/156201-irgc-official-claims-irans-missile-production-exceeds-usage",
-          "published_utc": "2026-08-12T11:42:02+00:00",
-          "summary": "Mohammad Reza Naqdi, Senior Advisor to the IRGC Commander-in-Chief, emphasized the continuation of missile production in Iran, asserting ...",
-          "matched_terms": [
-            "Iran",
-            "IRGC"
-          ],
-          "tags": [
-            "IRGC",
-            "Missiles & Drones"
-          ],
-          "importance_score": 2,
-          "importance_label": "Worth a look"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 2,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "IranWire"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Iran"
-      ]
-    },
-    {
-      "id": "story-1449",
-      "headline": "Authorities Seal Multiple Cafes and Businesses Across Iranian Cities",
-      "latest_utc": "2026-08-12T11:40:45+00:00",
-      "earliest_utc": "2026-08-12T11:40:45+00:00",
-      "tags": [
-        "General Iran"
-      ],
-      "items": [
-        {
-          "source": "IranWire",
-          "source_type": "regional_media",
-          "country": "Iran",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 5,
-          "original_reporting": 4,
-          "content_group": "news",
-          "content_kind": "News & reporting",
-          "title": "Authorities Seal Multiple Cafes and Businesses Across Iranian Cities",
-          "url": "https://iranwire.com/en/news/156200-authorities-seal-multiple-cafes-and-businesses-across-iranian-cities",
-          "published_utc": "2026-08-12T11:40:45+00:00",
-          "summary": "The wave of closures (polomb) targeting cafes, shops, and other commercial establishments over non-compliance with mandatory hijab regul ...",
-          "matched_terms": [
-            "Iranian"
-          ],
-          "tags": [
-            "General Iran"
-          ],
-          "importance_score": 1,
-          "importance_label": "Minor mention"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 1,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 1,
-        "analysis": 0,
-        "official": 0
-      },
-      "sources": [
-        "IranWire"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "Iran"
-      ]
-    },
-    {
-      "id": "story-1450",
-      "headline": "Houthi double-tap attack on Red Sea ship: How it unfolded | The National",
-      "latest_utc": "2026-08-12T11:38:59.975000+00:00",
-      "earliest_utc": "2026-08-12T11:38:59.975000+00:00",
-      "tags": [
-        "Domestic Politics",
-        "Economy",
-        "Hormuz & Maritime",
-        "Military",
-        "Missiles & Drones",
-        "Regional Influence"
-      ],
-      "items": [
-        {
-          "source": "The National",
-          "source_type": "regional_media",
-          "country": "United Arab Emirates",
-          "language": "English",
-          "language_code": "en",
-          "source_priority": 4,
-          "ownership": "Media organisation",
-          "region": "Middle East",
-          "reliability": 4,
-          "iran_expertise": 3,
-          "original_reporting": 4,
-          "content_group": "analysis",
-          "content_kind": "Explainer & analysis",
-          "title": "Houthi double-tap attack on Red Sea ship: How it unfolded | The National",
-          "url": "https://thenationalnews.com/news/mena/2026/08/12/houthi-double-tap-attack-on-red-sea-ship-how-it-unfolded",
-          "published_utc": "2026-08-12T11:38:59.975000+00:00",
-          "summary": "Four ballistic missiles reportedly launched at the ship, killing at least four crew members and three rescue workers",
-          "matched_terms": [
-            "Iran",
-            "Iranian"
-          ],
-          "tags": [
-            "Missiles & Drones",
-            "Military",
-            "Hormuz & Maritime",
-            "Domestic Politics",
-            "Regional Influence",
-            "Economy"
-          ],
-          "importance_score": 3,
-          "importance_label": "Useful background"
-        }
-      ],
-      "source_count": 1,
-      "language_count": 1,
-      "country_count": 1,
-      "recent_6h_count": 0,
-      "importance_score": 3,
-      "reliability_score": 4.0,
-      "confidence_score": 1,
-      "emerging_score": 2,
-      "is_emerging": false,
-      "is_outlier": false,
-      "content_counts": {
-        "news": 0,
-        "analysis": 1,
-        "official": 0
-      },
-      "sources": [
-        "The National"
-      ],
-      "languages": [
-        "English"
-      ],
-      "countries": [
-        "United Arab Emirates"
-      ]
     }
   ],
-  "cluster_count": 1450,
+  "cluster_count": 1438,
   "scan_stats": {
     "checked_sources": 154,
     "skipped_sources": 0,
-    "new_items": 6,
+    "new_items": 0,
     "failed_sources": 0,
-    "runtime_seconds": 194.6
+    "runtime_seconds": 215.1
   },
   "emerging_count": 2,
-  "outlier_count": 25,
+  "outlier_count": 21,
   "items": [
+    {
+      "source": "Deutsche Welle",
+      "source_type": "newspaper",
+      "country": "Germany",
+      "language": "English",
+      "language_code": "en",
+      "source_priority": 4,
+      "ownership": "Media organisation",
+      "region": "Europe",
+      "reliability": 4,
+      "iran_expertise": 3,
+      "original_reporting": 4,
+      "content_group": "analysis",
+      "content_kind": "Analysis",
+      "title": "Analysen & Nachrichten: global, regional, unabhängig",
+      "url": "https://dw.com/de/themen/s-9077",
+      "published_utc": "2026-08-22T12:54:00.667000+00:00",
+      "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
+      "matched_terms": [
+        "Iran"
+      ],
+      "tags": [
+        "Israel"
+      ],
+      "importance_score": 1,
+      "importance_label": "Minor mention"
+    },
     {
       "source": "RFI Français",
       "source_type": "regional_media",
@@ -111693,33 +110909,6 @@
       "importance_label": "Minor mention"
     },
     {
-      "source": "Deutsche Welle",
-      "source_type": "newspaper",
-      "country": "Germany",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Europe",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "analysis",
-      "content_kind": "Analysis",
-      "title": "Analysen & Nachrichten: global, regional, unabhängig",
-      "url": "https://dw.com/de/themen/s-9077",
-      "published_utc": "2026-08-22T10:33:02.019000+00:00",
-      "summary": "Deutsche Welle: Informationen und Kontext für ein internationales Publikum. Aus Deutschland für die Welt.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Israel"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
-    },
-    {
       "source": "Middle East Eye",
       "source_type": "regional_media",
       "country": "United Kingdom",
@@ -111736,16 +110925,17 @@
       "title": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says",
       "url": "https://middleeasteye.net/live-blog/live-blog-update/iranian-official-urges-qatar-move-detained-pilots-hospital-land-tasnim",
       "published_utc": "2026-08-22T10:22:32+00:00",
-      "summary": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says An Iranian military official called on Qatar on Saturday to transfer detained Iranian pilots to a hospital on land, saying they were being held on water and were in \"poor physical condition\", Tasnim news agency reported. Mohammad Baqerzadeh, commander of the Committee for the Search for Missing Persons of Iran's Armed Forces General Staff, said the location where the pilots were being held was unsuitable and requested that the International Committee of the Red Cross send an air ambulance to Qatar to expedite the return of injured and sick detainees to Iran. Reporting by Reuters",
+      "summary": "Iranian official urges Qatar to move detained pilots to hospital on land, Tasnim says An Iranian military official on Saturday called on Qatar to transfer detained Iranian pilots to a hospital on land, saying they were being held on water and were in \"poor physical condition\", Tasnim news agency reported. Last week, Mohammad Baqerzadeh, commander of the Committee for the Search for Missing Persons of Iran's Armed Forces General Staff, wrote to the head of the International Committee of the Red Cross (ICRC) stating that Javad Salehi, Abdul Majid Dashtian and Imran Behroshian had been held captive by Qatar for six months after their jet was downed in the early days of the US-Iran conflict. He said the remains of a fourth pilot, Majid Kazemi, had been returned after he was killed in the same operation on 2 March 2026 - the third day of the war. Baqerzadeh said on Saturday that the location where the pilots were being held was unsuitable and requested that the ICRC send an air ambulance to Qatar to expedite the return of injured and sick detainees to Iran. Qatar \"categorically denied\" th",
       "matched_terms": [
         "Iran",
         "Iranian"
       ],
       "tags": [
+        "US–Iran",
         "Military"
       ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
+      "importance_score": 2,
+      "importance_label": "Worth a look"
     },
     {
       "source": "Middle East Eye",
@@ -161450,8 +160640,8 @@
       "published_utc": "2026-08-13T14:43:37+00:00",
       "summary": "<span>Fact-checking Trump&#039;s claims about how the Iran war is going</span>\n\n<span><span> [email protected] </span></span>\n\n<span>Thu, 08/13/2026 - 10:43</span>\n\n  <div class=\"field field--name-field-news-link field--type-link field--label-above\">\n    <div class=\"field--label\">News Link</div>\n              <div class=\"field--item\"><a href=\"https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-iran-war-is-going\">https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-ir…</a></div>\n          </div>\n\n  <div class=\"field field--name-field-news-source-autocomplete- field--type-entity-reference field--label-above\">\n    <div class=\"field--label\">News Source</div>\n              <div class=\"field--item\"><div>\n  \n      <h2><a href=\"/news-source/news-hour-pbs\">\n            <div class=\"field field--name-name field--type-string field--label-hidden field--item\">News Hour (PBS)</div>\n      </a></h2>\n    \n  \n</div>\n</div>\n          </div>\n\n  <div class=\"field field--name-taxonomy-vocabulary-9 field--type-entity-reference field--label-above\">\n    <div cl",
       "matched_terms": [
-        "iran",
-        "Iran"
+        "Iran",
+        "iran"
       ],
       "tags": [
         "US–Iran",
@@ -162395,6 +161585,7 @@
       "published_utc": "2026-08-13T10:00:49+00:00",
       "summary": "I asked AI chatbots to help me build an autonomous attack drone: They helped, but I failed. For now.",
       "matched_terms": [
+        "Iran",
         "Iranian"
       ],
       "tags": [
@@ -166357,369 +165548,6 @@
       ],
       "importance_score": 1,
       "importance_label": "Minor mention"
-    },
-    {
-      "source": "Cumhuriyet",
-      "source_type": "newspaper",
-      "country": "Turkey",
-      "language": "Turkish",
-      "language_code": "tr",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "ABD enflasyon verisi açıklandı: Altın fiyatları yükselişe geçti",
-      "url": "https://cumhuriyet.com.tr/ekonomi/abd-enflasyon-verisi-aciklandi-altin-fiyatlari-yukselise-gecti-2528529",
-      "published_utc": "2026-08-12T12:43:00+00:00",
-      "summary": "ABD'de tüketici enflasyonu ve çekirdek enflasyon temmuz ayında piyasa beklentileriyle paralel şekilde geriledi. İran savaşının enerji arzı ve fiyatlar üzerinde yarattığı baskıya rağmen yaşanan bu düşüş, eylül ayında faiz politikasını şekillendirmeye hazırlanan Fed üzerindeki tartışmaların gölgesinde açıklandı.",
-      "matched_terms": [
-        "İran"
-      ],
-      "tags": [
-        "General Iran"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
-    },
-    {
-      "source": "Iran International",
-      "source_type": "regional_media",
-      "country": "Iran",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 5,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "کیومرث حیدری از سوریه تا ستاد کل؛ ارتقای فرمانده حامی نیروهای نیابتی",
-      "url": "https://iranintl.com/202608126847",
-      "published_utc": "2026-08-12T12:36:23+00:00",
-      "summary": "یکی از انتخاب‌های مجتبی خامنه‌ای در تغییرات فرماندهی نیروهای مسلح، کیومرث حیدری است؛ فرمانده پیشین نیروی زمینی ارتش که به جانشینی رییس ستاد کل نیروهای مسلح رسیده و حمایت از نیروهای نیابتی جمهوری اسلامی، بخشی از کارنامه اوست. حیدری برای این کارنامه، نشان نظامی نیز دریافت کرده است.",
-      "matched_terms": [
-        "خامنه‌ای"
-      ],
-      "tags": [
-        "General Iran"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
-    },
-    {
-      "source": "Gulf News",
-      "source_type": "news",
-      "country": "United Arab Emirates",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Commercial news organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 4,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Dubai Duty Free draw: Russian seaman, Dubai businessman win $1m each",
-      "url": "https://gulfnews.com/uae/people/dubai-duty-free-draw-russian-seaman-dubai-businessman-win-1m-each-1.500638676",
-      "published_utc": "2026-08-12T12:35:30+00:00",
-      "summary": "Dubai Duty Free Millennium Millionaire draw crowns two new $1m winners and awards three luxury vehicles to lucky ticket holders at Dubai International Airport",
-      "matched_terms": [
-        "Iranian"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Russia & China"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "Al Jazeera",
-      "source_type": "regional_media",
-      "country": "Qatar",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Top Iranian commander visited Iraq to discuss disarmament plan: Source",
-      "url": "https://aljazeera.com/news/2026/8/12/top-iranian-commander-visited-iraq-to-discuss-disarmament-plan-source",
-      "published_utc": "2026-08-12T12:34:50+00:00",
-      "summary": "Esmail Qaani held meetings over Iraqi government’s plan to disarm armed groups and bring weapons under state control.",
-      "matched_terms": [
-        "Iran",
-        "Iranian",
-        "IRGC",
-        "Pezeshkian",
-        "Quds Force",
-        "Revolutionary Guard"
-      ],
-      "tags": [
-        "US–Iran",
-        "IRGC",
-        "Missiles & Drones",
-        "Military",
-        "Energy",
-        "Domestic Politics",
-        "Regional Influence"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "The Guardian",
-      "source_type": "newspaper",
-      "country": "United Kingdom",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Europe",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Panama canal fees soar due to Iran war and El Niño as ship ‘pays $4m to jump queue’",
-      "url": "https://theguardian.com/business/2026/aug/12/panama-canal-fees-iran-war-el-nino-ship-jump-queue",
-      "published_utc": "2026-08-12T12:26:48+00:00",
-      "summary": "Falling water levels linked to weather system are expected to limit number of slots to transit shipping lane Commercial ships travelling through the Panama canal are facing a rise in costs amid disruption triggered by the Iran war and falling water levels linked to this year’s intense El Niño weather system . Highlighting the fragility of global trade, a container ship reportedly paid about $4m (£3m) to jump a queue of vessels waiting to pass through the vital maritime choke point. Continue reading...",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Military",
-        "Hormuz & Maritime",
-        "Economy"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "War on the Rocks",
-      "source_type": "think_tank",
-      "country": "United States",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 5,
-      "ownership": "Independent analysis platform",
-      "region": "North America",
-      "reliability": 5,
-      "iran_expertise": 4,
-      "original_reporting": 2,
-      "content_group": "analysis",
-      "content_kind": "Research & analysis",
-      "title": "Iran War 2026 Archives",
-      "url": "https://warontherocks.com/tag/iran-war-2026",
-      "published_utc": "2026-08-12T12:25:50+00:00",
-      "summary": "War on the Rocks is a platform for analysis and debate on strategy, defense, and foreign affairs.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Military"
-      ],
-      "importance_score": 3,
-      "importance_label": "Useful background"
-    },
-    {
-      "source": "Gulf News",
-      "source_type": "news",
-      "country": "United Arab Emirates",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Commercial news organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 4,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Defence stocks, AI, energy and cyber emerge as key investment themes for next five years",
-      "url": "https://gulfnews.com/business/markets/after-defence-stocks-rally-these-sectors-could-drive-the-next-five-years-for-investors-1.500638534",
-      "published_utc": "2026-08-12T12:04:58+00:00",
-      "summary": "After defence stocks’ rally, investors eye new themes in drones, cybersecurity, AI infrastructure, energy security and critical infrastructure over the next five years.",
-      "matched_terms": [
-        "Iran"
-      ],
-      "tags": [
-        "Nuclear",
-        "Israel",
-        "Missiles & Drones",
-        "Military",
-        "Hormuz & Maritime",
-        "Energy",
-        "Domestic Politics"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Middle East Eye",
-      "source_type": "regional_media",
-      "country": "United Kingdom",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 3,
-      "ownership": "Media organisation",
-      "region": "Europe",
-      "reliability": 3,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "analysis",
-      "content_kind": "Opinion & commentary",
-      "title": "The war on Iran cracked the US-led regional order. The Mecca pact could deal the final blow",
-      "url": "https://middleeasteye.net/opinion/mecca-pact-war-iran-end-us-hegemony-middle-east",
-      "published_utc": "2026-08-12T12:03:15+00:00",
-      "summary": "The war on Iran cracked the US-led regional order. The Mecca pact could deal the final blow Submitted by Sami Al-Arian on Tue, 08/11/2026 - 22:30 The new alliance is no Sunni 'Islamic Nato' against Iran, but could lay the foundation for an independent security framework that eventually draws in Tehran, Cairo and beyond Turkish President Recep Tayyip Erdogan shakes hands with Pakistani PM Shehbaz Sharif as Saudi Crown Prince Mohammed bin Salman looks on after the signing of the Mecca Joint Defence Agreement on 7 August 2026 (Murat Cetinmuhurdar/Turkish Presidential Press Office/Handout via Reuters) On The signing of a joint defence agreement in Mecca on 7 August between Saudi Arabia , Turkey and Pakistan predictably set off a flurry of explanations. Three of the most important Sunni Muslim states, alarmed by Iran 's strategic ascendancy and the turmoil engulfing the region, were finally banding together, the argument went, to establish a military alliance that could eventually become a \"Sunni\" Islamic version of Nato. This is the obvious reading. Saudi Arabia's contribution is clear: ",
-      "matched_terms": [
-        "Iran",
-        "Iranian"
-      ],
-      "tags": [
-        "Nuclear",
-        "US–Iran",
-        "Israel",
-        "Sanctions",
-        "Missiles & Drones",
-        "Military",
-        "Hormuz & Maritime"
-      ],
-      "importance_score": 4,
-      "importance_label": "Important"
-    },
-    {
-      "source": "Franceinfo",
-      "source_type": "newspaper",
-      "country": "France",
-      "language": "French",
-      "language_code": "fr",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Europe",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Trois syndicats d'hôtesses et stewards d'EasyJet France appellent à la grève samedi et dimanche",
-      "url": "https://franceinfo.fr/economie/greve/trois-syndicats-d-hotesses-et-stewards-d-easyjet-france-appellent-a-la-greve-samedi-et-dimanche_8144567.html",
-      "published_utc": "2026-08-12T11:44:45+00:00",
-      "summary": "Ils dénoncent \"un épuisement physique et mental généralisé\" en raison de l'instabilité \"chronique\" des plannings.",
-      "matched_terms": [
-        "iranienne"
-      ],
-      "tags": [
-        "US–Iran",
-        "Military"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "IranWire",
-      "source_type": "regional_media",
-      "country": "Iran",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 5,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "IRGC Official Claims Iran’s Missile Production Exceeds Usage",
-      "url": "https://iranwire.com/en/news/156201-irgc-official-claims-irans-missile-production-exceeds-usage",
-      "published_utc": "2026-08-12T11:42:02+00:00",
-      "summary": "Mohammad Reza Naqdi, Senior Advisor to the IRGC Commander-in-Chief, emphasized the continuation of missile production in Iran, asserting ...",
-      "matched_terms": [
-        "Iran",
-        "IRGC"
-      ],
-      "tags": [
-        "IRGC",
-        "Missiles & Drones"
-      ],
-      "importance_score": 2,
-      "importance_label": "Worth a look"
-    },
-    {
-      "source": "IranWire",
-      "source_type": "regional_media",
-      "country": "Iran",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 5,
-      "original_reporting": 4,
-      "content_group": "news",
-      "content_kind": "News & reporting",
-      "title": "Authorities Seal Multiple Cafes and Businesses Across Iranian Cities",
-      "url": "https://iranwire.com/en/news/156200-authorities-seal-multiple-cafes-and-businesses-across-iranian-cities",
-      "published_utc": "2026-08-12T11:40:45+00:00",
-      "summary": "The wave of closures (polomb) targeting cafes, shops, and other commercial establishments over non-compliance with mandatory hijab regul ...",
-      "matched_terms": [
-        "Iranian"
-      ],
-      "tags": [
-        "General Iran"
-      ],
-      "importance_score": 1,
-      "importance_label": "Minor mention"
-    },
-    {
-      "source": "The National",
-      "source_type": "regional_media",
-      "country": "United Arab Emirates",
-      "language": "English",
-      "language_code": "en",
-      "source_priority": 4,
-      "ownership": "Media organisation",
-      "region": "Middle East",
-      "reliability": 4,
-      "iran_expertise": 3,
-      "original_reporting": 4,
-      "content_group": "analysis",
-      "content_kind": "Explainer & analysis",
-      "title": "Houthi double-tap attack on Red Sea ship: How it unfolded | The National",
-      "url": "https://thenationalnews.com/news/mena/2026/08/12/houthi-double-tap-attack-on-red-sea-ship-how-it-unfolded",
-      "published_utc": "2026-08-12T11:38:59.975000+00:00",
-      "summary": "Four ballistic missiles reportedly launched at the ship, killing at least four crew members and three rescue workers",
-      "matched_terms": [
-        "Iran",
-        "Iranian"
-      ],
-      "tags": [
-        "Missiles & Drones",
-        "Military",
-        "Hormuz & Maritime",
-        "Domestic Politics",
-        "Regional Influence",
-        "Economy"
-      ],
-      "importance_score": 3,
-      "importance_label": "Useful background"
     }
   ]
 }
